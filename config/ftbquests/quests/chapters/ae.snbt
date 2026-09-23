@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae"
+	group: "33380D59A0FADF67"
+	id: "5148BB4D5F4B8F69"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "45300BBF4F7D7471"
+			tasks: [{
+				id: "39CC0DB69D16BA89"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78333414A0BB36C4"
+			tasks: [
+				{
+					id: "5A204CB885404E75"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "1CB63B5A3D0E0ABD"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "010FEC7701AEAB1C"
+			tasks: [{
+				id: "741803C98558B8DC"
+				item: { count: 1, id: "ae2:printed_silicon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "54B3D4173EAB5A36"
+			tasks: [
+				{
+					id: "1C93ACDDF10CB113"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "643E22708923410C"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "717C21D51CD6AA43"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "306547F69C72DE4E"
+			tasks: [
+				{
+					id: "499E2CF0806AF5A2"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					id: "4AE78EA086813F4C"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "19DD086C7EFEDA4D"
+			tasks: [{
+				id: "2D17A430ED8B35A3"
+				item: { count: 1, id: "ae2:fluix_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "372110EADA7BEF45"
+			tasks: [{
+				id: "662C9A54E6E6C85C"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "21E6644459C6919D"
+			tasks: [{
+				id: "781C96C597401195"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "154F6D5ED9034289"
+			tasks: [
+				{
+					id: "2A513DAC9CECEED0"
+					item: { count: 1, id: "ae2:sky_stone_block" }
+					type: "item"
+				}
+				{
+					id: "450994473AC7451A"
+					item: { count: 1, id: "ae2:smooth_sky_stone_block" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "60246419919A21DC"
+			tasks: [{
+				id: "0FA1541F0D2BA155"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "41E1239D793B96BB"
+			tasks: [{
+				id: "33A158C0CEE9F3D0"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "044C8C55AC04F039"
+			tasks: [{
+				id: "78D6C1057B88B310"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "203E30CB65309E51"
+			tasks: [{
+				id: "542C48511464DC89"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "77CE301F8643BA31"
+			tasks: [{
+				id: "0953911B74C25F51"
+				item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "3F990E9A97429534"
+			tasks: [{
+				id: "04D4783E8013EC7B"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "0464C636C3A08DA7"
+			tasks: [{
+				id: "6F9DB8D655930ACE"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "1DA625087C92425C"
+			tasks: [{
+				id: "763556E04ECB096B"
+				item: { count: 1, id: "ae2:quantum_ring" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "60062458BCBB4CE1"
+			tasks: [{
+				id: "1924849A370FD833"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "7693B24AF8701CB0"
+			tasks: [{
+				id: "3BEA7A19D3916CEB"
+				item: { count: 1, id: "ae2:io_port" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "052B0066799AF71E"
+			tasks: [{
+				id: "2A5458351CA9C3DB"
+				item: { count: 1, id: "ae2:condenser" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "0B5F82F3AB7A87AF"
+			tasks: [{
+				id: "372D4E21FBDE3E9E"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "04353A23E50A2F31"
+			tasks: [{
+				id: "5818F55C44979C3A"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "13922F2C5B1A1E38"
+			tasks: [{
+				id: "4E5D07CD6CD8DE70"
+				item: { count: 1, id: "extendedae:ex_pattern_provider" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "092F7FCE99D0CF76"
+			tasks: [{
+				id: "410DD42826EEB054"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "06429739C7BD7694"
+			tasks: [{
+				id: "099CEB69E569DDE1"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "15C9250EC6ADB013"
+			tasks: [{
+				id: "3E310B9464B2CE43"
+				item: { count: 1, id: "ae2:me_p2p_tunnel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "1EDAFBE119280A27"
+			tasks: [{
+				id: "1723F4E5AA664441"
+				item: { count: 1, id: "ae2:memory_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+	]
+}

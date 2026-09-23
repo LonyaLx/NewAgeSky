@@ -1,0 +1,36 @@
+﻿# Minecraft / modpack local data
+mods/
+_excluded/
+logs/
+crash-reports/
+screenshots/
+saves/
+run/
+downloads/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Python caches and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test output and temporary files
+tools/*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Accidental root temporary file
+/*,v*

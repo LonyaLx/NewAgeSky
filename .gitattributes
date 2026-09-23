@@ -1,0 +1,26 @@
+﻿.gitattributes text eol=lf
+.gitignore text eol=lf
+
+* text=auto
+
+*.md text eol=lf
+*.txt text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.json5 text eol=lf
+*.snbt text eol=lf
+*.toml text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.nbt binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.zip binary
+*.jar binary
+

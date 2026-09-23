@@ -1,0 +1,336 @@
+{
+	chapter.031C3CFAFBBF4A6D.title: "应用能源2"
+	chapter.06753B86CBE56A6F.title: "电力网络"
+	chapter.07C0D97945954309.title: "神秘农业"
+	chapter.0B95A484D54448CF.title: "neo ae eco"
+	chapter.0DA1AA54AE25A49B.title: "动态联合"
+	chapter.120E0FCEAD94EEB4.title: "机械动力"
+	chapter.179CE6FC403957F0.title: "JDTE"
+	chapter.1B49D773554629D5.title: "power"
+	chapter.2548CCB203713203.title: "精妙存储"
+	chapter.28AE6783A6D5612A.title: "AE2水晶科技"
+	chapter.29868F98890488E4.title: "神话"
+	chapter.3B10FE20F6C20B60.title: "机械起步"
+	chapter.3E4CA67781770E8C.title: "欢迎与提示"
+	chapter.41E1286E35D457F9.title: "工业先锋"
+	chapter.43E700357602E946.title: "AE2闪电科技"
+	chapter.4D3F33C9139B78DC.title: "物流与存储"
+	chapter.4DDB6BFCD966E11F.title: "气动工业"
+	chapter.4E36C4222197BC50.title: "1"
+	chapter.5148BB4D5F4B8F69.title: "AE起步"
+	chapter.52F834F2C98B0A30.title: "末影接口"
+	chapter.5511D5F88622CC6C.title: "资源获取"
+	chapter.56EFBD1B68EF52B0.title: "Just Dire Things"
+	chapter.5A58A1F01DCD4900.title: "资源蜜蜂"
+	chapter.640FAAA160CD7968.title: "田野与蜂房"
+	chapter.65400AC2EE41C7F4.title: "飞升终局"
+	chapter.65D623620124F716.title: "等价交换"
+	chapter.6B80494DAAC805F4.title: "龙之研究"
+	chapter.7573710CF964ACF2.title: "深度怪物学习"
+	chapter.7E92DE28DE7F8513.title: "ME 创造收敛"
+	chapter_group.074301895FF60497.title: "好用的工具"
+	chapter_group.33380D59A0FADF67.title: "主线"
+	chapter_group.42C3E39FB9FC4B77.title: "1"
+	chapter_group.44E6CCEC70FC7965.title: "最终目标 · ME 创造"
+	chapter_group.4A2D5939B63E9A0F.title: "科技时代"
+	chapter_group.519CACE2AB78ED53.title: "应用能源附属"
+	chapter_group.5DB41788A814AA8C.title: "资源"
+	chapter_group.69748456B3DD74A7.title: "储存"
+	chapter_group.744E000CF43AD26D.title: "开始"
+	chapter_group.771239FADC842121.title: "好用的机器"
+	quest.002C7774AFDDE8E1.quest_desc: ["通过雷击无暇赛特斯石英母岩获得，可用普通闪电"]
+	quest.003E78A42990C883.quest_desc: ["比me超大接口更厉害！"]
+	quest.00671C390F7269D5.quest_desc: ["注意看卡上的提示"]
+	quest.0067E6C5431476C7.title: "阶段 6：实用设备"
+	quest.00C4C46D778E55A8.quest_desc: [
+		"样板供应器和分子装配室二合一，放置样板后可在其中直接合成，不需要额外的分子装配室"
+		"(不过你肯定做了装配矩阵了吧"
+	]
+	quest.02780D611D82D719.quest_desc: [
+		"提高产量"
+		"放入闪电坍塌矩阵有代偿，可用高压闪电来代替极高压闪电"
+	]
+	quest.0298DBAE6CC23C74.title: "阶段 3：封包分发"
+	quest.034BCC909450D298.quest_desc: ["终于不用担心样板供应器槽位不够了!"]
+	quest.03B0C765300D2810.title: "防爆"
+	quest.03EBE7B8ADD48035.quest_desc: ["熵变机械臂机器版"]
+	quest.04D292D1EB45DE8B.quest_desc: ["记得做频道管理哦!"]
+	quest.05EBD218EA89A27A.quest_desc: [
+		"可以自定义发配位置的高级样板"
+		"Tip:wcwt终端可拆分材料堆叠的样板，更加适用此样板"
+	]
+	quest.0603124C87B8C864.title: "压力室接口"
+	quest.06C36084BC1255D5.quest_desc: [
+		"闪电科技的终末级催化剂，有无数神奇的功能 ..."
+		"貌似可以被过载TNT转化"
+	]
+	quest.070C7427453C11CA.quest_desc: ["堆量仙人狂喜！"]
+	quest.080C6B958AAAD19D.quest_desc: [
+		"一种可以加速机器的东西，用此基座抽监守者会有灵魂(可用灵魂收集器收集，但要有存储的地方，用jei标记后会标记为包裹堆栈"
+		"用ME接口标记灵魂，用灵魂管道连接灵魂促进器与接口，即可加速"
+	]
+	quest.080C6B958AAAD19D.title: "灵魂涌动"
+	quest.082C2F427D276AA6.quest_desc: [
+		"制作电路的好手"
+		"再也不用使用压印模板了"
+	]
+	quest.0A9229468136BABC.title: "锁定白天"
+	quest.0B9CA61AF90328E6.quest_desc: ["ECO的重要合成机器"]
+	quest.0F5F3E17F15A6348.quest_desc: [
+		"人工控制天气!"
+		"(也许龙研的更好做？"
+	]
+	quest.0F9A025CC5871401.quest_desc: [
+		"终端使用前记得与它绑定"
+		"(小帮手也可以绑定哦，绑定后会优先使用AE物品"
+	]
+	quest.10965BACBC5D596B.quest_desc: ["快来合成轮椅的闪电科技机器吧"]
+	quest.111FE64C888EAB18.quest_desc: ["超级装配矩阵速度核心1个就满速了哦，不要装多了"]
+	quest.1176D2314A7DDF38.quest_desc: ["                                       超级大电池!"]
+	quest.122FC6282BD82C83.title: "整合包介绍"
+	quest.1290D3CD3943EB7C.quest_desc: [""]
+	quest.12B4A91F9E4B5605.title: "阶段 8：终局设备"
+	quest.134AD8BA28080920.quest_desc: [
+		"5个速度核心已经达到最高速度了哦"
+		"装配矩阵来了！"
+		"后期可换ECO合成子系统"
+	]
+	quest.145D82B694CEC176.quest_desc: [
+		"深度学习简化版"
+		"刷怪蛋可用高级灌注机"
+	]
+	quest.1754552FF4AE40D3.title: "阶段 7：恒星机械"
+	quest.18F0DD3A829CA023.title: "气动扳手"
+	quest.19C282CEBAB0E7FA.quest_desc: [
+		"仅可拾起未掉落物品，如拆箱子时从箱子掉落的物品"
+		"但已掉落在地上的物品无法收集，可用于转移精妙箱子的大量物品"
+	]
+	quest.19D005D243B8A26A.quest_desc: ["放入闪电收集器中，随自然闪电劈下会增加进度并随电鸣水晶阶段提高闪电产量"]
+	quest.1AAA25926715E722.title: "好用的工具"
+	quest.1C102289742098BB.quest_desc: ["这机器也可以为做处理器提供更高效的配方"]
+	quest.1C7A1FB210373A84.quest_desc: ["如果AE缓存电不够了就多放点吧"]
+	quest.1CFE1EE2EF216AD5.quest_desc: [
+		"时间手杖的机器版本，可加速范围内机器"
+		"注意标记黑白名单"
+	]
+	quest.1D2D984BE02D9423.quest_desc: ["向目标容器中发送流体"]
+	quest.1ECD1FE2DBD6F928.quest_desc: ["只传电不传频道，子网好帮手"]
+	quest.1F0FC97FC5524D0E.quest_desc: ["快去用无线收发器吧！"]
+	quest.20D9BE9903AAE2A4.title: "阶段 1：基础工业"
+	quest.20E398569ADC4E60.quest_desc: [
+		"类似mob的怪物捣碎器，可加抢夺升级，锋利升级"
+		"放置在刷怪笼上方时，若机器可正常运行，会代替生物生成，直接产出凋落物"
+	]
+	quest.2174DA79D7A26FD5.title: "空气罐"
+	quest.21D0FDA464FAFFB4.title: "阶段 1：扩展工作台"
+	quest.22C5649591A7888C.quest_desc: [
+		"先放冷凝室(记得放治愈升级)，在冷凝室上方第5格放置流体镭射钻基座(放紫色透镜"
+		"隔镭射钻一格，在它上下1格范围内放置镭射钻"
+		"记得检查深度是否正确:-64~256"
+		"{image:ftbquests:textures/picture/fluid1.png width:200 height:100 align:center}"
+		"{image:ftbquests:textures/picture/fluid2.png width:200 height:100 align:center}"
+		"{image:ftbquests:textures/picture/fluid3.png width:200 height:100 align:center}"
+	]
+	quest.22F57D3DB0950C19.quest_desc: ["从目标容器中接入物品"]
+	quest.23ED4AEDF2297C6B.title: "阶段 7：运输与分配"
+	quest.2448D2C1B1D2B062.quest_desc: [
+		"甚至可以突破龙研上限的传输速度，打开过载模式时要在内部放置一个FE存储元件进行缓冲"
+		"(使用它的前提是你的网络里有FE能源"
+	]
+	quest.2558C45483F882C7.title: "阶段 2：高级工作台"
+	quest.274619D6181A7A02.title: "防火"
+	quest.2A3870D220CDCA23.quest_desc: ["可控制输入物品输入方向的样板供应器，需在高级样板编码器中设置"]
+	quest.2A390E3F6E850E40.quest_desc: ["支持无线传频道，创造频道后闪电科技的机器选择后可以直接无线连接，其他AE机器请搭配无线接收器和过载频率卡使用"]
+	quest.2AF1150D8C3CD81E.quest_desc: [
+		"/weather thunder ....."
+		"任何模组及指令的闪电都不是自然闪电，为高压闪电，只有雷雨天气的闪电才是自然闪电，为极高压闪电"
+	]
+	quest.2AF1150D8C3CD81E.quest_subtitle: "在上方放一个避雷针 "
+	quest.2B69E8F2EDE93E48.quest_desc: ["频道管理是什么，我真不熟"]
+	quest.2B8E8FE977C4EAFF.quest_desc: ["无线收发器高级版"]
+	quest.2C35A9A6AAEB19A7.quest_desc: ["收集闪电的必须品(omni的存储元件话也可以存储闪电"]
+	quest.2CE8717D8BA6C1F2.title: "阶段 4：线路组件"
+	quest.2D03D4FCE65BBD6B.title: "搭建压力室"
+	quest.2DB34ABA3894BB11.quest_desc: ["可用于催生所有母岩"]
+	quest.2E353678F5305B28.title: "气动胸甲"
+	quest.30BE0D5CE7F23501.title: "阶段 7：高级涡轮"
+	quest.31338F11A170142B.quest_desc: ["可收集范围内掉落物的me接口"]
+	quest.3167479A9287A0BB.title: "死亡不掉落"
+	quest.3207372E15801709.quest_desc: ["脱离手动，自动化生产闪电的机器，可放入闪电坍塌矩阵解锁极高压模式，用高压闪电合成极高压闪电"]
+	quest.324E3695A590F3B1.quest_desc: ["和传统封包合成说再见吧，轮椅的闪电科技封包合成来了"]
+	quest.32C7F8B3FD35C1E4.title: "塑料片"
+	quest.335B30988A788B89.title: "阶段 6：激光过滤"
+	quest.33AAB55393CC3EAD.quest_desc: ["合成闪电坍缩矩阵的重要材料"]
+	quest.3419D20DBB818D03.title: "阶段 8：自然终局"
+	quest.360D4763FF33E67A.quest_desc: [
+		"可放入闪电坍塌矩阵提供并行，一个矩阵8个并行，最多支持32个矩阵，即256并行"
+		"(什么?做处理器可以不用切了? 它支持反应仓配方和电路蚀刻器的配方"
+	]
+	quest.382057C9A39B5AD1.quest_desc: ["记得带走无暇的赛特斯水晶母岩，不能直接挖！试试纸箱呢?"]
+	quest.382057C9A39B5AD1.quest_subtitle: "神秘的外星科技"
+	quest.39105204139FAC82.quest_desc: ["闪电科技版的无线收发器"]
+	quest.3A8E6859E1FD05FA.quest_desc: ["要准备做至少17个种子，一个水晶做晶能聚合器，另外用晶能聚合器16个做种子，有两倍产出"]
+	quest.3B9473EB19EA6AC5.quest_desc: ["向目标容器中发送物品"]
+	quest.3BAA698D2D990096.title: "阶段 4：激光节点"
+	quest.3E0032BEA7D9A688.quest_desc: ["载也不用切电路板了!，后期可被闪电科技的过载处理工厂替代"]
+	quest.3FCB5F67A335D2B5.quest_desc: [
+		"&d作者：凉寻Lonyla"
+		"&3QQ：2287645520"
+	]
+	quest.3FCB5F67A335D2B5.title: "欢迎游玩《天工创世》"
+	quest.4063237448145893.quest_desc: ["从目标容器中抽入流体"]
+	quest.41CD8281942C1269.title: "物流核心"
+	quest.426C15ECE50C5C57.title: "阶段 3：自动合成"
+	quest.43D59E3B9FE55CBE.title: "开启应用通量时代"
+	quest.450D41D2B616E3A7.quest_desc: ["有多少频道就可以传多少频道的高级线缆"]
+	quest.461009ECF5369197.quest_desc: ["在机器范围内的AE设备可直接被无线连接，也可使用连接工具配置"]
+	quest.4723BA68604BE85F.title: "阶段 6：阳光材料"
+	quest.477AEBA9B7F52D21.quest_desc: ["快去做加速卡吧"]
+	quest.48618B366439080A.quest_desc: ["做处理器的第一步!"]
+	quest.4A52E709528C8038.quest_desc: [
+		"流体稳定器会扫描配置范围内白并按催化剂槽内物物品匹配JDT的FluidDrop配方"
+		"如机器前方有水，而机器内部有多态催化剂，会消耗催化器转换水为多态流体"
+	]
+	quest.4BE5D3373D11BDC2.quest_desc: ["有了无暇水晶就不用担心母岩衰减了"]
+	quest.4D7A93B13417537A.quest_desc: [
+		"可以直接与发电装置紧贴放一起，会自动导入AE，前提是你做了FE存储元件"
+		"并且它连接进AE网络"
+		""
+		"可以把通量网络输入口放在上面，并打开通量访问点的快速模式"
+	]
+	quest.4E0CA89D45D0CA41.quest_desc: [
+		"支持使用合成卡"
+		"支持合成锻造模板哦，修改数量记得回车!"
+	]
+	quest.50DA85E724FD4392.quest_desc: [
+		"杀动物掉粉红粘液多"
+		"杀怪物掉肉汤多"
+	]
+	quest.515C37917FBD8C00.quest_desc: ["过载机器的核心"]
+	quest.51CC9483A8AABB6B.quest_desc: ["方便地制作刷怪蛋"]
+	quest.5304C1173D029A29.quest_desc: ["可以放在机器里的无线卡"]
+	quest.532E19DD97F3DB3A.quest_desc: [
+		"禁止实体:抑制实体生成"
+		"抑制实体生成:抑制实体活动"
+		"禁用方块实体渲染:适用于减少mek线缆卡顿"
+	]
+	quest.537EC5AD6CC38B4A.title: "阶段 4：基础材料"
+	quest.54D1B6F25D9AD901.title: "阶段 5：高级材料"
+	quest.57C19B8742DFE017.title: "气动头盔"
+	quest.59053EF8B8CB754A.title: "第一桶岩浆"
+	quest.5A7DC1C1E52C2FC4.title: "禁止天气更替"
+	quest.5AAC19AF2D3F3058.quest_desc: ["什么水晶增产，我真不熟，最高能放256给个水晶块，放入闪电坍塌矩阵解锁4倍输出"]
+	quest.5BC4AE4F2CDC73A3.title: "阶段 5：自然工具"
+	quest.5C2C29F35FDA8552.title: "末影接口的起点"
+	quest.5C85B28430DA0466.quest_subtitle: "开启AE扩展"
+	quest.5E896F725B64C92D.quest_desc: [
+		"可设置忽略样板中输入物品或输出物品的nbt"
+		"做龙研记得用"
+	]
+	quest.5F472D2B6FEAF917.quest_desc: ["没有频道限制的控制器"]
+	quest.60850BDD0E4CD7AC.title: "阶段 5：反应堆接口"
+	quest.6136900714FC9C7A.title: "阶段 6：环境控制"
+	quest.617FB3245C73349F.title: "阶段 1：封包基础"
+	quest.64940E146C37C376.title: "阶段 8：能量输出"
+	quest.6518BBA59BF5902D.title: "小型储气罐"
+	quest.66895ACD7DA87629.quest_desc: ["把量子桥卡放在终端，放入量子缠绕奇点，把另一个奇点放在量子环中就可以无视距离和维度使用终端啦!"]
+	quest.6ABD03AC5830B89F.quest_desc: ["强大的CPU，可直接接入AE，也可以搭建多方块结构，详情请看Guide ME"]
+	quest.6B5FB16D1AD0CF3F.quest_desc: ["AE2扩展的重要机器(可以提供更高效的处理器合成"]
+	quest.6CD9C2F84DB40B91.title: "阶段 6：基础涡轮"
+	quest.6D09A01BC4F71BAF.quest_desc: ["自动激活范围内的凝胶"]
+	quest.6D26C0C59D60CD9F.quest_desc: ["放入矩阵后可自动上传合成样板到装配矩阵"]
+	quest.6FD791A747111356.quest_desc: ["更厉害的io端口，耗电也很恐怖..."]
+	quest.7027EC6FD0CBD74A.quest_desc: [
+		"在元件工作台中可配置物品"
+		"放入过载接口中可实现只抽取过滤元件标志的物品"
+	]
+	quest.702C3A08BFAC1CA8.quest_desc: ["没有掉落物，自动处死范围内生物获取生命流体"]
+	quest.709954BB585DEE3B.title: "物流无人机"
+	quest.722DF2A7827247FC.quest_desc: [
+		"把me接口和样板供应器二合一"
+		"(老版的me接口？"
+	]
+	quest.72ED06262BE68B5A.title: "气动凿岩锤"
+	quest.740099DBFFEC79E3.title: "高级空气压缩机"
+	quest.746D133ACB5EE748.quest_desc: [
+		"我嘞个雷霆大终端"
+		"(想合成东西却老是编码？在按键绑定中设置wcwt的切换合成网格锁定按键"
+	]
+	quest.7AE64681E0FB6CE1.quest_desc: [
+		"如果你的奇点生产过慢可以尝试以下方法 制作一个虚空元件 右键选择奇点 再到元件工作台标记fe 然后放子网的me驱动器上 在通量访问点输入FE"
+		"(后期用量较大"
+	]
+	quest.7BCDAAB8F74489E2.title: "无限水？"
+	quest.7CA6770C53A415DE.title: "阶段 3：电力设备"
+	quest.7D9AFF552F8D1870.title: "铺设压力管网"
+	quest.7EC0725E95355530.title: "常用指令"
+	quest.7FBCE385E38E6246.title: "你要这么多圆石干嘛？？？"
+	quest.862523A568CCF5E2.title: "阶段 5：农业工业"
+	quest.8DE8CD57F98A2B66.title: "阶段 5：激光卡片"
+	quest.9193DF8097D0AB5F.title: "阶段 4：基础反应堆"
+	quest.9A6FD150535629A8.title: "阶段 3：灵气采集"
+	quest.9B16BEE0B832DC24.title: "阶段 2：封包合成"
+	quest.A17A06159682473B.title: "阶段 7：自动化设备"
+	quest.AF2C00F3901FB656.title: "阶段 7：路由器模块"
+	quest.B0A22706DA8FF751.title: "阶段 3：高级材料"
+	quest.B6E87B77ABE6FBE0.title: "阶段 1：核燃料"
+	quest.C4B75832892A672B.title: "阶段 8：高级制造"
+	quest.ECCEB90C83C1A01D.title: "阶段 2：加工设备"
+	quest.EEA0A215AF964DAC.title: "阶段 2：高阶植物盆"
+	quest.EF36155C7D1BAE99.title: "阶段 8：自动物流"
+	quest.F671A702AA452E97.title: "阶段 1：基础植物盆"
+	quest.F9712EA3B3B95E63.title: "阶段 4：灵气生成"
+	quest.FA80A31BE4EEDCB7.title: "阶段 2：燃料加工"
+	task.12A2B4799988D063.title: "死亡不掉落"
+	task.15B510F0F8FA66EE.title: "Any #minecraft:leaves"
+	task.1F13023A4F77C1B0.title: "Any #cobblegengalore:block_generators"
+	task.2DDB742CE6D11674.title: "好用的工具"
+	task.2DDD6C2052D2493C.title: "禁止天气更替"
+	task.2FBC4575EDE66FE6.title: "防爆"
+	task.35B00F830519A706.title: "意外情况"
+	task.433D038FD2675CD5.title: "防火"
+	task.49217AA488E41BF1.title: "整合包介绍"
+	task.51B6AD1F79ED52A5.title: "更多机器"
+	task.5E7F6496B1D3A52A.title: "Any #exdeorum:ore_chunks"
+	task.61F9800E73DF195C.title: "常用指令"
+	task.711FAF125722500A.title: "整合包介绍"
+	task.72F686B61CD6A956.title: "锁定白天"
+	quest.2DE80409B008F780.title: "阶段 1 · 天工合金框架"
+	quest.2DE80409B008F780.quest_desc: ["Extreme Package Crafter 有序配方，一次产出 4 个。", "它是 ProjectE 核心、创造链和终局设备的通用结构材料。"]
+	quest.68FA6734FBB66555.title: "阶段 1 · 量子控制矩阵"
+	quest.68FA6734FBB66555.quest_desc: ["一次产出 4 个，统一替代后期反复消耗的量子核心、控制电路和 ME 封包组件。"]
+	quest.0E53691DB1E3F726.title: "阶段 1 · EMC 聚焦模块"
+	quest.0E53691DB1E3F726.quest_desc: ["一次产出 4 个，用于压缩 ProjectE 和无尽终局中的燃料及控制材料数量。"]
+	quest.31717FA9076EAAD2.title: "阶段 2 · 无尽结构核心"
+	quest.31717FA9076EAAD2.quest_desc: ["使用无限催化剂、水晶矩阵锭、中子锭、EMC 聚焦模块和量子控制矩阵制作，一次产出 2 个。"]
+	quest.28176265310074B8.title: "阶段 2 · 天工框架"
+	quest.28176265310074B8.quest_desc: ["一次产出 4 个，作为世界心矩阵的基础结构。"]
+	quest.4E8F86590F44A68F.title: "阶段 2 · 世界心矩阵"
+	quest.4E8F86590F44A68F.quest_desc: ["使用天工框架、ProjectE 红物质块、觉醒核心、预测矩阵和超新星控制电路制作，一次产出 2 个。"]
+	quest.43E670AB0AF7BF0F.title: "阶段 3 · 天工之心"
+	quest.43E670AB0AF7BF0F.quest_desc: ["一次产出 4 个。它不是单件消耗品，而是整条创造链的批量入场券。"]
+	quest.121D7AEEEBCAA103.title: "创造链 01 · 创造能源立方"
+	quest.121D7AEEEBCAA103.quest_desc: ["创造链根节点。先制作创造能源立方，后续动力和存储分支均从这里展开。"]
+	quest.14813E58EA83D1C7.title: "创造链 02 · Create 创造马达"
+	quest.14813E58EA83D1C7.quest_desc: ["需要创造能源立方、天工合金框架和 Create 精密机构。"]
+	quest.7A6EA54611489DB3.title: "创造链 03 · Mekanism 创造储物箱"
+	quest.7A6EA54611489DB3.quest_desc: ["能源核心的固体存储支线，用于后续气动创造压缩铁块。"]
+	quest.26746DEEA13642A8.title: "创造链 04 · Create 创造板条箱"
+	quest.26746DEEA13642A8.quest_desc: ["由创造马达推进，并接入气动创造线。"]
+	quest.3D92C9008156DAEB.title: "创造链 05 · Mekanism 创造流体储罐"
+	quest.3D92C9008156DAEB.quest_desc: ["能源核心的流体存储支线，是化学储罐和 Create 创造流体罐的前置。"]
+	quest.6D1CD3117A7CD776.title: "创造链 06 · Mekanism 创造化学储罐"
+	quest.6D1CD3117A7CD776.quest_desc: ["将创造流体储罐升级为化学储罐，并用于龙研创造电容。"]
+	quest.048DA5136F238C4C.title: "创造链 07 · Create 创造流体罐"
+	quest.048DA5136F238C4C.quest_desc: ["在 Mekanism 创造流体储罐之后，接入 Create 流体储存体系。"]
+	quest.5943B3FAEB3557F3.title: "创造链 08 · 龙研创造电容"
+	quest.5943B3FAEB3557F3.quest_desc: ["同时需要创造能源立方和 Mekanism 创造化学储罐。"]
+	quest.5CD7AAD980DA0071.title: "创造链 09 · 气动创造压缩铁块"
+	quest.5CD7AAD980DA0071.quest_desc: ["同时需要 Create 创造板条箱和 Mekanism 创造流体储罐。"]
+	quest.40E6E052122EB2F5.title: "创造链 10 · JDTe 创造升级"
+	quest.40E6E052122EB2F5.quest_desc: ["完成龙研和气动创造支线后，才能制作 JDTe 创造升级。"]
+	quest.07D946305346F334.title: "终局汇聚 · 创造收敛核心"
+	quest.07D946305346F334.quest_desc: ["将十件创造物品、无尽结构核心、量子控制矩阵和天工合金框架汇聚为一个核心。"]
+	quest.1CF1A73A48176C63.title: "最终目标 · ME 创造存储元件"
+	quest.1CF1A73A48176C63.quest_desc: ["使用创造收敛核心、无尽结构核心和 ME 终局材料制造 AE2 创造存储元件。", "完成后即达成《天工创世》的最终目标。"]
+}

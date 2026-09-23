@@ -1,0 +1,12 @@
+{
+  "item.productivelib.upgrade_base": "升级基座",
+  "item.productivelib.upgrade_productivity": "生产力升级 I",
+  "item.productivelib.upgrade_productivity_2": "生产力升级 II",
+  "item.productivelib.upgrade_productivity_3": "生产力升级 III",
+  "item.productivelib.upgrade_productivity_4": "生产力升级 IV",
+  "item.productivelib.upgrade_simulator": "模拟器升级",
+  "item.productivelib.upgrade_adult": "成年加速升级",
+  "item.productivelib.upgrade_gene_sampler": "基因采样升级",
+  "item.productivelib.upgrade_anti_teleport": "防传送升级",
+  "item.productivelib.upgrade_block": "方块升级"
+}

@@ -1,0 +1,50 @@
+{
+	id: "2369A0EDF972AA43"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "7CD4A84910179E29"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "49F251878EA7E78E"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "4F243EBFE2DAF69C"
+			item: {
+				count: 1
+				id: "justdirethings:celestigem"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 2
+			id: "0DA75CD54CCC99A2"
+			item: {
+				count: 1
+				id: "justdirethings:eclipsealloy_ingot"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "206A0D7AA8BEECCD"
+			item: {
+				count: 1
+				id: "justdirethings:time_crystal"
+			}
+			weight: 0.05f
+		}
+	]
+}

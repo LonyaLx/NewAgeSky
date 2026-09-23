@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2548ccb203713203"
+	group: "69748456B3DD74A7"
+	id: "2548CCB203713203"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4237019C8C7F4ED2"
+			tasks: [{
+				id: "08343560D6A9F2E9"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "71E9ADCFEC9AC942"
+			tasks: [{
+				id: "3EE0955AEADBCEA3"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:copper_chest" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "48631E1B12DAFB25"
+			tasks: [{
+				id: "653F463035701A9F"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "13225E6C194381D5"
+			tasks: [{
+				id: "369668001172E128"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_chest" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "6818D911BE206570"
+			tasks: [{
+				id: "6E8AE2673AB36C2F"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "45F64E9D9AF31D00"
+			tasks: [{
+				id: "1D79052E17CB4A49"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "1AD2A6F0C3058A18"
+			tasks: [{
+				id: "4E8C936AA4C46009"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "6CD3B582D4632664"
+			tasks: [{
+				id: "07CD345E4C6A47FD"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_barrel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "0758148432B21E4E"
+			tasks: [{
+				id: "561B3694A27991CF"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:copper_barrel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "3216C0957EE38806"
+			tasks: [{
+				id: "5E97B1A51D9B8396"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_barrel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "3D533449F8647F56"
+			tasks: [{
+				id: "21506E1F93D6DFA8"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_barrel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "7B29C0A03A3E4DDD"
+			tasks: [{
+				id: "4B0DDB7BEC75A2F9"
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_barrel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "235C6A424B44563E"
+			tasks: [{
+				id: "15D5B48DF915AEFC"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "1F982DD1901D2300"
+			tasks: [{
+				id: "7A05E4C2198238E0"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 54, "sophisticatedcore:number_of_upgrade_slots": 2 }, count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "16E597285948A911"
+			tasks: [{
+				id: "38B44BB18E9E2F20"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 81, "sophisticatedcore:number_of_upgrade_slots": 3 }, count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "38F53A7E0A47818E"
+			tasks: [{
+				id: "0B14DDAB67CC5A99"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 108, "sophisticatedcore:number_of_upgrade_slots": 5 }, count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "114791888A8E4A88"
+			tasks: [{
+				id: "116C382E875181DC"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 120, "sophisticatedcore:number_of_upgrade_slots": 7 }, count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "163D226259C210A8"
+			tasks: [{
+				id: "1BABE4982972CFFB"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 45, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "16AAC45E875FB774"
+			tasks: [{
+				id: "457D2F14A90B9ED6"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5C6241D704F4B77E"
+			tasks: [{
+				id: "0471EC59FC5099B4"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "1843A5E5550D7D2F"
+			tasks: [{
+				id: "453578D31B317FBF"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "5C87741113FB92AE"
+			tasks: [{
+				id: "4113C15C4CBB3E49"
+				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "00BF457769911D79"
+			tasks: [{
+				id: "60347A9C8C69255E"
+				item: { count: 1, id: "sophisticatedstorage:debug_tool" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

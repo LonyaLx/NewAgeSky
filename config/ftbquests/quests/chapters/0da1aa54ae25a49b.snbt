@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0da1aa54ae25a49b"
+	group: "69748456B3DD74A7"
+	id: "0DA1AA54AE25A49B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "232FD4E3F3DD98F1"
+			tasks: [{
+				id: "27027FFA5CE6981E"
+				item: { count: 1, id: "integrateddynamics:menril_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C1BD4B53432F0A5"
+			tasks: [{
+				id: "19EF74175F81B518"
+				item: { count: 1, id: "integrateddynamics:menril_log" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "51E27156C6C45190"
+			tasks: [{
+				id: "45A3C2E383F4942F"
+				item: { count: 1, id: "integrateddynamics:squeezer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "602005163037533F"
+			tasks: [{
+				id: "0B66A77CCD934AE7"
+				item: { count: 1, id: "integrateddynamics:drying_basin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "240B2F2D2E774747"
+			tasks: [{
+				id: "61904A25EDB8B4CB"
+				item: { count: 1, id: "integrateddynamics:crystalized_menril_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "2797D8D463C7D930"
+			tasks: [{
+				id: "12F7D0950BB58A1B"
+				item: { count: 1, id: "integratedterminals:menril_glass" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "2430A5D8A4486BB9"
+			tasks: [{
+				id: "0E88DDF0C44C6CDC"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "3583DEA7F9BBD421"
+			tasks: [{
+				id: "6C142FCE524A77FF"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7327D933D5DFF80D"
+			tasks: [
+				{
+					id: "62C6BA0B2E4EA0E8"
+					item: { count: 1, id: "integrateddynamics:variable_transformer_input" }
+					type: "item"
+				}
+				{
+					id: "6CF9C7DE082F6FB9"
+					item: { count: 1, id: "integrateddynamics:variable_transformer_output" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "56C23190661E1DE6"
+			tasks: [
+				{
+					id: "136AD98B270466A4"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+				{
+					id: "61CDC322B0FCF482"
+					item: { count: 1, id: "integratedtunnels:part_interface_fluid" }
+					type: "item"
+				}
+				{
+					id: "19CB2EB2F991C5B9"
+					item: { count: 1, id: "integratedtunnels:part_interface_energy" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "58145E031F4B45B4"
+			tasks: [{
+				id: "2C02BC7FC89658FE"
+				item: { count: 1, id: "integrateddynamics:menril_berries" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "4C21AC2FF7DF5322"
+			tasks: [
+				{
+					id: "2CAA08A5BFD757C8"
+					item: { count: 1, id: "integrateddynamics:part_static_light_panel" }
+					type: "item"
+				}
+				{
+					id: "7ED84DCFCEF5048A"
+					item: { count: 1, id: "integrateddynamics:part_dynamic_light_panel" }
+					type: "item"
+				}
+				{
+					id: "62C70BF876220B65"
+					item: { count: 1, id: "integrateddynamics:part_display_panel" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "116C820376BC448B"
+			tasks: [{
+				id: "1DDFC5EFF8A54650"
+				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "504CC097068F00B3"
+			tasks: [{
+				id: "0029BA1FB3A4308B"
+				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "08053BDC0BC3E0B9"
+			tasks: [{
+				id: "7C06C6D2C2E60F0E"
+				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "241574E136FDFFDF"
+			tasks: [{
+				id: "63A472806E9B13BE"
+				item: { count: 1, id: "integrateddynamics:energy_battery" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "7EC37F2F055DF84C"
+			tasks: [{
+				id: "4464B2777AE71991"
+				item: { count: 1, id: "integrateddynamics:coal_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "6BD22B75DD840AE1"
+			tasks: [
+				{
+					id: "6C42AAE3EBAB4FCA"
+					item: { count: 1, id: "integratedtunnels:part_exporter_energy" }
+					type: "item"
+				}
+				{
+					id: "051DE1FF3095E5FB"
+					item: { count: 1, id: "integratedtunnels:part_exporter_item" }
+					type: "item"
+				}
+				{
+					id: "42D88AD013BB5A77"
+					item: { count: 1, id: "integratedtunnels:part_exporter_fluid" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "76E8D25D9954F519"
+			tasks: [{
+				id: "176FB2E240288F44"
+				item: { count: 1, id: "integrateddynamics:part_connector_omni_directional" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "5236B5F1AFFC4BAC"
+			tasks: [{
+				id: "69A3EC7811E896B0"
+				item: { count: 1, id: "integratedterminals:terminal_storage_portable" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "4AF7B4A2E8218B1E"
+			tasks: [{
+				id: "59390E202DA34E1F"
+				item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

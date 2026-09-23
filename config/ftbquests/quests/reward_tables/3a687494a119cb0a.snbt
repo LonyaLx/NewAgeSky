@@ -1,0 +1,65 @@
+{
+	id: "3A687494A119CB0A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "0C73AB4DCECCA700"
+			item: {
+				count: 1
+				id: "mekanism:ingot_steel"
+			}
+		}
+		{
+			count: 4
+			id: "46AC8102B58F0C1E"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "7A0BD0691A2C50C9"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "751555DA7A8C0A8D"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "240908D76BC98264"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 4
+			id: "476F60C313726E5C"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+		}
+		{
+			count: 8
+			id: "680AF13BBEF87B90"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3e4ca67781770e8c"
+	group: "744E000CF43AD26D"
+	id: "3E4CA67781770E8C"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3FCB5F67A335D2B5"
+			rewards: [{
+				count: 64
+				id: "199B68679EBE703B"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49217AA488E41BF1"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EC0725E95355530"]
+			id: "3167479A9287A0BB"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				id: "48DDC8BB95AD07E4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12A2B4799988D063"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EC0725E95355530"]
+			id: "274619D6181A7A02"
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "3D8CEE4061979A21"
+				type: "command"
+			}]
+			tasks: [{
+				id: "433D038FD2675CD5"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EC0725E95355530"]
+			id: "03B0C765300D2810"
+			rewards: [{
+				command: "/gamerule mobGriefing true"
+				id: "3DD5FAA965C4B40E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2FBC4575EDE66FE6"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EC0725E95355530"]
+			id: "0A9229468136BABC"
+			rewards: [{
+				command: "/gamerule doDaylightCycle true"
+				id: "2B10AE3E5C0CCFE9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72F686B61CD6A956"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EC0725E95355530"]
+			id: "5A7DC1C1E52C2FC4"
+			rewards: [{
+				command: "/gamerule doWeatherCycle false"
+				id: "269964BBF1BCCBF8"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2DDD6C2052D2493C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FCB5F67A335D2B5"]
+			id: "7EC0725E95355530"
+			rewards: [{
+				count: 4
+				id: "065807B876459CA5"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61F9800E73DF195C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "122FC6282BD82C83"
+			tasks: [{
+				id: "711FAF125722500A"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "074301895FF60497"
+	id: "4E36C4222197BC50"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1AAA25926715E722"
+			tasks: [{
+				id: "2DDB742CE6D11674"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+			}
+			id: "6D79BB5DBEA7DA55"
+			tasks: [
+				{
+					id: "6535714C39AEE173"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "4C6143F5726154B0"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "2C0E61BE87F88F13"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+				{
+					id: "662E41ABC36BD293"
+					item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+					type: "item"
+				}
+				{
+					id: "656B55E765024EF6"
+					item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+					type: "item"
+				}
+				{
+					id: "14C5B084251A7D8E"
+					item: { count: 1, id: "buildinggadgets2:template_manager" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						wand_options: { }
+					}
+				}
+				id: "constructionwand:infinity_wand"
+			}
+			id: "06A363091A2BDFA2"
+			tasks: [
+				{
+					id: "6035B2E7CAC586AA"
+					item: { components: { "minecraft:custom_data": { wand_options: { } } }, count: 1, id: "constructionwand:stone_wand" }
+					type: "item"
+				}
+				{
+					id: "44D54CE97A5AD727"
+					item: { components: { "minecraft:custom_data": { wand_options: { } } }, count: 1, id: "constructionwand:iron_wand" }
+					type: "item"
+				}
+				{
+					id: "3536EF2FBBF34107"
+					item: { components: { "minecraft:custom_data": { wand_options: { } } }, count: 1, id: "constructionwand:diamond_wand" }
+					type: "item"
+				}
+				{
+					id: "4144BC39207E2BF3"
+					item: { components: { "minecraft:custom_data": { wand_options: { } } }, count: 1, id: "constructionwand:infinity_wand" }
+					type: "item"
+				}
+				{
+					id: "6EFE56FDDCE0927E"
+					item: { count: 1, id: "constructionwand:core_angel" }
+					type: "item"
+				}
+				{
+					id: "689B7338C6BDEB58"
+					item: { count: 1, id: "constructionwand:core_destruction" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "trashcans:item_trash_can"
+			}
+			id: "2BA1BAC153BC717B"
+			tasks: [
+				{
+					id: "582A5E045801542A"
+					item: { count: 1, id: "trashcans:item_trash_can" }
+					type: "item"
+				}
+				{
+					id: "4EF7843F272B4EEA"
+					item: { count: 1, id: "trashcans:liquid_trash_can" }
+					type: "item"
+				}
+				{
+					id: "1898EA290BF5790D"
+					item: { count: 1, id: "trashcans:energy_trash_can" }
+					type: "item"
+				}
+				{
+					id: "4E3242695326752F"
+					item: { count: 1, id: "trashcans:ultimate_trash_can" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "simplemagnets:basicmagnet"
+			}
+			id: "345DD0EFA6A8D246"
+			tasks: [
+				{
+					id: "6EEE54D60036CA22"
+					item: { count: 1, id: "simplemagnets:basicmagnet" }
+					type: "item"
+				}
+				{
+					id: "44EBB1BBD73BC523"
+					item: { count: 1, id: "simplemagnets:advancedmagnet" }
+					type: "item"
+				}
+				{
+					id: "57A518A336FC9551"
+					item: { count: 1, id: "enderio:electromagnet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6248183AACA2070D"
+			tasks: [{
+				id: "38709E233AD28FEA"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "0A513FA592B8B371"
+			tasks: [{
+				id: "0BF1A4CBDB0D321D"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "entangled:block"
+			}
+			id: "10A1957643BE82CE"
+			tasks: [
+				{
+					id: "324DC6385E5DCB88"
+					item: { count: 1, id: "entangled:block" }
+					type: "item"
+				}
+				{
+					id: "4422CADA6CA25C46"
+					item: { count: 1, id: "entangled:item" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6B9C6138F2D2BEC5"
+			tasks: [{
+				id: "74C52CB2F3B74BB3"
+				item: { count: 1, id: "projecte:interdiction_torch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "34E97B32B201AE6F"
+			tasks: [{
+				id: "09C6F32CB30BF75D"
+				item: { count: 1, id: "projecte:repair_talisman" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "4CFC34734932776A"
+			tasks: [{
+				id: "3FD83F0C0BD3E0CB"
+				item: { count: 1, id: "mob_grinding_utils:tinted_glass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "6DB32975F9018949"
+			tasks: [{
+				id: "5D046AFAD4E401DA"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7B35539A179DCB47"
+			tasks: [{
+				id: "7B9C414693725367"
+				item: { count: 1, id: "compactmachines:personal_shrinking_device" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "2D9830369EF2D431"
+			tasks: [
+				{
+					id: "29B2192D1A40719A"
+					item: { count: 1, id: "enderio:vacuum_chest" }
+					type: "item"
+				}
+				{
+					id: "3EB00B65CE44ED31"
+					item: { count: 1, id: "enderio:xp_vacuum" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "3C6561FBD55C915E"
+			tasks: [
+				{
+					id: "50470E4FC3CFBDD4"
+					item: { count: 1, id: "sfm:manager" }
+					type: "item"
+				}
+				{
+					id: "0459924C84620D50"
+					item: { count: 1, id: "sfm:disk" }
+					type: "item"
+				}
+				{
+					id: "60C882CBAC61D3E4"
+					item: { count: 1, id: "sfm:cable" }
+					type: "item"
+				}
+				{
+					id: "7C9C26DA1DE47D4A"
+					item: { count: 1, id: "sfm:labelgun" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "52A6BB0A9B2ADB63"
+			tasks: [
+				{
+					id: "7209B4EF8FD6ABD0"
+					item: { count: 1, id: "itemcollectors:basic_collector" }
+					type: "item"
+				}
+				{
+					id: "5C6745D3C8217F41"
+					item: { count: 1, id: "itemcollectors:advanced_collector" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "07D64AD004720005"
+			tasks: [{
+				id: "62F082B5287BDAB3"
+				item: { count: 1, id: "extendedcrafting:handheld_table" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "097849AD47B97D25"
+			tasks: [
+				{
+					id: "4240D32D88474113"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					id: "26684DB4574FD349"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+				{
+					id: "28B844250655B6B2"
+					item: { count: 1, id: "fluxnetworks:flux_configurator" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "02D0D2D42B75E489"
+			tasks: [{
+				id: "1F13023A4F77C1B0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblegengalore:block_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "56FFB41B7D001A25"
+			tasks: [
+				{
+					id: "3DE20037D5805F10"
+					item: { count: 1, id: "mob_grinding_utils:saw" }
+					type: "item"
+				}
+				{
+					id: "21DA1022F4F50157"
+					item: { count: 1, id: "mob_grinding_utils:fan" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+}

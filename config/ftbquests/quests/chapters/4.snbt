@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "33380D59A0FADF67"
+	id: "4D3F33C9139B78DC"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+
+			id: "617FB3245C73349F"
+			tasks: [{
+				id: "602508BF8F7C6314"
+				item: { count: 1, id: "packagedauto:packager" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["617FB3245C73349F"]
+
+			id: "E2366183A99EBBED"
+			tasks: [{
+				id: "A87ED63209F88A0C"
+				item: { count: 1, id: "packagedauto:unpackager" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["E2366183A99EBBED"]
+
+			id: "DDC2A7E29FF4D38B"
+			tasks: [{
+				id: "875CCCFFBF2E6C3A"
+				item: { count: 1, id: "packagedauto:crafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DDC2A7E29FF4D38B"]
+
+			id: "2121F9CCC0B4DCBB"
+			tasks: [{
+				id: "C91E28C328BE57A2"
+				item: { count: 1, id: "packagedauto:encoder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2121F9CCC0B4DCBB"]
+
+			id: "728B3F50C5D97ABD"
+			tasks: [{
+				id: "BC4F41638DC2EEB4"
+				item: { count: 1, id: "packagedauto:package_component" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["728B3F50C5D97ABD"]
+
+			id: "9B16BEE0B832DC24"
+			tasks: [{
+				id: "8282080A3F02F344"
+				item: { count: 1, id: "packagedauto:me_package_component" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9B16BEE0B832DC24"]
+
+			id: "1E03DF89E376C9BB"
+			tasks: [{
+				id: "F3EA718D55F3AD26"
+				item: { count: 1, id: "packagedauto:packaging_provider" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E03DF89E376C9BB"]
+
+			id: "551F935DF7E31410"
+			tasks: [{
+				id: "8976454857712340"
+				item: { count: 1, id: "packagedauto:distributor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["551F935DF7E31410"]
+
+			id: "C4A4631597B070E2"
+			tasks: [{
+				id: "5E969A9DC3F102F9"
+				item: { count: 1, id: "packagedauto:crafting_proxy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["C4A4631597B070E2"]
+
+			id: "4FA66378D7D2C983"
+			tasks: [{
+				id: "8F29D684CC086E43"
+				item: { count: 1, id: "packagedauto:recipe_holder" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4FA66378D7D2C983"]
+
+			id: "0298DBAE6CC23C74"
+			tasks: [{
+				id: "DE3C987DB23D1189"
+				item: { count: 1, id: "packagedauto:distributor_marker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0298DBAE6CC23C74"]
+
+			id: "BF557EC6860032C9"
+			tasks: [{
+				id: "69D42C9D84C1AA8D"
+				item: { count: 1, id: "packagedauto:proxy_marker" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["BF557EC6860032C9"]
+
+			id: "04EE43840130E88B"
+			tasks: [{
+				id: "BF6B721332DC6F5E"
+				item: { count: 1, id: "packagedauto:settings_cloner" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04EE43840130E88B"]
+
+			id: "8E0FDF7B28A06A0C"
+			tasks: [{
+				id: "4D3EB73877819744"
+				item: { count: 1, id: "packagedauto:fluid_package_filler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["8E0FDF7B28A06A0C"]
+
+			id: "120D31DA9BCBC0BA"
+			tasks: [{
+				id: "EFE9D9D814F80D52"
+				item: { count: 1, id: "packagedauto:packager_extension" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["120D31DA9BCBC0BA"]
+
+			id: "3BAA698D2D990096"
+			tasks: [{
+				id: "BC445E9C4D225903"
+				item: { count: 1, id: "packagedauto:guide" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BAA698D2D990096"]
+
+			id: "6EEF5A6A8A3F1138"
+			tasks: [{
+				id: "C890698DFE405F0D"
+				item: { count: 1, id: "laserio:laser_node" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EEF5A6A8A3F1138"]
+
+			id: "22B3DA6BD4C2AA55"
+			tasks: [{
+				id: "890C2579DEF9DE41"
+				item: { count: 1, id: "laserio:laser_connector" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B3DA6BD4C2AA55"]
+
+			id: "9421A522EA763717"
+			tasks: [{
+				id: "02AB9C32E4D86798"
+				item: { count: 1, id: "laserio:laser_connector_advanced" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["9421A522EA763717"]
+
+			id: "1B4A67CEE5078C4B"
+			tasks: [{
+				id: "B2AC6551A31545D4"
+				item: { count: 1, id: "laserio:laser_wrench" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B4A67CEE5078C4B"]
+
+			id: "8DE8CD57F98A2B66"
+			tasks: [{
+				id: "20D2331079EF806F"
+				item: { count: 1, id: "laserio:card_holder" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8DE8CD57F98A2B66"]
+
+			id: "2C585934C2357453"
+			tasks: [{
+				id: "50AAD5168F1DCC61"
+				item: { count: 1, id: "laserio:card_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C585934C2357453"]
+
+			id: "36885E0BB2E73134"
+			tasks: [{
+				id: "DFD086B7E56842EB"
+				item: { count: 1, id: "laserio:card_fluid" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36885E0BB2E73134"]
+
+			id: "F3FD714E7CED55D3"
+			tasks: [{
+				id: "3042BA88C5BE5BD8"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["F3FD714E7CED55D3"]
+
+			id: "B2FE57EFEAB3B88A"
+			tasks: [{
+				id: "10B728551781ECCB"
+				item: { count: 1, id: "laserio:card_chemical" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B2FE57EFEAB3B88A"]
+
+			id: "335B30988A788B89"
+			tasks: [{
+				id: "2F6CE0DF6ADDE1C8"
+				item: { count: 1, id: "laserio:card_redstone" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["335B30988A788B89"]
+
+			id: "28AE8550B88E4252"
+			tasks: [{
+				id: "EE0B1293090465F7"
+				item: { count: 1, id: "laserio:card_cloner" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28AE8550B88E4252"]
+
+			id: "67638CEDED0C9B5D"
+			tasks: [{
+				id: "B4ADC9283B2A9923"
+				item: { count: 1, id: "laserio:overclocker_card" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67638CEDED0C9B5D"]
+
+			id: "C21037637645D5DF"
+			tasks: [{
+				id: "25CCBDAA3C583466"
+				item: { count: 1, id: "laserio:overclocker_node" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["C21037637645D5DF"]
+
+			id: "1E8ABF85691877A5"
+			tasks: [{
+				id: "1714CD55431562BB"
+				item: { count: 1, id: "laserio:logic_chip_raw" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E8ABF85691877A5"]
+
+			id: "AF2C00F3901FB656"
+			tasks: [{
+				id: "3F4AFD2D88A00F83"
+				item: { count: 1, id: "laserio:logic_chip" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["AF2C00F3901FB656"]
+
+			id: "D365C37FB1801378"
+			tasks: [{
+				id: "FAD0681793941F2D"
+				item: { count: 1, id: "laserio:filter_basic" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["D365C37FB1801378"]
+
+			id: "2F6D576F9ECA303C"
+			tasks: [{
+				id: "DF6C8CCF28A011E1"
+				item: { count: 1, id: "laserio:filter_count" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F6D576F9ECA303C"]
+
+			id: "0BD5376ACF7F0E68"
+			tasks: [{
+				id: "4A504A94AB80C875"
+				item: { count: 1, id: "laserio:filter_mod" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BD5376ACF7F0E68"]
+
+			id: "EA6D06398C87F42B"
+			tasks: [{
+				id: "38410DB0F60CDE94"
+				item: { count: 1, id: "laserio:filter_nbt" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["EA6D06398C87F42B"]
+
+			id: "EF36155C7D1BAE99"
+			tasks: [{
+				id: "A2142A359FDD14C3"
+				item: { count: 1, id: "laserio:filter_tag" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EF36155C7D1BAE99"]
+
+			id: "2307E2ECFE893CE9"
+			tasks: [{
+				id: "7D2E7EDD9AD46691"
+				item: { count: 1, id: "modularrouters:distributor_module" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2307E2ECFE893CE9"]
+
+			id: "93642C0E6CDD516B"
+			tasks: [{
+				id: "D4671D6252ECD53E"
+				item: { count: 1, id: "modularrouters:energy_distributor_module" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["93642C0E6CDD516B"]
+
+			id: "A4B145C146654FA2"
+			tasks: [{
+				id: "DBA8AFC7CE467342"
+				item: { count: 1, id: "modularrouters:energy_output_module" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["A4B145C146654FA2"]
+
+			id: "45B8CE77EE0FC62C"
+			tasks: [{
+				id: "E6F2AC053A6BA1B8"
+				item: { count: 1, id: "modularrouters:activator_module" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+	]
+}

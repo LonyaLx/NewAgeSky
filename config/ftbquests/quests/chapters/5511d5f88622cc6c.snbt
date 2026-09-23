@@ -1,0 +1,688 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5511d5f88622cc6c"
+	group: "33380D59A0FADF67"
+	id: "5511D5F88622CC6C"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2825BD7644169FBC"
+			tasks: [{
+				count: 16L
+				id: "0F929CF6BC4A55C0"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "33C40646757BE4C8"
+			repeat_cooldown: 180
+			rewards: [{
+				count: 4
+				id: "78ADFEF9C80BA553"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35B00F830519A706"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "40E53F4D29136439"
+			tasks: [{
+				id: "3ECB2A4017F61FB7"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2BE3A5366D849DC2"
+			tasks: [{
+				count: 2L
+				id: "1C644120B4CCB747"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "2FCE61314F7BAFE9"
+			tasks: [{
+				id: "1A3B79C7CAB7EE27"
+				item: { count: 1, id: "exdeorum:crook" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "16166D3711DA0BFF"
+			tasks: [{
+				id: "5EF9861B6A460844"
+				item: { count: 1, id: "exdeorum:silkworm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "029A468D910F9204"
+			tasks: [{
+				id: "35AAA7012A6D0110"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "0CBFC5F58CFB2116"
+			tasks: [{
+				id: "78EC5547EF4F5435"
+				item: { count: 1, id: "exdeorum:string_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "09191F44C9F262B1"
+			tasks: [{
+				id: "691F7AEEDEA9B0BC"
+				item: { count: 1, id: "exdeorum:flint_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "381858012BF3010F"
+			tasks: [{
+				id: "54F55E52E4DA712E"
+				item: { count: 1, id: "exdeorum:iron_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "4DC510C16A528B17"
+			tasks: [{
+				id: "2ECD833289A7019E"
+				item: { count: 1, id: "exdeorum:golden_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "16F6F3623EABB734"
+			tasks: [{
+				id: "107271CD924E8417"
+				item: { count: 1, id: "exdeorum:diamond_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "36187A651DCB98A1"
+			tasks: [{
+				id: "0EA7186D406DDEC5"
+				item: { count: 1, id: "exdeorum:netherite_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "6CF609DDE903220A"
+			tasks: [{
+				id: "2398F99B003A29F8"
+				item: { count: 1, id: "exdeorum:oak_sieve" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "25E43C864233DC40"
+			tasks: [{
+				id: "5E7F6496B1D3A52A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(exdeorum:ore_chunks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "66EA6E936B68B82D"
+			tasks: [{
+				id: "2831D0258EEDA7DA"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "3DEA177AFD9102BA"
+			tasks: [{
+				id: "0BE596216727442C"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "24E6EBC6D01D32ED"
+			tasks: [{
+				id: "3B8FA44602EA08C3"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "0E1EBB5BF3196496"
+			tasks: [{
+				id: "0375328D3F3D8347"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "74BBD7431DE1093B"
+			tasks: [{
+				id: "5348C19674BA3086"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "64838C84BA56104B"
+			tasks: [{
+				id: "36ACB9BAB1FEC16B"
+				item: { count: 1, id: "exdeorum:wooden_hammer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "2A99E222228124C0"
+			tasks: [{
+				id: "181F8399FE650546"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "14FFD4AECF3E59BF"
+			tasks: [{
+				id: "62B259BFDF85EAB9"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "44863D7CA185B59C"
+			tasks: [{
+				id: "3158028A9623A5CC"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "2C2E71C79872A77A"
+			tasks: [{
+				id: "44D2D2BD22ABFCD2"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "4E057E6B45F49434"
+			tasks: [{
+				id: "6BE2D274F29BBC32"
+				item: { count: 1, id: "exdeorum:dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "1590C1597C55120E"
+			tasks: [{
+				id: "27BBE66453C439CA"
+				item: { count: 1, id: "minecraft:clay" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "1E79B4B7E688CDD0"
+			tasks: [{
+				id: "4A48C5207E270AF7"
+				item: { count: 1, id: "exdeorum:oak_barrel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "6E65B02F81BCC08F"
+			tasks: [{
+				id: "0DA49978DA87D119"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "5CFF8630CEA6FAD2"
+			tasks: [{
+				id: "038D6E471C24C9DF"
+				item: { count: 1, id: "exdeorum:porcelain_clay_ball" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "59A35B35788B27A6"
+			tasks: [
+				{
+					id: "3B65C8B4928E1D1B"
+					item: { count: 1, id: "exdeorum:unfired_porcelain_crucible" }
+					type: "item"
+				}
+				{
+					id: "7523712EC1DC4512"
+					item: { count: 1, id: "exdeorum:porcelain_crucible" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "59053EF8B8CB754A"
+			tasks: [{
+				id: "42377FC1A6C806BC"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "2BE64CBBED566470"
+			tasks: [{
+				id: "53859B4D60B4041F"
+				item: { count: 1, id: "exdeorum:oak_crucible" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "13C3F1C9967E11ED"
+			tasks: [{
+				id: "15B510F0F8FA66EE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "7BCDAAB8F74489E2"
+			rewards: [{
+				id: "698AEA4B328750D6"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57AEB11B45EFA1AF"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "29CBA7051C8433BC"
+			rewards: [{
+				id: "1A135FE415C72C69"
+				item: {
+					count: 1
+					id: "functionalstorage:oak_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C277B006B94D2DC"
+				item: { count: 1, id: "cobblegengalore:block_gen_stone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "06109252AC3F9ACA"
+			tasks: [{
+				id: "63E33033231A43E6"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "7FBCE385E38E6246"
+			invisible: true
+			rewards: [
+				{
+					count: 32
+					id: "3E99D00F6FEC9B7D"
+					item: {
+						count: 1
+						id: "exdeorum:compressed_gravel"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "33BA86B035685E6E"
+					item: {
+						count: 1
+						id: "exdeorum:compressed_sand"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "19CCFF4B129FD9A7"
+					item: {
+						count: 1
+						id: "exdeorum:compressed_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "37E872BB81D2E99F"
+					item: {
+						count: 1
+						id: "minecraft:clay"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4096L
+				id: "5194AE5B000A2FD3"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			id: "793282908E6A8C66"
+			tasks: [
+				{
+					id: "042A9D2D1622C6AD"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "481D714D0F995974"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "293A9BC5BE98563C"
+			tasks: [{
+				id: "5CB463AFBD640688"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "51F5568AD03115C4"
+			tasks: [{
+				id: "413D72ACC7FCDEF7"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "21EC88FB2969B9B3"
+			tasks: [{
+				id: "2D7CC2F48819FD30"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "1E85DE9702F1520B"
+			tasks: [{
+				id: "3843CB1AE0F8177A"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "1FC1FB1D29E7C8B2"
+			tasks: [{
+				id: "30B96E57AFDAF614"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "3438374236B2E117"
+			tasks: [{
+				id: "43C75E12A412BB91"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "606674895AB2EF48"
+			tasks: [{
+				id: "4FA5665E6CFFE46A"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "180CBA68036D6C83"
+			tasks: [{
+				id: "670B2F86B11FE2AD"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "7E6E3AFD065669C4"
+			tasks: [{
+				id: "7A2B363FC81FBB90"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "581B1C69E3107625"
+			tasks: [{
+				id: "44E4F2E0B9D30AA5"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			id: "2F94965E083FA48F"
+			tasks: [
+				{
+					id: "1C77352CF6E328E8"
+					item: { count: 1, id: "excompressum:auto_hammer" }
+					type: "item"
+				}
+				{
+					id: "6E0FAB5D2B519806"
+					item: { count: 1, id: "excompressum:auto_sieve" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "45223622E60B8F79"
+			tasks: [{
+				id: "7CD2B28FDA813215"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "5DD37838F6AF6121"
+			tasks: [{
+				id: "6C3E70A040F0FFB0"
+				item: { count: 1, id: "mekanism:advanced_universal_cable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "585BCAA212770E61"
+			tasks: [{
+				id: "69D92FB81CBC068C"
+				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "110B97D5EFAD0B74"
+			tasks: [{
+				id: "1B83EF16297627C7"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "66CE7A32992E07F8"
+			tasks: [{
+				id: "606F58C62B526135"
+				item: { count: 1, id: "mekanism:advanced_energy_cube" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "264403F9CFD01FA0"
+			tasks: [{
+				id: "18347A33DD0B8601"
+				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "5BCCB8AC95A9D9D4"
+			tasks: [{
+				id: "4E7D11C33D685276"
+				item: { count: 1, id: "functionalstorage:compacting_drawer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "415364262FD8BE8B"
+			tasks: [
+				{
+					id: "183D131AE5EFD0CF"
+					item: { count: 1, id: "excompressum:auto_compressed_hammer" }
+					type: "item"
+				}
+				{
+					id: "5335534ADDCB98AD"
+					item: { count: 1, id: "excompressum:auto_heavy_sieve" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.5d
+		}
+	]
+}

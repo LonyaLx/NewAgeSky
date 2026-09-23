@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7573710cf964acf2"
+	group: "5DB41788A814AA8C"
+	id: "7573710CF964ACF2"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F18D17025F7FA89"
+			tasks: [{
+				id: "3F77F52532F14C97"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "45C15FF961C271EF"
+			tasks: [{
+				id: "55EB607C12298853"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "6481C43B74ECC36C"
+			tasks: [{
+				id: "63DFF725A3833D7D"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "045EE53871520B8F"
+			tasks: [{
+				id: "664720CDB97E5985"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "6542F9AFF1403BC4"
+			tasks: [{
+				id: "1929C1E63A1CF5A2"
+				item: { count: 1, id: "extrahnn:simulator_modeling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "57529606E3D38A69"
+			tasks: [{
+				id: "3655FE25519206ED"
+				item: { count: 1, id: "extrahnn:merger_camera" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5CEF95E538693238"
+			tasks: [{
+				id: "02C65B7CA1F2C10C"
+				item: { count: 1, id: "extrahnn:blank_extra_data_model" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5D791C9C97CD8848"
+			tasks: [{
+				id: "63DBF4F285AE7839"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "65185670A24B5448"
+			tasks: [{
+				id: "56FBD81A5A4E1852"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "56AEA7D388ED70CC"
+			tasks: [{
+				id: "23BE753164F484A6"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "7896D64FF0AA0C63"
+			tasks: [{
+				id: "3CFD3AB41A678BD2"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v3" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "7ED55BA890D867E8"
+			tasks: [{
+				id: "63B9CCF033C09E7A"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v4" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "2D5847432D13A618"
+			tasks: [{
+				id: "34039A3E7E529634"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "0C0951BFD1C28065"
+			tasks: [{
+				id: "4CB9F8B0CCFD7106"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "5284F9132A5B0AF7"
+			tasks: [{
+				id: "41E62526AADC19EE"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v4" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "2DDBD62240B9BDA3"
+			tasks: [{
+				id: "060A377183CCF497"
+				item: { count: 1, id: "extrahnn:upgrade_speed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "445548A8F3BD3C96"
+			tasks: [{
+				id: "605F14DA40AB0EC1"
+				item: { count: 1, id: "extrahnn:upgrade_module_stack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "6FF22A6D0F3681C0"
+			tasks: [{
+				id: "489835C27B45241B"
+				item: { count: 1, id: "extrahnn:upgrade_data_kill" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+}

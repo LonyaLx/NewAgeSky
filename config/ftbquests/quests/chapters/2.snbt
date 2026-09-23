@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "33380D59A0FADF67"
+	id: "640FAAA160CD7968"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+
+			id: "F671A702AA452E97"
+			tasks: [{
+				id: "FECB954547566DA6"
+				item: { count: 1, id: "botanypots:bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F671A702AA452E97"]
+
+			id: "8B7E722CF3233E84"
+			tasks: [{
+				id: "1F0766DD38094474"
+				item: { count: 1, id: "botanypots:deepslate_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["8B7E722CF3233E84"]
+
+			id: "B2786AC27F1E8301"
+			tasks: [{
+				id: "2270D911C2B90697"
+				item: { count: 1, id: "botanypots:end_stone_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B2786AC27F1E8301"]
+
+			id: "65169B16E2DB7D57"
+			tasks: [{
+				id: "AF954A61BBA18D09"
+				item: { count: 1, id: "botanypots:mossy_stone_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["65169B16E2DB7D57"]
+
+			id: "B33C790DDDB27268"
+			tasks: [{
+				id: "E2EBDB1D2923FC65"
+				item: { count: 1, id: "botanypots:mud_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B33C790DDDB27268"]
+
+			id: "EEA0A215AF964DAC"
+			tasks: [{
+				id: "E5C6B80BCBD71C82"
+				item: { count: 1, id: "botanypots:nether_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["EEA0A215AF964DAC"]
+
+			id: "99B69D66EDF79318"
+			tasks: [{
+				id: "B07B1400B278467F"
+				item: { count: 1, id: "botanypots:polished_blackstone_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["99B69D66EDF79318"]
+
+			id: "A1F1306AE2B3B2E8"
+			tasks: [{
+				id: "EE04656083FAA800"
+				item: { count: 1, id: "botanypots:prismarine_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1F1306AE2B3B2E8"]
+
+			id: "9B716A2788DC75F3"
+			tasks: [{
+				id: "317CEB9545BCB038"
+				item: { count: 1, id: "botanypots:quartz_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["9B716A2788DC75F3"]
+
+			id: "5CB0A2D2C4A91A20"
+			tasks: [{
+				id: "E14C401850B52542"
+				item: { count: 1, id: "botanypots:red_nether_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CB0A2D2C4A91A20"]
+
+			id: "9A6FD150535629A8"
+			tasks: [{
+				id: "0C4C95EF06FE6332"
+				item: { count: 1, id: "botanypots:stone_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9A6FD150535629A8"]
+
+			id: "010957CDD9D98DEA"
+			tasks: [{
+				id: "B5225A5E618EF2CD"
+				item: { count: 1, id: "botanypots:tuff_bricks_botany_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["010957CDD9D98DEA"]
+
+			id: "ED55BA525E090A7D"
+			tasks: [{
+				id: "EC362EDE93499985"
+				item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["ED55BA525E090A7D"]
+
+			id: "800F3F273F963BC7"
+			tasks: [{
+				id: "59036C19D5D75947"
+				item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["800F3F273F963BC7"]
+
+			id: "A22768AEA02C4A37"
+			tasks: [{
+				id: "454004DF33B64D49"
+				item: { count: 1, id: "botanypots:terracotta_waxed_botany_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A22768AEA02C4A37"]
+
+			id: "F9712EA3B3B95E63"
+			tasks: [{
+				id: "E3DC7732979A207A"
+				item: { count: 1, id: "naturesaura:depth_ingot_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F9712EA3B3B95E63"]
+
+			id: "9A33B22641DBB6D2"
+			tasks: [{
+				id: "91B814173A04025E"
+				item: { count: 1, id: "naturesaura:sky_ingot_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["9A33B22641DBB6D2"]
+
+			id: "D78171281A87EB90"
+			tasks: [{
+				id: "41E6579AB7B1045D"
+				item: { count: 1, id: "naturesaura:animal_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D78171281A87EB90"]
+
+			id: "B1B7B297C44E3CC5"
+			tasks: [{
+				id: "5BACCBB365618E9F"
+				item: { count: 1, id: "naturesaura:auto_crafter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["B1B7B297C44E3CC5"]
+
+			id: "34C579F8BAA37B0D"
+			tasks: [{
+				id: "A4FE45FA567D326C"
+				item: { count: 1, id: "naturesaura:blast_furnace_booster" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34C579F8BAA37B0D"]
+
+			id: "5BC4AE4F2CDC73A3"
+			tasks: [{
+				id: "76DF76A5036E0A85"
+				item: { count: 1, id: "naturesaura:chorus_generator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BC4AE4F2CDC73A3"]
+
+			id: "51FA6BBEACB62CB7"
+			tasks: [{
+				id: "5BEC5FDA87296760"
+				item: { count: 1, id: "naturesaura:conversion_catalyst" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51FA6BBEACB62CB7"]
+
+			id: "AA706658A966825D"
+			tasks: [{
+				id: "9549AE5715A03342"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AA706658A966825D"]
+
+			id: "9DA3EC2BD12F66F0"
+			tasks: [{
+				id: "7A1F4154313B107C"
+				item: { count: 1, id: "naturesaura:depth_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["9DA3EC2BD12F66F0"]
+
+			id: "A26E9299B9EFD826"
+			tasks: [{
+				id: "18C511F3C7ECF1EA"
+				item: { count: 1, id: "naturesaura:firework_generator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A26E9299B9EFD826"]
+
+			id: "6136900714FC9C7A"
+			tasks: [{
+				id: "0FACB96FAE96B421"
+				item: { count: 1, id: "naturesaura:flower_generator" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6136900714FC9C7A"]
+
+			id: "675A2256BCEF4C79"
+			tasks: [{
+				id: "1CFCA9202856C142"
+				item: { count: 1, id: "naturesaura:furnace_heater" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["675A2256BCEF4C79"]
+
+			id: "971127D23F7B0905"
+			tasks: [{
+				id: "37CB151FF7E2BA23"
+				item: { count: 1, id: "naturesaura:generator_limit_remover" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["971127D23F7B0905"]
+
+			id: "9EC364B50E36A5A2"
+			tasks: [{
+				id: "08948816E7F071CA"
+				item: { count: 1, id: "naturesaura:infused_iron_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["9EC364B50E36A5A2"]
+
+			id: "AD40C213888D706D"
+			tasks: [{
+				id: "3DC9527256FE5D49"
+				item: { count: 1, id: "naturesaura:item_distributor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["AD40C213888D706D"]
+
+			id: "23ED4AEDF2297C6B"
+			tasks: [{
+				id: "46600FC8859A8DF1"
+				item: { count: 1, id: "naturesaura:moss_generator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23ED4AEDF2297C6B"]
+
+			id: "9516B1E4B271714D"
+			tasks: [{
+				id: "B4D9516B391FB2ED"
+				item: { count: 1, id: "naturesaura:oak_generator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["9516B1E4B271714D"]
+
+			id: "226CA6B084CD1EF0"
+			tasks: [{
+				id: "FA5F9C07AD82D91C"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["226CA6B084CD1EF0"]
+
+			id: "4CD76763BB29CB4D"
+			tasks: [{
+				id: "08D407FBB80B5CF0"
+				item: { count: 1, id: "naturesaura:potion_generator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CD76763BB29CB4D"]
+
+			id: "9C1747464157DBF9"
+			tasks: [{
+				id: "2E4E5087576619B1"
+				item: { count: 1, id: "naturesaura:projectile_generator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9C1747464157DBF9"]
+
+			id: "3419D20DBB818D03"
+			tasks: [{
+				id: "95BE3F14BE752E09"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3419D20DBB818D03"]
+
+			id: "7B78A3519EC9DEBE"
+			tasks: [{
+				id: "005C37614E476377"
+				item: { count: 1, id: "naturesaura:slime_split_generator" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B78A3519EC9DEBE"]
+
+			id: "9796A65D9A4AD885"
+			tasks: [{
+				id: "A5955F271DEAF98F"
+				item: { count: 1, id: "naturesaura:tainted_gold_block" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9796A65D9A4AD885"]
+
+			id: "CDC4AA6032C915A1"
+			tasks: [{
+				id: "A33191C5B9401025"
+				item: { count: 1, id: "naturesaura:ancient_bark" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["CDC4AA6032C915A1"]
+
+			id: "3DB98B52FC360318"
+			tasks: [{
+				id: "2BB3D4051CFB73B2"
+				item: { count: 1, id: "naturesaura:ancient_planks" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+	]
+}

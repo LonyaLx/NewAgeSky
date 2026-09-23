@@ -1,0 +1,791 @@
+## [v0.24.6] - 2026-09-10
+### 发布目录整理
+- 最终只保留一个 PCL/HMCL 通用 CurseForge 安装包
+- 发布目录整理为 `桌面\天工创世-发布`，分为安装包、说明、校验三个文件夹
+- 安装包包含 166 个启动器下载模组和 50 个内置模组
+- 名称、制作人、安装说明、模组清单和 SHA-256 均已齐全
+## [v0.24.5] - 2026-09-10
+### 精简启动器整合包
+- 生成 HMCL/Modrinth 精简版 MRPACK：209 个模组由启动器下载，7 个无公开下载源的模组随包提供，约 10.58 MB
+- 生成 PCL/HMCL CurseForge 精简版 ZIP：166 个模组由启动器下载，50 个未解析到 CurseForge 文件编号的模组随包提供，约 69.29 MB
+- 两包均包含模组配置、KubeJS、光影、汉化资源包、最终目标任务和《制作人信息.txt》
+- 包名：天工创世 1.0.0；制作人：凉寻Lonya
+- 发布包位于桌面，SHA-256 清单位于 `天工创世-1.0.0-SHA256.txt`
+## [v0.24.4] - 2026-09-10
+### 补全全部原版锻造模板来源
+- 新增自定义物品“锻造模板胚”
+- 补全下界合金升级模板及 16 种盔甲纹饰模板，共 17 条有序配方
+- 所有模板统一使用模板胚、钻石和金锭制作，避免依赖堡垒、遗迹等原版结构
+- 模板胚：4 铁锭 + 4 钻石 + 1 黑曜石，一次产出 4 个
+- 实机加载：KubeJS 新增 92 条、移除 34 条、0 失败配方
+## [v0.24.3] - 2026-09-10
+### 补全升级锻造模板首件来源
+- 新增 `avaritia:upgrade_smithing_template` 的 3×3 有序首件配方
+- 配方为 4 水晶矩阵锭 + 4 中子碎块 + 1 EMC 机器核心，产出 1 个模板
+- 保留 Re-Avaritia 原有的“用已有模板复制模板”终局配方
+- 实机加载：KubeJS 新增 74 条、移除 34 条、0 失败配方
+## [v0.24.2] - 2026-09-10
+### 窗口标题与整合包显示名
+- 加入 Custom Window Title 1.4.1，支持 NeoForge 1.21.1
+- 游戏窗口标题设为 `《天工创世》--凉寻Lonya`
+- 实机读取 Windows 进程窗口标题验证通过
+- 整合包显示名从《天工浮岛》改为《天工创世》，内部目录和命名空间保持不变
+- 模组数量 215 → 216
+## [v0.24.1] - 2026-09-10
+### 最终目标重做：创造物品任务链
+- 最终目标组保留原章节，移除旧的 `functionalstorage:creative_vending_upgrade` 单件目标
+- 新章节「ME 创造收敛」共 19 个任务：7 个核心/中间物阶段、10 个创造物品阶段、创造收敛核心、ME 创造存储元件
+- 任务依赖按实际有序配方连接，主要支线为动力、固体存储、流体储存、龙研和气动
+- 批量物品任务使用 FTB 的 `count: 4L/2L`，检查 4 个或 2 个产出而非只检查 1 个
+- 最终目标改为 `ae2:creative_storage_cell`
+- FTB Quests 实机加载：11 组、29 章、945 任务、2 奖励表，无任务解析错误
+- 测试实例与桌面包 SHA-256 一致
+## [v0.24.0] - 2026-09-10
+### 方案 B：创造物品阶段链与 ME 创造元件
+- 新增天工合金框架、量子控制矩阵、EMC 聚焦模块、无尽结构核心、创造收敛核心 5 个自定义物品
+- 自定义物品改为批量产出：奇点基质 ×4、EMC 机器核心 ×4、天工框架 ×4、世界心矩阵 ×2、天工之心 ×4
+- ProjectE 终局配方改用批量中间物压缩材料，仍全部为 tier 4 有序 `avaritia:shaped_table`
+- 创造物品改为十阶段有序链：能源核心 → 动力/存储 → 流体 → 龙研/气动 → JDTe
+- 十件创造物品统一收敛为创造收敛核心，最终合成 `ae2:creative_storage_cell`
+- 新增配方注册时先移除创造物品直接配方，避免绕过阶段链
+- 静态校验：JavaScript 语法通过、227 个 ID 引用 0 缺失、55 个自定义产出 0 缺失、配方依赖图 0 循环
+- 实机验证：KubeJS 0 错误、0 失败配方，新增 73 条/移除 34 条配方；Avaritia 原模组 extreme_smithing 警告与本次改动无关
+
+## [v0.23.2] - 2026-09-10
+### 锇、蜜脾与碎矿来源补全
+- 新增 11 条 Ex Deorum 碎矿转换：铁、金、铜、锇、锡、铅、铀、铝、镍、银、锌
+- 锇链改为 4 锇碎矿 → 1 粗锇 → 熔炼/高炉成锇锭
+- 新增蜜脾首件配方：4 糖 + 黄色染料 + 线
+- 新增锇种子、蜜糖种子非循环首件来源
+- KubeJS 配方材料来源审计：0 缺失
+- 实机验证：KubeJS 0 错误、0 失败配方、JEI 0 broken
+## [v0.23.1] - 2026-09-10
+### 封包工作台重构与材料来源补全
+- 移除所有把 `packagedauto:package` 当普通工作台材料的 ProjectE/创造物品配方
+- ProjectE 与创造物品改为 tier 4 的 9×9 Avaritia `shaped_table` 配方，交由 Extreme Package Crafter 执行
+- 天工之心改为制作创造物品时直接消耗，不再返回失活核心
+- 新增终极锭正向来源：终极奇点 + 黑铁锭 + AE2 奇点
+- 新增门瑞欧树脂桶空岛来源：桶 + 4 门瑞欧浆果
+- 全 KubeJS 配方材料来源扫描为 0 缺失
+- 全任务材料复扫 980 种，剩余 18 种均为创造/调试、动态机器产物或原版硬编码
+- 新增 11 条 Ex Deorum 碎矿转换，补全锇、锡、铅、铀等原料起步链
+- 新增蜜脾、锇种子与蜜糖种子的非循环首件来源
+- 实机验证：KubeJS 0 错误、0 失败配方、JEI 0 broken
+## [v0.23.0] - 2026-09-10
+### 无尽贪婪与封包自动化接入
+- 加入 Re-Avaritia 1.4.1 与 PackagedAvaritia 3.0.1.5，模组总数 213 → 215
+- 新增 4 条定制 Package Crafter 配方，要求 ME 封包组件和现有终局材料
+- Extreme Crafting Table 改为必须消耗 End Package Crafter
+- 中子收集器、中子压缩机、无限催化剂、无限锭加入 `kubejs:emc_machine_core` 等终局材料
+- Avaritia 奇点生成时间 240 → 600 秒，关闭 ProjectE 奇点数量加成
+- 实机验证：Avaritia/PackagedAvaritia 正常加载，KubeJS 0 错误、0 失败配方、JEI 0 broken
+## [v0.22.0] - 2026-09-10
+### ProjectE 终局化与封包实装
+- ProjectE 改为困难模式 v4：贤者之石、等价交换桌、转化平板、暗物质、红物质及 Mk1–Mk3 机器默认配方全部移除
+- 新增 16 条 ProjectE/Project Expansion 配方，关键阶段要求内容、数量、索引完全匹配的 PackagedAuto 封包
+- 新增奇点基质、EMC 机器核心、封包授权印记等 7 个终局自定义物品
+- 新增天工框架、世界心矩阵、天工之心三级终局链，以及 11 件创造物品的领域封包配方
+- 天工之心采用 replaceIngredient：制作创造物品后失活，需世界心矩阵和专用封包重新充能
+- 关闭 ProjectE 配方自动 EMC 推导，并写入严格白名单数据包；机器、无限资源和高级科技件不提供 EMC
+- ProjectE 参数改为 covalenceLoss=0.6、timePedBonus=6、katarDeathAura=20
+- 实机验证通过：KubeJS 0 错误、0 失败配方、本次新增 JEI 配方 0 broken，ProjectE 注册 411 个 EMC 值
+## [v0.21.3] - 2026-09-10
+### 主线与专题章节去重
+- 主线仍为 5 章各 40 任务，共 200 个具体物品任务
+- 主线内部物品 0 重复，与其余 24 个专题章节物品重叠 0
+- 删除自动筛子、箱子等级、已有 Mek/能量/ProjectE/龙研等重复物品
+- 第 1 章改用沉浸工程与实用科技，第 2 章改用植物盆与自然灵气
+- 第 3 章使用 Big Reactors，第 4 章使用 PackagedAuto/激光物流/模块路由器
+- 第 5 章使用 ExtendedCrafting 与 Mekanism Sun
+- 全书仍为 939 任务；0 悬空依赖，两端 SHA-256 一致
+## [v0.21.2] - 2026-09-10
+### 主线改为 200 个不重复具体物品任务
+- 主线保持 5 章各 40 任务；200 个任务全部为具体物品检查
+- 主线内部物品检查 0 重复，不再使用 checkmark 占位
+- 每章 8 阶段、每阶段 5 个顺序物品任务
+- 删除 Mekanism 精英/终极重复、矿物精华套娃、蜜蜂升级清单、箱子等级套娃、ProjectE 设备和龙研装备清单
+- 保留沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN 的代表物品
+- 当前全书 939 任务、1073 条物品要求、889 种唯一物品；0 悬空依赖，两端 SHA-256 一致
+## [v0.21.1] - 2026-09-10
+### 主线按全任务重复度再次精简
+- 主线保持 5 章各 40 任务，共 200 个任务；全书仍为 939 任务
+- 主线物品检查从 320 条降至 119 条，且所有物品目标唯一
+- 每阶段改为 1 个代表性物品组合 + 4 个带说明的顺序里程碑
+- 专题章节已覆盖的机械等级、精华、箱子、蜜蜂升级、ProjectE 与龙研物品不再在主线重复
+- 保留沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN 等代表目标
+- 0 重复 ID、0 悬空依赖；两端 SHA-256 一致
+## [v0.21.0] - 2026-09-10
+### 主线去重精简与阶段里程碑
+- 主线保持 200 个任务：每章 40 个，共 5 章；全书仍为 939 任务
+- 每阶段改为 4 个组合物品任务 + 1 个带说明的完成里程碑，阶段间强制依赖
+- Mekanism 只保留基础机器与基础工厂，移除精英/终极重复线
+- 矿物精华、蜜蜂升级、存储等级、ProjectE 设备和龙研装备大幅合并，移除重复等级/装备目标
+- 新增沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN
+- 不重复已有独立章节的 Flux、ExtendedAE、SFM、动态联合
+- 当前 320 个物品检查目标；0 重复 ID、0 悬空依赖，两端 SHA-256 一致
+## [v0.20.9] - 2026-09-10
+### 主线同类任务合并并补充封包线
+- 五章仍为 200 个主线任务，但物品目标改为 398 条组合检查；矿物精华、机器等级、存储等级等同类项目合并在同一任务
+- 每章保持 8 阶段里程碑 × 5 条并行分支，阶段间强制依赖
+- 电力章改用 Powah、Mekanism Generators、Big Reactors；不再重复通量发电
+- 物流章加入 AE2 与 PackagedAuto 封包，不重复已有 ExtendedAE/SFM/动态联合独立章节
+- 飞升章覆盖 ProjectE、Project Expansion、HNN、Draconic Evolution
+- 新增坚固蜂笼配方；KubeJS 共 13 条补充配方，当前全书 939 任务
+## [v0.20.8] - 2026-09-10
+### 主线 1–5 扩充为每章 40 任务
+- 五章各 40 任务，共 200 个主线任务；当前全书 29 章、939 任务
+- 每章按 8 个阶段里程碑 × 5 条并行分支排列，模仿第一章的任务线布局
+- 阶段之间使用依赖强制顺序，阶段内可并行推进
+- 机械、农业蜜蜂、电力、物流存储、ProjectE/HNN/龙研五章内容去重
+- 新增任务引用物品 ID 全部存在，0 悬空依赖、0 重复 ID；两端 SHA-256 一致
+## [v0.20.7] - 2026-09-10
+### 补充主线 1–5 章节
+- 机械起步：16 任务，Mekanism 基础加工、控制电路、合金和基础工厂
+- 田野与蜂房：18 任务，神秘农业精华、种子、蜂房与基因设备
+- 电力网络：16 任务，Powah 基础电力与 Mekanism Generators
+- 物流与存储：20 任务，功能存储、精妙存储、Pipez、LaserIO、路由器和 AE2 自动合成
+- 飞升终局：18 任务，ProjectE、Project Expansion、HNN 与龙研核心链
+- 按用户原先格式：物品任务为主、无描述、无跨章依赖；当前 29 章、827 任务，两端 SHA-256 一致
+## [v0.20.6] - 2026-09-10
+### 修复 JEI 配方并补门瑞欧首件链
+- 修正活化水晶、活化福鲁伊克斯和 Draconium 种子三条超过 9 格的 broken JEI 配方
+- 新增门瑞欧树苗空岛首件：橡树树苗 + 4 自然精华
+- 新增门瑞欧玻璃工作台替代：玻璃 + 门瑞欧树脂桶
+- 保留原干燥盆、压印室复制等模组配方；当前 KubeJS 共 12 条补充配方
+## [v0.20.5] - 2026-09-10
+### 补 AE2 压印模板首件配方并完成第二轮材料审计
+- 新增硅、计算、逻辑、工程四个压印模板的直接制造配方，解决“复制配方需要模板自身”的空岛死循环
+- 递归扫描嵌套 jar 后，无普通 JSON 配方物品由 52 种降至 23 种
+- 剩余无配方项均属于创造物品、机器动态产出、模组特殊配方或原版硬编码配方
+- skyblock_materials.js 当前共 10 条补充配方；桌面与测试实例 SHA-256 一致
+## [v0.20.4] - 2026-09-10
+### 补全 Neo Eco 与龙研空岛来源
+- 新增 kubejs/server_scripts/skyblock_materials.js，共 6 条替代配方
+- Neo Eco：铝合金粉、功能水晶粉尘、功能福鲁伊克斯粉尘首件来源，解除水晶种子循环
+- 龙研：Draconium 种子与粉尘、Awakened Draconium 粉尘来源，恢复 Awakened/Chaotic 链
+- 创造/调试物品任务按要求忽略；脚本已通过语法和物品 ID 检查，两端 SHA-256 一致
+## [v0.20.3] - 2026-09-10
+### 保存游戏内精简结果并完成空岛材料审计
+- 测试实例正常退出后保存：游戏删除 AE2 应用发电机/存储元件等章节与失效任务，当前为 29 章、739 任务、34 个任务文件
+- 清理 26 个游戏删除后残留的中文孤儿键；桌面与测试实例 SHA-256 一致
+- 新增 MATERIAL_AUDIT.md：780 种任务材料；0 个未安装模组引用
+- 确定卡点：Draconium 粉尘无空岛来源；13 个创造/调试物品任务不能正常生存获得
+## [v0.20.2] - 2026-09-10
+### 导入 Powah / 工业先锋 / 资源蜜蜂并编写气动工业
+- Powah 69、工业先锋 20、资源蜜蜂 27 从 NAST 对应章节导入现有空章节
+- 新写气动工业 21 任务，覆盖压缩空气、压力室、精炼厂、气动工具、护甲、无人机与物流
+- 游戏自动移除 AE 主章节中 8 个重复 checkmark 任务，桌面按游戏结果同步
+- 当前 32 章、864 任务、mods 213；0 重复 ID、0 悬空依赖
+## [v0.20.1] - 2026-09-10
+### 按用户要求移除数据能源与 Refined Storage
+- 删除数据能源章节（35 任务）及 data_energistics 3.1.3
+- 删除末影接口中依赖 Refined Storage 的 1 个任务及 refinedstorage 2.0.9
+- 当前 32 章 735 任务 mods 213；桌面与测试实例 37 个任务文件 SHA-256 一致
+## [v0.20.0] - 2026-09-10
+### 导入新时代科技 JDT / 末影接口 / AE 全部任务
+- 新增 10 章 528 任务：应用能源2(126)、AE2水晶科技(32)、AE2闪电科技(57)、AE2应用发电机(36)、AE2存储元件(51)、neo ae eco(35)、数据能源(35)、Just Dire Things(33)、JDTE(38)、末影接口(85)
+- 补入 data_energistics 3.1.3 与 Refined Storage 2.0.9；复制对应奖励表和章节背景资源
+- 删除 3 个同名空章节占位；移除 1 条指向未导入 Mek 章节的跨章节依赖
+- 当前 33 章 771 任务 mods 215；桌面与测试实例 38 个任务文件 SHA-256 一致
+## [v0.19.2] - 2026-09-08
+### AE / Mek 章按 NAST 合并附属（四角布局）
+- AE 章(333)：NAST 2.snbt 核心+AAE+EAEP+应用通量（中心）+ 闪电科技(ae2lt,左上) + Mega 水晶(ae2.snbt,右上) 合并
+- Mek 章(227)：NAST 6dde4c87 核心+大型机器 + 2a20dea extras 扩展合并
+- 全书 20 章 1872 任务；20 章+zh 两端 md5 全一致；zh 孤儿 0
+
+## [v0.19.1] - 2026-09-08
+### 补齐空岛资源 / Create / 龙研终局三章
+- 新增 exdeorum_resources(33,资源生成)、create(12,生产与工艺)、draconic_endgame(12,挑战与终局)
+- 全书 20 章 1451 任务；两端 20 章+zh 全 md5 一致；zh 孤儿 0
+- 组：启程与主线2 / 存储与能源6 / 生产与工艺7 / 资源生成4 / 挑战与终局1
+
+## [v0.19.0] - 2026-09-08
+### 全库按 PI 批量导入完成（首版）
+- 按 Project Infinity 批量导入并适配：AE2(59)/Powah(96)/极限反应堆(22)/通量(11)/其它存储(97)/EIO(77)/IF(47)/PNC(29)/ProjectE(113)/PE扩展(20)/扩展工作台(247)/MA(192)/HNN(193)/刷怪(68) + 已有 Mek(80)
+- 全书 17 章 1394 任务；剔除未装模组任务/硬币奖励/悬空依赖(35)；保留 PI 原任务线/ID/坐标；章节名 zh 补齐
+- 组：启程与主线2 / 存储与能源6 / 生产与工艺6 / 资源生成3 / 挑战与终局0
+- 桌面==测试实例（17 章 + zh 全部 md5 一致）；待办：游戏内校验 PI(1.20)物品 ID 在我们 1.21 是否存在；补 Ex Deorum 资源章 / Create 章 / DE 终局挑战章
+
+## [v0.18.5] - 2026-09-08
+### 第一章精简重写 + 欢迎章文字显示修复
+- 第一章重写为 37 个有意义任务：木与丝→火与石→水与土→筛矿金属→自动化→完成；删除石具/高炉/建材等无用任务（Create 留待生产章）
+- 欢迎章：6 个勾选任务均加任务标题（文字显示于勾选下方），内嵌描述含作者（凉寻 Lonya / QQ 2287645520），保留 5 条 gamerule 命令奖励；归入「启程与主线」组
+- 桌面==测试实例（1.snbt / ch1 / zh md5 一致）
+
+## [v0.18.4] - 2026-09-08
+### 欢迎章补作者/描述 + 第一章紧凑重排
+- 欢迎与规则(1.snbt)：归入「启程与主线」组；中央节点与 5 条规则均内嵌 description（作者：凉寻 Lonya / QQ 2287645520 写入）；zh 中旧 quest_desc 键移除防重复
+- 第一章 main_g1_01_start：79 任务改为紧凑密排坐标（不再大扇形/分散），任务线更贴近 PI 观感
+- 桌面==测试实例（1.snbt / ch1 / zh md5 一致）
+
+## [v0.18.3] - 2026-09-08
+### 按 PI 导入样板：Mekanism（存储与能源组）
+- 依 PI mekanism.snbt 导入生成 chapters/mekanism.snbt（80 任务）：沿用原任务线与坐标，去神化硬币奖励 / itemfilters / 未装引用；保留少数内嵌任务标题
+- 归组：存储与能源 58BDF1C7A03EDEA3；zh 补章节名（描述按 PI 仅部分有）
+- 桌面==测试实例（md5 一致）；0 悬空依赖、括号平衡
+
+## [v0.18.2] - 2026-09-08
+### 第一章加厚（对标 Project Infinity 体量）
+- 第一章 main_g1_01_start 由 64 → 79 任务：5 段里程碑 × 多列分支（增加建材/铁器/备用电源/陶瓷等列）
+- 全书现为：欢迎与规则(6) + 第一章(79) = 85 任务；桌面==测试（md5 一致，桌面生成后整体复制）
+
+## [v0.18.1] - 2026-09-08
+### 任务书大重置：删除全部旧章节，第一章改为 Project Infinity 风格
+- 按用户意见不再单列竖线：第一章改用「5 段里程碑 × 多列分支」排列（仿 PI）
+- 删除除「欢迎与规则 1.snbt」外全部旧章节（19 个：旧 M1-M3 主线与 ae/ae2/088/powah/jdt 等散章）并清理其 zh 键
+- 重建第一章 main_g1_01_start（64 任务：手工火→水与土→筛矿金属→自动化→机械动力，分支并行+里程碑门控）
+- 章节书当前仅剩：欢迎与规则 + 第一章（体量仍将按 PI welcome≈98 加厚）
+- 桌面==测试实例（桌面生成后整体复制；zh/chapter MD5 一致）；备份 _excluded/quests_backup_pre_redesign_20260908_*
+
+## [v0.18.0] - 2026-09-08
+### 任务书全量重构：G1-01 第一章 · 启程·空岛
+- 启动按 QUEST_REDESIGN_PLAN.md 的全量重构；新建章节 main_g1_01_start（40 任务：筛矿→自动设备→Create 入门→第一章完成）
+- 删除旧章节 main_m1_hands（39 任务）并清理其 zh 键（无孤儿、无跨章依赖残留）
+- 桌面 == 测试实例（章节/zh 两端 ID 一致）；备份见 _excluded/quests_backup_pre_redesign_20260908_*
+
+## [v0.17.9] - 2026-09-08
+### M4：封包/凭证体系与任务全部删除
+- 删除章节 chapters/main_m4_matrix_factory.snbt 及 zh 中对应章/任务键（主线现为 M1-M3）
+- 删除 startup m4_stage.js（24 封包注册）与 server m4_packs.js（封包套娃配方）
+- 删除 24 张 m4p_* 贴图；zh/en lang json 清空 m4p_* 键
+- Mek 安装器 EIO 覆盖配方拆分保留为 server_scripts/mek_tier_installer_eio.js
+- 桌面 == 测试实例已同步（_excluded/m4_full_removal_20260908/ 备份）
+
+## [v0.17.8] - 2026-09-08
+### M4：删除封包/凭证的前置任务列
+- M4 章节删除 6 领域「前置任务列」17 任务（power 2 + mek/ae/eio/de/agri 各 3），Lv.Ⅰ 封包不再有前置依赖、直接可做
+- 封包列上移至 y4~10（原 y13~19），保留 开工 + 三大发电机(可选) + 24 封包
+- 章节 45→28 任务；zh_cn 清对应 17 任务键
+- 桌面 == 测试实例已同步
+
+## [v0.17.7] - 2026-09-08
+### M4：删除「凭证」设计
+- 删除自定义物品 kubejs:m4_pass（注册行 / 贴图 / 中英 lang）
+- 删除 DE 融合配方 kubejs/data/draconicevolution/recipe/stage_pass.json
+- M4 章节删除收尾任务「锻造 M4 凭证」，章节图标改 龙研封包 Ⅳ；以集齐 6×Lv.Ⅳ 封包为终点（46→45 任务）
+- 开始任务描述去掉“融合锻造凭证”表述
+- 桌面 == 测试实例已同步
+
+## [v0.17.6] - 2026-09-07
+### M4/欢迎章 按反馈修订
+- M4 章节重构为「真实分支任务在前、24 封包+凭证收尾」：46 任务（开工 + 发电三机具体任务(可选并行) + 各领域前置任务列 + 6×4 封包 + 锻造凭证）
+- 发电给具体物品任务：Mek 生物发电机 / Powah 基础反应堆 / 极限反应堆控制器（三选一并列，可跳过）
+- 封包配方确认：全部为普通合成（shapeless），未使用机械动力(Create)；L2~L4 套娃引用前置封包
+- 欢迎·规则章补标题「欢迎与规则」；欢迎节点改为可勾选，作者（凉寻 Lonya / QQ 2287645520）写入任务文字
+- 修复清理脚本误删：从备份重建 zh_cn.snbt（4 组 + 19 章 + 177 任务标题，无重复），恢复 M3 等所有现存任务中文
+- 桌面==测试实例已同步
+
+## [v0.17.5] - 2026-09-07
+### M4《矩阵工厂》第一版内容（自定义封包系统 + 凭证）
+- 新增 24 个自定义封包（6 领域×4 层：发电/Mek/AE/EIO/龙研/农牧）+ M4 凭证，全部带专属像素贴图与中英文名
+- 封包套娃配方：L1 大量基础资源 → L2=4×L1+资源 → L3=4×L2+旗舰 → L4=4×L3+大件（kubejs/server_scripts/m4_packs.js）
+- 终极 tier_installer 及 mekanism_extras absolute/supreme/cosmic/infinite 覆盖配方改用 EIO 锭（删除原配方）
+- 凭证：DE 融合（充能）合成，catalyst=觉醒聚合核心 + 6 个领域 Lv.Ⅳ 大封包 → kubejs:m4_pass（data/draconicevolution/recipe/stage_pass.json）
+- 新章节 main_m4_matrix_factory.snbt（29 任务：M4 开工 + 发电三选一并列 + 6 列封包 + 锻造凭证），桌面==测试已同步
+- 说明：数量/配方为第一版草案，待游戏内实测与用户调整；章节分支 A-E 详案待补
+
+## [v0.17.4] - 2026-09-07
+### 任务导出 + 欢迎/规则章 + 铝合金蜂
+- 导出测试档游戏内改动到桌面（桌面==测试）：M3 精简为 23、删 ae/ae2/088 三章、其余章节数值同步；旧版备份 _excluded/quests_backup_pre_user_export_20260907_12/
+- M3 新加 3 任务补中文（机械养蜂场(Mek 蜂房)/机械离心机(Mek 离心)/安装器：升级机器）
+- 空章节「1」改造成《欢迎与规则》：中央欢迎节点（作者 凉寻Lonya，QQ 2287645520）+ 5 个勾选 gamerule（死亡不掉落/防爆/防火/禁止天气更替/锁定白天）
+- Productive Bees 新增铝合金蜂（铝蜂×铁蜂→铝合金蜂；蜜脾离心→铝合金粉），kubejs/data + 双语 lang，桌面==测试
+
+## [v0.17.3] - 2026-09-07
+### 徽记/门票图标重制为清晰像素版
+- 去掉 4x 超采样+抗锯齿缩放导致的发糊：全部改为 16×16 原生硬边绘制（无半透明边缘）
+- 徽章外环、内圆、中心图标边缘全部二值化；中心图标仍取包内 Mekanism/AE2/Ex Deorum 素材
+- 石英徽记内圆加深以衬托白色石英图标；门票同版重绘
+- 预览：_excluded/icon_preview_20260907_v2.png；桌面 == 测试实例已同步（MD5 一致）
+
+## [v0.17.2] - 2026-09-07
+### 初始空岛换成用户实搭的浮空岛
+- 从测试档「新的世界」(0,0) 区块导出用户实搭浮空岛 → 重做 config/skyblockbuilder/templates/islands/default.nbt
+- 结构：倒锥浮空岛——顶部草皮 14×14(y7) → 泥土 12×12(y6) → 圆石 11×11/9×9(y4-5) → 深板岩 7×7/5×5/3×3(y1-3) → 底部 1 基岩尖(y0) + 中央橡树（干 y8-12、冠 y10-13，树叶 persistent）
+- 模板 14×14×14 / 677 方块 / 出生点保持 (6,8,4)（草皮上、头顶开阔）；旧金字塔备份 _excluded/island_backup_20260907/
+- 桌面 == 测试实例已同步；需新档/删旧岛生效
+
+## [v0.17.1] - 2026-09-07
+### 自定义物品贴图：9 徽记 + 阶段门票
+- 9 徽记与门票改用专属贴图（kubejs/assets/kubejs/textures/item/*.png），不再借用原版物品图标
+- 徽记 = 彩色圆环徽章（深色描边+明暗立体感）+ 米白内圆 + 对应材料小图标：钢=钢锭 / 电路=基础控制电路 / 矿物=铁矿石碎块 / 水晶=赛特斯水晶 / 充能=充能赛特斯水晶 / 涌流=涌流水晶 / 硅=硅 / 处理器=运算处理器 / 下界=石英
+- 门票 = 纸券样式（撕票线+红印章）；素材取自包内 Mekanism / AE2 / Ex Deorum 现成贴图
+- startup_scripts/stage_ticket.js 的 texture 全部改为 kubejs:item/<id>；桌面 == 测试实例已同步（MD5 一致）
+- 预览图：_excluded/icon_preview_20260907.png
+
+## [v0.17] - 2026-09-07
+### 自定义出生岛（SkyblockBuilder 模板）+ 关闭出生洒水壶
+- 重做 config/skyblockbuilder/templates/islands/default.nbt：层叠金字塔岛（模板 13x14x13，居中留边）
+  * 最底 1x1 基岩；其上深板岩 3x3→5x5→7x7→9x9（每层一块厚）
+  * 再上 圆石 9x9（一层）→ 泥土 9x9（一层）→ 草方块 9x9（顶层一层）
+  * 中央一棵长好的橡树（树干 5 格+树冠，树叶 persistent 不落叶）
+- 出生点：草皮顶上方中央树旁 [6,8,4]（templates.json5 spawns）
+- 出生不再给木洒水壶：exdeorum-server.toml starting_watering_can = false
+- 已同步桌面 config（skyblockbuilder/ 17 文件 + exdeorum-server.toml）；桌面==测试
+- 注意：需新开档或删除原岛区块/队伍才生效（旧岛已生成不会变）；如要更大/更小把层数告诉我
+## [v0.16.9] - 2026-09-07
+### 自动机配方补齐 + Ex Compressum 汉化
+- auto_machines_hard.js 补上没改的两种：auto_heavy_sieve（自动重型筛）、auto_compressed_hammer（自动压缩锤），同样删除默认并换本包更贵配方（铁块+玻璃/钻石锤+压力板+黑曜石+红石）；auto_sieve/auto_hammer 维持
+- 汉化 Ex Compressum：压缩锤系列、重型筛系列、auto 系列（kubejs/assets/excompressum/lang/zh_cn.json）
+- 已同步测试实例
+## [v0.16.8] - 2026-09-07
+### 导出你的游戏内改动 + 修“没来源”+ 补汉化
+- 已把测试实例 00:48 你在游戏里改的任务（M1/M2/M3 都大改了）导出到桌面并保存（备份 _excluded/quests_backup_pre_user_edit_export_20260907/）
+- FTB 换 ID 又丢一批中文：M1 补 11 / M2 补 14 / M3 补 11 个标题（完整 16 位 id）；主线三章已无缺标题
+- 空岛来源补丁：
+  * inferium_essence：Ex Deorum 筛泥土掉落（flint 3% / iron 5%，自动筛同）
+  * honeycomb：筛沙子掉落（flint 4% / iron 6% / diamond 8%）
+  * honey_bottle：蜜脾+玻璃瓶 合成（KubeJS）
+  * sturdy_bee_cage：蜂笼+蜜脾×4+铁×2（KubeJS）
+  * gene_bottle：蜜饯+蜜脾；gene：压榨蜂料+红石+蜜脾（KubeJS）
+- 文件：kubejs/server_scripts/m3_skyblock_sources.js + kubejs/data/* 筛子掉落；已同步测试实例（桌面==测试）
+## [v0.16.7] - 2026-09-07
+### 修复崩溃：JEIEvents 未定义
+- 崩溃 dev.latvian.mods.rhino.EcmaError / ReferenceError: JEIEvents is not defined
+- 原因：KubeJS 1.21.1 客户端没有 JEIEvents 绑定，client_scripts/jei_hide_useless_portal.js 一加载即崩
+- 修复：删除该客户端脚本（桌面+测试）；禁用 useless_mod 传送仍由 server_scripts/disable_useless_portal.js 删配方生效
+## [v0.16.6] - 2026-09-07
+### 新增主线第三章《田野与蜂房：资源与自动化》（44 任务）
+- 章节 main_m3_agriculture_bees（组 主线·天工浮岛，order 2，图标 神秘农业祭坛）；无 checkmark、无描述、主线横向+支线向下排版
+- 入场：消耗 stage_ticket×1（consume_items，只此一张）开启本章
+- A 农业·祭坛 11：inferium→祭坛+基座→注魔水晶→铁/金/红石/钻石种子→四作物里程碑
+- B 蜂房 8：Genesis 起手(蜂笼)→先进蜂巢→离心机/加热离心→繁育/孵化→基因样本→索引器→里程碑
+- C Mek 升级 10：富集合金→高级/精英/终极电路→速度能量升级→能量立方→富集/熔炼工厂→管道分拣→里程碑
+- D AE 自动合成 5：分子装配室+样板供应器(合)→合成CPU(合)→总线→4k→一键合成里程碑
+- E 存储 4：16k/64k/256k→数字大仓库里程碑
+- F 自动化收尾 5：三线并网(需 A/B/C/D 里程碑)→农业/蜂房产能→工厂并联→「自动化纪元」里程碑
+- 空岛 prosperity_shard：Ex Deorum 筛沙子掉落（flint 2% / iron 3% / diamond 5%；excompressum iron 3%，kubejs/data datapack）
+- 全包：23 章 / 1033 任务 / mods 214；桌面==测试（quests 32 文件 + kubejs/data MD5 一致）；存档 ftbquests 已清，下次进游戏生效
+## [v0.16.5] - 2026-09-07
+### 蜜蜂基因汉化 + 禁用 useless_mod 传送 + 主线去掉勾选任务并重排
+- 蜜蜂（Productive Bees）中文补全：kubejs assets/productivebees zh_cn 47→104 键（基因属性提示/升级/离心机/繁育舱/巢穴 tooltip 等；修正 gene sampler 文案含 %s%%）
+- 禁用 useless_mod 维度传送方块（teleport_block / _2 / _3）：KubeJS 删配方 + JEI 隐藏（保留 useless_mod 本体）
+- 主线 M1/M2 删除全部「勾选(checkmark)」任务：M1 删 4（章首/蚕与线/筛子说明/矿石换算）、M2 删 4（章首/Mek 达成/AE 就绪/ME 网就绪）→ M1 47→43、M2 42→38；「九枚徽记」依赖改接合成终端
+- 主线重排：M1 五行（10/7/7/12/7）、M2 四行（14/8/7/9），起点(0,0)、主线横向+支线上下、无重叠
+- ⚠ 存档旧任务会覆盖 config：测试存档 saves/新的世界/ftbquests 仍缓存旧任务定义（本次 22:15 游戏重存把物流/AE 旧版写回）；已把桌面正确版重新同步到测试。**下次测试前需清 saves/新的世界/ftbquests 或开新档**，否则本次删除会被旧档复活
+- 全包：22 章 / 989 任务 / mods 214；桌面==测试（31 文件 MD5 一致）
+## [v0.16.4] - 2026-09-07
+### 按确认执行：删模组 + 主线 M1/M2 瘦身与重排
+- 删除模组（用户确认“建议+可选都删”，保留 useless_mod）：alltheores、allthemodium（enderio_evolution 仅为可选软依赖，安全）、rftoolsbase、NaturesCompass、ExplorersCompass → mods 219→214
+- 删除主线 M1/M2 全部任务描述（89 条 quest_desc，保留标题）；M1/M2 坐标重排为“主线横向 + 支线上下、无重叠”，均从 (0,0) 起、每行左→右
+  - M1 五行：一双手(13) / 陶与水(7) / 工具燃料(7) / 矿与自动线(13) / 机械动力线(7)
+  - M2 五行：章首 / Mek 机器线(15) / AE 资源线(9) / 压印处理器线(7) / ME 网络线(10·九徽记+门票收尾)
+- 校验：M1/M2 无重复坐标、标题完整；桌面==测试（31 文件 MD5 一致）；MODLIST 重生成 214；备份 _excluded/mods_removed_20260907_more5/、quests_snapshot_20260907_mainline_relayout/
+## [v0.16.3] - 2026-09-07
+### 模组/任务清理 + 小修复（用户指令）
+- 删除 XNet、RTS Building（rtsbuilding）：mods 221→219；删整章 rts_building（13 任务）+「物流」章 4 个 xnet 任务（49→45）；全 quests 无 xnet/rtsbuilding 残留引用
+- 修复 M1「里程碑：自动矿物产线」图标：补显式图标（auto_sieve）+ 挪开重叠坐标（水车→28,-6 / 机械动力入门→28,-4），M1 坐标重复清零
+- 修复木锤名字：Ex Deorum 自带 zh_cn 误译 item.exdeorum.wooden_hammer=「木」→ 新增 kubejs/assets/exdeorum/lang/zh_cn.json 覆盖为「木锤」
+- JEI：关闭物品标签显示（showTagRecipesEnabled / tagContentTooltipEnabled=false，测试实例 config/jei/jei-client.ini）
+- 检测到测试实例 21:45-21:46 有游戏内重存（应用能源2 等章节 ID 变动、lang 清理 12 键）→ 按「测试 config 为准」重新导出到桌面；桌面==测试（31 文件 MD5 一致）；主线 M1/M2 中文完整（needwork=0）
+- 备份：_excluded/mods_removed_20260907_xnet_rts/、quests_backup_pre_xnet_rts_20260907/、quests_backup_pre_adopt_test_20260907/
+- MODLIST 重生成（219）
+### 审计候选（未删，等确认）
+- 不适合/无用候选：alltheores+allthemodium（世界生成矿，空岛无来源、已无任务引用）、rftoolsbase（无依赖无引用）、useless_mod、NaturesCompass/ExplorersCompass（虚空基本无用）
+- 主线 M1/M2 排版/删任务/删描述：待用户确认后执行
+## [v0.16.2] - 2026-09-07
+### 模组调整（实测反馈）
+- 删除 Carry On（carryon-neoforge 2.2.6.13）：去掉「右键 / 潜行右键抱起方块与实体」的搬运机制
+- 新增 FastLeafDecay 35（NeoForge 1.21.1，本地 NAST 同款 jar）：砍树后树叶快速腐化，不悬空
+- kubejs / config 均无 carryon 引用，删除安全；mods 仍 221（-1 +1）；MODLIST 已重生成
+- 备份：_excluded/mods_removed_20260907_carryon/（桌面 + 测试实例 jar、测试 config）；桌面 ↔ 测试实例已同步
+## [v0.16.1] - 2026-09-07
+### 修复：主线 M1/M2 被 FTB 换 ID 丢失的中文（46 任务 + 1 描述）
+- 现象：游戏内 FTB 重存后章节文件部分任务 ID 被重生成，zh_cn 里对应 `quest.<id>.title/quest_desc` 全部落空 → 任务书里约一半主线任务无标题/无描述
+- 修复：按任务物品逐条把旧文案补回新 ID（M1 25 条 + M2 21 条标题+描述，另补「提示：Mek 基础达成」缺的描述）
+- 文案沿用旧稿（备份于 _excluded/lang_backup_pre_m1m2_zhfix_20260906）；仅把过期章号措辞改成当前结构（铜锭备着/提示：矿石换算/合成终端）
+- 风力发电机（Mek，第二章可选）为新写文案
+- 校验：M1/M2 无任务缺双语文案；zh_cn.snbt 无重复 key、括号平衡；已同步测试实例（MD5 一致）
+## [v0.16.0] - 2026-09-07
+### 导出游戏内（存档）改过的任务
+- 存档进度文件不含任务定义（新版 FTB 定义存 config、进度单独存存档 uuid.snbt）
+- 已将测试实例 config 的任务定义（含游戏内编辑 + FTB 重写格式化）整包导出到桌面，桌面==测试（32 文件 MD5 一致）
+- 未动存档进度文件
+
+## [v0.15.9] - 2026-09-07
+### 修复按键崩溃（JEI 版本不匹配）
+- 崩溃：在任务书按书签键 → NoSuchMethodError（ftb-xmod-compat 21.1.11 调 JEI 内部 getBookmark 签名不匹配）
+- 修复：JEI 19.52.0.424 → 降级为 NAST 同款 19.44.0.405（桌面+测试实例）
+- mods 仍 221
+
+## [v0.15.8] - 2026-09-07
+### 门票可见性 + 机械动力(Create)入第一章
+- 原因修复：FTB 会把任务复制进存档 → 旧存档看不到新章/门票。已清除测试存档 ftbquests 快照，下次进入重读最新 config（旧进度重置）
+- 第一章新增机械动力(Create)产线 7 任务：安山合金→传动轴→齿轮→水车(应力来源)→磨石→粉碎轮→里程碑「机械动力产线」
+- 第二章新增「九枚徽记」任务：显式列出 9 种门票徽记目标（钢/电路/矿物/水晶/充能/涌流/硅/处理器/下界），门票任务依赖它
+- 徽记配方掺入 Create 产物（安山合金×4 / 齿轮等）
+- 全包 1076 任务（主线：第一章 47 + 第二章 41）
+### 备注
+- 自定义物品在创造模式无专属物品栏属正常，用 JEI 搜 kubejs 或从任务图标点入
+
+## [v0.15.7] - 2026-09-07
+### 反馈修复
+- 门票确认在第二章里程碑任务中（craft kubejs:stage_ticket）
+- 自动锤/自动筛改为本包自定义配方（删默认，更难）：自动筛=铁块+玻璃板×8+钻石+筛子+红石×8；自动锤=钻石锤+铁块+压力板+黑曜石×2+红石×8；第一章自动筛任务改为先拿钻石
+- 9 枚徽记配方加料（每种 4-5 项材料、带数量，如 4×钢锭/8×铁锭/8×红石 等）
+- 第一章/第二章任务描述再清理（去掉“以 JEI/奖励/可选/支线”等杂句，保留目的句）；无空描述
+### 备注
+- 桌面 ↔ 测试实例已同步
+
+## [v0.15.6] - 2026-09-06
+### 第一章补自动化 + 门票徽记化 + 文案清理
+- 第一章追加 9 任务（主线共 40）：热力发电机(供能) → 铁筛网 → 自动筛 → 深层矿脉→钻石→钻石锤 → 压力板 → 自动锤 → 里程碑「自动矿物产线」（圆石→自动锤→自动筛→熔炼自动供料）
+- 阶段门票改为「徽记系统」：9 种自定义徽记（kubejs:steel/circuit/metal/crystal/charged/fluix/silicon/cpu/quartz_seal），每种需第二章真实产物做原料；门票 = 3x3 用 9 徽记合成
+- 任务描述清理：删除“并行/支线/去 XX 组/特产配方”等制作思路用语，只留「做什么、有什么用、对后面有什么帮助」
+- 修复 1 处空描述数组；全包任务 1068（第一章 40 + 第二章 40 + 其余）
+### 备注
+- 桌面 ↔ 测试实例已同步（章节+lang+KubeJS 徽记/门票脚本+物品名）
+
+## [v0.15.5] - 2026-09-06
+### 第二章扩展：基础 ME 系统 + 自定义门票合成表
+- C 线补全「基础 AE → ME 系统」：能量接收器→玻璃线缆→ME 控制器→ME 驱动器→1k 存储单元→ME 终端→合成终端（第二章结尾已能查库存）
+- 「阶段门票」改为 3x3 自定义合成表：9 种代表物（钢机壳/基础控制电路/铁粉/赛特斯/充能赛特斯/fluix/硅片/运算处理器/下界石英）
+- 第二章共 40 任务；全包 22 章 / 1059 任务；桌面 ↔ 测试实例已同步
+
+## [v0.15.4] - 2026-09-06
+### 第二章：机器与晶格（Mek + AE 起步）
+- 新增「第二章 · 机器与晶格（Mek + AE 起步）」（main_m2_machines.snbt，34 任务，组：主线·天工浮岛）
+  - A 基础 Mek：锇/红石→冶金灌注机→钢锭/电路/钢机壳→热力发电→能量立方→富集/熔炼/粉碎
+  - B AE 资源：筛沙赛特斯/充能→菌丝→灵魂沙→下界石英→赛特斯粉→硅片→fluix
+  - C AE 起步：能量接收器→压印室→首套模板×4→硅印→三处理器
+  - 里程碑「阶段门票」：KubeJS 自定义物品 kubejs:stage_ticket（钢机壳+运算处理器+fluix+下界石英 合成），第二章通关/第三章入场凭证
+- 新增 KubeJS：startup 注册门票物品、server 门票配方、assets 中文名
+- 删除 D 盘残留旧第一章 chapter1_sky_to_factory.snbt；全包 22 章 / 1053 任务
+### 备注
+- 桌面 ↔ 测试实例已同步（章节+lang+3 组 kubejs 文件）
+
+## [v0.15.3] - 2026-09-06
+### 第一章全新重做（不沿用旧任务）
+- 删除恢复的旧「从孤岛到水晶门」57 任务（备份仍保留）
+- 全新第一章「一双手（起手）」（main_m1_hands.snbt，31 任务），参照 OB2/SB4 第一章写法：
+  含引导「提示」信息节点、工具+产物成对目标、里程碑收尾
+- 流程：原木→工作台→木钩/蚕/线→筛子/木桶→泥土/石→熔炉/木炭→沙尘土→燧石网→黏土/骨粉/瓷桶/瓷坩埚→水+岩浆→里程碑「无限圆石」→筛矿→「第一把铁/铜」
+- 全包 22 章 / 1019 任务；桌面 ↔ 测试实例已同步
+
+## [v0.15.2] - 2026-09-06
+### 主线重启（按 MAINLINE_PLAN 第一步）
+- 新增组「主线 · 天工浮岛」（7D17B86DD0B3AD3B，放第 1 Tab）
+- 恢复备份「从孤岛到水晶门」57 任务为「主线 M1」（复用经实测的旧第一章：起手→自动工厂→异界门/AE 材料），无 id 冲突
+- 全包现 22 章 / 1045 任务；桌面 ↔ 测试实例已同步
+### 后续
+- M2~M7 待按 MAINLINE_PLAN 逐章续写/拆分
+
+## [v0.15.1] - 2026-09-06
+### 修复 + 主线设计文档
+- 修复未知物品任务：删除引用 mbd2:bee_craft（资源蜜蜂 1 任务）、kubejs:lava_infinity_cell（ae2 存储元件 1 任务）的任务并清理悬空依赖；全包现 988 任务
+- 资源蜜蜂基因汉化：新增 kubejs assets zh_cn（productivebees：基因/习性/耐力/生产力/性情/耐候/升级等文案；productivelib：升级基座与 10 种升级名）
+- 新增主线设计文档 MAINLINE_PLAN.md（调研 OB2/StoneBlock4/Skyhive/Isolaria → 阶段制方案 M1~M7 + 与现有 3 组对接 + 待确认项）
+### 备注
+- 桌面 ↔ 测试实例待同步（2 个章节文件 + 2 个 kubejs zh）
+
+## [v0.15.0] - 2026-09-06
+### 章节删除（待下次对话重新设计主线）
+- 删除整组「主线章节」（42A028A30195363C）4 章：科技起步/生存资源/资源和发电设备/最终目标（共 141 任务）
+- 删除「注意事项」「成长之路」2 章（共 30 任务）
+- 删除对应 lang 条目与组；全包现 21 章 / 990 任务 / 3 组（应用能源与附属/科技时代/实用内容）
+- 遗留待办（下次对话）：资源蜜蜂基因汉化不全；个别任务仍有未知物品
+### 备注
+- 桌面 ↔ 测试实例待同步
+
+## [v0.14.1] - 2026-09-06
+### 修复启动报错（xnet 依赖）
+- xnet 需要 rftoolsbase（McJty 公共库，非自动挖矿本体）→ 装回 rftoolsbase-1.21-6.0.11.jar
+- 自动挖矿本体 rftoolsbuilder / quarryplus / ScalaCatsForce 仍保持删除；确认无其它 mod 依赖它们
+- mods 共 221；MODLIST 已重算；桌面 ↔ 测试实例已同步
+
+## [v0.14.0] - 2026-09-06
+### 任务/模组清理 + 任务书改名
+- 删除「自动采矿」章节（2d273c7502d70175.snbt）及其模组：quarryplus(AdditionalEnchantedMiner)、rftoolsbase、rftoolsbuilder、ScalableCatsForce（仅 quarryplus 需要）
+- 清理引用未装模组的任务共 10 个（含 data_energistics 残留：注意事项4/成长之路2/最终目标1；refinedstorage 残留：末影接口1；rftools/quarry 残留：科技起步2）；同步清理悬空依赖
+- 全包任务书文件名改《天工浮岛》（file.*.title）
+- 现状：27 章 / 1161 任务 / 220 mods；已确认「无未装模组引用」
+### 备注
+- 桌面 ↔ 测试实例已同步（mods 220 + quests）
+
+## [v0.13.2] - 2026-09-06
+### 修复启动报错
+- quarryplus(AdditionalEnchantedMiner) 需要语言提供器 kotori_scala → 补装 ScalableCatsForce-NeoForge-3.7.1-build-11-with-library.jar（桌面/测试同步）
+- mods 共 224；MODLIST 已重算
+
+## [v0.13.1] - 2026-09-06
+### 补齐 NAST 任务所需模组（方案 a）
+- 从 NAST mods 补装 15 个缺失模组使复制任务可玩：
+  allthemodium / alltheores / Cell4 / enderio_evolution / ExplorersCompass / NaturesCompass / jdte / Multiblocked2(mbd2) / AdditionalEnchantedMiner(quarryplus) / rftoolsbase / rftoolsbuilder / rtsbuilding / sophisticatedstorage / useless_mod / xnet
+- productivelib 由 Productive Bees JarJar 内嵌提供（运行时可用）
+- 仍排除：refinedstorage 全家、data_energistics、extradisks、cabletiers（用户既定排除；个别保留章节的少量引用会显示未知物品）
+### 备注
+- 桌面 ↔ 测试实例待同步 mods；MODLIST 已重算
+
+## [v0.13.0] - 2026-09-06
+### 任务整包替换：NAST 全部任务照搬 + 清除背景/图片
+- quests 整包替换为 NAST 原版：28 章 / 1181 任务（含 4 个组：主线章节/应用能源与附属/科技时代/实用内容）
+- 排除：「数据能源」章（用户不要 data_energistics）、「精致存储」章（用户既定不要 Refined Storage）
+- 清除 NAST 品牌痕迹：删除 questbook 图片图标、章节 custom_icon 图片图标、章节背景图（image: ftbquests:textures/picture/*，beij 等 28 处）
+- 保留：lang 按 NAST 原样（其自带中文不全，沿用其发布状态）；reward_tables 一并复制
+- 备份：_excluded/quests_backup_pre_fullnastcopy_20260906（此前全部 quests 状态）
+### 备注
+- 部分 NAST 章节引用的模组本包未装（rftools/RS 全家/quarryplus/alltheores/allthemodium/xnet/cell4/cabletiers/enderio_evolution/jdte/rtsbuilding/sophisticatedstorage 等），相关任务将显示未知物品，待后续决定是否补模组或裁剪
+- 桌面 ↔ 测试实例待整包同步
+
+## [v0.12.0] - 2026-09-06
+### AE 部分改为直接照搬 NAST 任务（用户要求）
+- 第二章（组 519CACE2AB78ED53「第二章 · 应用能源与附属」）替换为 NAST 原版 6 个 AE 分章（共 337 任务）：
+  - 应用能源2（126）/ AE2水晶科技 ae2cs（32）/ AE2闪电科技 ae2lt（57）/ ae2存储元件（51）/ AE2应用发电机 appgen（36）/ Neo AE Eco（35）
+- 删除此前自写的 2-1~2-10 自定义 AE 章节（10 个文件，已备份）
+- 「数据能源」按要求不装：移除 data_energistics jar 与对应章节
+- 说明：NAST 自带的 quests 语言文件本身被 FTB 换 ID 丢失大半（其 zh_cn 仅含部分任务文案）；本次按 NAST 现有文案原样导入（61 条标题 + 若干描述），缺失标题沿用 NAST 原样（后续可用 I18n/汉化补齐）
+- 第一章（孤岛到水晶门 57 任务）保持不变；全包现共 394 任务（57 + 337）
+- 备份：_excluded/quests_backup_pre_nastcopy_20260906（含原自定义 AE 全量）
+### 备注
+- 桌面 mods 208（无新增依赖，data_energistics 未装）；桌面 ↔ 测试实例待同步
+
+## [v0.11.3] - 2026-09-06
+### 第二章 AE 全部分章完成（组：第二章 · 晶格时代）
+- 新增分章并同步测试实例（共 209 任务 / 11 个章节文件）：
+  - 2-3 AE·自动合成（12）：样板/分子装配/样板供应器/接口/并行核心→里程碑「一键钢锭」
+  - 2-4 AE·存储元件与远程（17）：单元工作台→4k/16k→MegaCells 1m/单元坞/大接口→末影盘→Omni→无线终端/磁力卡/无限卡→里程碑「主仓库」
+  - 2-5 AE·应用发电机（12）：发电组件/通量电池/通量发电→奇点发电机 1k/1m→熔炼炉+堆叠卡→里程碑「自给供电」
+  - 2-6 AE·水晶科技 ae2cs（18）：赛特斯种子水培→磨石/生长仓/生长卡→粉碎/聚合/振动→电路蚀刻→净化四色水晶→谐振线→里程碑「水晶农场」
+  - 2-7 AE·闪电科技 ae2lt（18）：避雷收集→大气电离→水晶催化→过载水晶/块/合金/机壳→闪电聚合→拓扑晶格(基础/致密/纠缠/超维)→崩塌矩阵→闭环样板→过载编码/处理工厂→里程碑「雷击工厂」
+  - 2-9 AE·高级附属（14，可选）：AdvancedAE 量子线(反应室→量子加速/合成器)+ExtendedAE(无线/机器框架/装配矩阵)+PackagedAuto(打包)
+  - 2-10 AE×Mek（10，可选）：appmek 化学外壳/存储 1k-64k/P2P/便携 + mekenergistics ME 化工厂机
+- 物品 id 全部经 jar lang 校验；lang 修复历史拼接残留括号；章节顺序 2-1..2-10
+### 备注
+- 本版任务结构完成；无新增模组（neoecoae/ldlib2 已于 v0.11.2 安装）；桌面 ↔ 测试实例 MD5 一致
+
+## [v0.11.2] - 2026-09-06
+### 新增 Neo AE Eco（neoecoae）
+- 安装 neoecoae-21.1.1 + 依赖 ldlib2-neoforge-1.21.1-2.2.37-all（来源：NAST 同款）；桌面 mods 共 208
+- 新增分章「2-8 Neo AE Eco（后期可选）」（chapters/ch2_8_neo_ae_eco.snbt，21 任务）：铝(筛沙砾)→充能水晶/超导锭→水晶矩阵→超导处理器→一体化工作台→eco 16m 元件/驱动器→存储系统 L4 + 能量 L4（里程碑）→ 合成/计算 L4（可选）
+- 空岛来源核对：铝 = Ex Deorum 筛沙砾出铝矿石碎块 ✅；钨/黑钨暂无空岛来源 → L6/L9 标记延后（后续补路线）
+- MODLIST.txt 重新生成（count 208）
+### 备注
+- 桌面 ↔ 测试实例待同步（mods + quests）
+
+## [v0.11.1] - 2026-09-06
+### 第二章 AE 续（NAST 风格分章落地）
+- 新增分章「2-2 ME 网络」（chapters/ch2_2_me_network.snbt，13 任务）：章首 → 控制器 → 玻璃线缆 → 终端/合成终端 → 驱动器+1k 元件 → 能量复查 → 输入/存储总线（+输出总线/成型面板可选）→ 里程碑「第一张网」（奖励样板编码终端）
+- AE_PLAN.md 升级 v0.2：学习 NAST「应用能源与附属」7 分章后，本包定 9 分章（AE 晶种压印/ME 网络/自动合成/存储元件/应用发电机/水晶科技 ae2cs/闪电科技 ae2lt/高级附属/AE×Mek），排除 data_energistics·neo eco·RS
+### 备注
+- 桌面 ↔ 测试实例待同步
+
+## [v0.11.0] - 2026-09-06
+### 第二章 AE 起步（晶格时代）
+- 新增组「第二章 · 晶格时代」（group C8AA0C59D7354C1C）；第一章组改显示「第一章 · 天工手记」
+- 新增分章「2-1 晶种与压印」（chapters/ch2_1_crystal_and_inscriber.snbt，17 任务）
+  - 章首路线 → 能量接收器 / 压印室 → 首套模板（硅/运算/逻辑/工程）→ 印刷电路 → 三处理器
+  - 支线：充能器、模板复制；里程碑「处理器车间」（三处理器各 ×2）
+- KubeJS 新配方 ae2_first_presses.js：AE2 压印模板首件（空岛无陨石）＝ 8 铁锭 + 中心材料（硅片/赛特斯/金锭/钻石）；此后压印室可复制
+- 设计文档：AE_PLAN.md（调研结论 + 优化方案 + 第二章 6 分章系统：2-1 压印 / 2-2 ME 网 / 2-3 自动合成 / 2-4 存储远程 / 2-5 AE×Mek / 2-6 高级可选）
+### 备注
+- 本版含任务结构 + 1 条魔改配方；桌面 ↔ 测试实例待同步
+
+## [v0.10.3] - 2026-09-06
+### 第一章重校准（更难 / 前后连贯 / 收尾接 AE）
+- 章节改名「第一章 · 从孤岛到水晶门」；欢迎语重写为整章路线（手 → 机器 → 水晶）
+- 修复错乱/过时文案：线筛网描述（原为错位拼接）、钢机壳「M1 收尾」提法、矿脉工厂「下一章生物工厂」→ 改为引出 AE 材料支线
+- 难度上调：尘土 1→8、红石 1→8、铁矿石碎块 1→8、炼铁铁锭 1→4（与描述一致）
+- 新增 9 任务打通 AE 前置链：
+  - 粉碎机（赛特斯水晶→粉，Mek crusher）
+  - 筛沙 → 赛特斯石英 / 充能赛特斯
+  - 异界之门：菌丝孢子 → 女巫之水 → 灵魂沙 → 筛下界石英
+  - fluix 水晶（充能赛特斯+下界石英+红石 入水）、硅片（粉→烧）
+  - 里程碑「第二章入场券」：赛特斯×8 / 充能×2 / 下界石英×8 / fluix×2 / 硅×4 / 红石×16
+- 第一章共 57 任务；收尾状态 = 有电 + 自动矿脉工厂 + 全套 AE 基础材料，第二章可直接发展 AE
+### 备注
+- 任务 id 对已保留任务不变；新增任务为新 id；桌面 ↔ 测试实例待同步
+
+## [v0.10.2] - 2026-09-06
+### 任务整合（第一章化 + 去新时代科技）
+- M1 + M2 合并为单章「第一章 · 从孤岛到矿脉工厂」（chapters/chapter1_sky_to_factory.snbt，48 任务）
+- 任务 id 全部保留（已完成进度不丢）；新增 3 个衔接任务：玻璃 / 金锭 / 沉重压力板
+- M2 起点（钢机壳）改为依赖 M1 收尾（钢锭 + 玻璃），两代流程无缝衔接
+- 清除 quests lang 中全部「新时代科技 / 新时代科技·空岛版」文案与 13 条残留旧键；章节/任务组统一为《天工浮岛》体系
+- 旧 m1/m2 章节文件移入 _excluded/ftbquests_bak_20260906 备份
+### 备注
+- 本版为任务结构整合，无模组改动；桌面 ↔ 测试实例待同步
+
+## [v0.10.1] - 2026-09-06
+### 任务新增（差异化 v0.11 第一弹）
+- 新增 M2「碎矿革命 · 第一代」章节（chapters/m2_crush_revolution.snbt，17 任务，组：天工手记）：M1 收尾(钢/冶金灌注机)之后的第一代机器线
+  - 主线：钢机壳 → 铜(筛沙砾) → 热力发电机(第一度电) → 基础能量立方 → 木炭量产
+  - 支线 冶炼翻倍：富集仓(1矿→2粉) + 电动熔炼炉(粉→锭) = 2 倍产铁
+  - 支线 自动化：铁筛网 → 自动筛 →（深层矿脉→钻石→钻石锤）→ 自动锤
+  - 收尾里程碑「矿脉工厂」：自动筛+自动锤+沙砾×64（奖励铁桶+铁锭）
+- 所有物品 id / 配方已对照本包 jar 核实（Ex Compressum 自动机耗 FE，用 Mek 万用线缆供电）
+- 桌面 ↔ 测试实例 quests 已同步；待进游戏实测
+### 备注
+- M1 与 M2 同属「天工手记」组；M2 依赖 M1 收尾（钢锭/灌注机/无限圆石），无跨章硬依赖
+
+## [v0.10.0] - 2026-09-06
+### 差异化（资源换代史 v0.11）
+- 品牌化：游戏内显示名《天工浮岛》（分发文件夹名保持 NewAgeSky-1.21.1 不变）；README.txt 更新为当前实况（Sodium+Iris、206 mods、初始岛可用、测试实例同步说明）
+- M1 章节显示名：主线 M1 · 孤岛求生 → 孤岛求生 · 第〇代（仅文案，任务结构未动）
+- 组显示名：主线章节 → 天工手记；清理 lang 中旧组键 chapter_group.9704DA574CA9E30D
+- QUEST_PLAN.md 重写为 v0.11（资源换代史总纲）；旧 v0.10 备份为 QUEST_PLAN.v0.10.md
+### 备注
+- 本版仅文案/文档改动，无模组与任务结构改动；任务逐章实现自 M2 起（按 QUEST_PLAN §8）。
+
+## [v0.9.6] - 2026-09-06
+### 任务同步与修复
+- 桌面包 config/ftbquests 同步为测试包运行时版本（FTB Quests 重存后的 28 任务，含游戏内新加任务）
+- 为 14 条 FTB 重存后丢失中文的任务补回 title/desc（沿用原文案，新增：水瓷桶/沙子/钢锭）
+- 为「无限原石？」补任务描述
+- 章节重新挂回「主线章节」组（group 7D17B86DD0B3AD3B）
+- 未同步/未触碰：测试档已完成进度（saves 内）
+## [v0.9.5] - 2026-09-06
+### 任务重构
+- M1 改为 ATM 式多支线布局（不再单排直线）：木材/丝线线、泥土/水源线、碎石线、水与熔岩线、工业线并行推进，靠汇聚任务收束
+- 任务扩充到 26 个（33 条依赖链），每个任务单一目标+数量+奖励
+- 新增「圆石生成器」里程碑任务（水+岩浆 → 圆石×64，解锁无限圆石）
+- 流程锚点：木钩→蚕→线→线筛网 → 筛泥土→圆石/尘土 → 雨水/坩埚+尘土→黏土 → 瓷桶/陶瓷坩埚→熔岩 → 圆石生成器 → 铁/锇/红石 → 冶金灌注机
+## [v0.9.4] - 2026-09-06
+### 任务调整
+- M1 改为 ATM 式直线线性：20 个任务一排到底，每个任务只有 1 个目标
+- 每个任务都加了明确的数量要求（如 原木×8、石子×12、铁锭×4）
+- 每个任务都补充了奖励（工具/材料/食物，做完一步领一步）
+- 矿石碎块规则写明：4 碎块=1 矿石块，熔炼=1 锭
+## [v0.9.3] - 2026-09-06
+### 任务
+- FTB Quests 第一章「主线 M1 · 孤岛求生」上线（20 个任务：Ex Deorum 无中生有开局 → 冶金灌注机收尾），已写入测试包与桌面包 config/ftbquests/quests
+- 任务文件：data.snbt / chapter_groups.snbt / chapters/m1_skyblock_start.snbt / lang/zh_cn.snbt（中文语言文件）
+## [v0.9.2] - 2026-09-06
+### 新增
+- Forgiving Void 21.1.7（仁慈虚空：虚空掉落不再死亡，传送回岛）
+- 当前 mods 共 206 个
+## [v0.9.1] - 2026-09-06
+### 新增
+- Project Expansion 1.21.1-1.0.6（等价交换 ProjectE 的转化接口扩展；需 ProjectE PE1.1.0，已在包内）
+- 当前 mods 共 205 个
+## [v0.9] - 2026-09-06
+### 删除
+- moremekasuitmodules / AppliedE（转化接口，待确认是否重装）/ Oritech + Oritech Things（奥瑞科技）
+### 新增
+- Just Dire Fuels 1.1.0（JDT 扩展）
+### 汉化
+- Integrated Crafting 补 zh_cn（kubejs assets）
+- 当前 mods 共 204 个
+## [v0.8.3] - 2026-09-06
+### 汉化
+- 补充 kubejs 资源汉化：Integrated Terminals(+compat)、Compact Mekanism Machines、Compact Mekanism Machines Plus（来源：本地参考包的 kubejs assets）
+### 删除
+- Inventory Profiles Next + LibIPN
+- 当前 mods 共 207 个
+## [v0.8.2] - 2026-09-06
+### 删除
+- RFTools Base / Power / Utility（utility 依赖 base 一并删，否则崩溃）
+- Productive Metalworks / Create: Applied Kinetics / Replication / Mekanism Lasers / Simply Light / EnderStorage / Mekanism Additions / Click Machine / AEAdditions
+- 另删：Inventory Profiles Next + LibIPN（一键整理）`r`n- 保留：Create 本体
+- 当前 mods 共 209 个
+## [v0.8.1] - 2026-09-06
+### 修复
+- 补装 LibIPN 6.6.3（Inventory Profiles Next 前置，修复启动崩溃）
+- 当前 mods 共 221 个
+## [v0.8] - 2026-09-06
+### 恢复
+- Create 6.0.10 + Create: Applied Kinetics 1.5.4、Applied Mekanistics 1.6.3（撤回 v0.7.2 删除）
+### 新增（AE 附属全集）
+- AE 附属全集：AppliedFlux 2.1.5 / applied-generators 0.2.5 / appliedsoul 2.1.0-hotfix / ae2_ftbquest_detector / ae2cs 1.2.1 / bigger_ae2 1.4.9 / enderdrives 1.5.23 / FunctionalChemical 1.1 / mekenergistics 3.0.6（data_energistics 按要求排除）
+- A 组补充：AE2-Things 1.4.2 / AE2MEGAThings 2.0.4 / fulleng 2.3.2 / AEAdditions 6.0.2 / AE2AddonLib 1.0.3
+### 新增（Mek 扩展）
+- Mekanism Additions 10.7.19.85 / mekanism_ponders / mekanism_lasers / mekmm 1.4.1 / moremekasuitmodules / mekanismcurios / Mekanism Pipez Fix / kubejs_mekanism_extends
+### 新增（物流优化）
+- enderio_conduit_opt 1.1.3 / pipez_optimizer 1.0.7
+### 新增（QoL）
+- Inventory Profiles Next 2.2.5 / Not Enough Recipe Book 0.4.3 / justzoom 2.1.0 / dynamiclights / durabilitytooltip 1.1.6
+### 新增（神化附属）
+- apothicenchantingaddition 1.1.1 / apothic_equipment / apothic_materials / apothic_compat
+### 其它
+- 依赖补齐：curios 9.5.1 / kotlinforforge 5.12.0 / OctoLib / konkrete / soulplied_energistics 1.0.3
+- 当前 mods 共 220 个；必需依赖校验通过
+## [v0.7.2] - 2026-09-06
+### 删除
+- 移除 metalbarrels / Create（机械动力）+ Create: Applied Kinetics / Applied Mekanistics（应用机械）/ Iron Chests（ironchests）
+- 无其它模组依赖它们，删除安全
+### 新增
+- I18nUpdateMod 3.7.0（自动汉化更新，NeoForge 通过 ModLauncher service 加载；本地复制）
+- 当前 mods 共 178 个
+## [v0.7.1] - 2026-09-05
+### 修复
+- 补前置：Patchouli 93（Nature's Aura 手册）、mcjtylib 9.0.21（RFTools）、moonlight 3.0.22（Dummmmmmy）
+- 渲染/光影组合更换：移除 Embeddium 1.0.15 + NeOculus 1.8.7，改用实测验证的 Sodium 0.8.13 + Iris 1.8.14-beta.1（+ sodium-extra 0.9.3 + Reese's Sodium Options 2.2.3）以兼容 Productive Bees Genesis（要求 Iris>=1.8.8）
+- 全量必需依赖校验通过（无缺失）
+- 当前 mods 共 182 个
+## [v0.7] - 2026-09-05
+### 新增（点名组 + B/C/D/E/G 全装，本地参考包复制；现共 177 个模组）
+- 点名：Nature's Aura 41.10 / Create: Applied Kinetics 1.5.4（Modrinth）、TweakerGE 0.4.3、Productive Bees 13.13.5 + Genesis 1.0.5、ME Requester 1.4.3、CTM+Athena、Sophisticated Backpacks+Core、Apotheosis（神化）全家（含 Attributes/Enchanting/Spawners）
+- B 空间存储：Compact Machines 全家（含 Mek 版+Plus+Rooms）、Functional Storage、DimStorage、EnderStorage、Pocket Storage、Metal Barrels、Iron Chest、Trash Cans、Simple Magnets、ExtendedCrafting
+- C 生产资源：Hostile Neural Networks+extrahnn、Mob Grinding Utils、Botany Pots(+Mystical)、Bonsai Trees、Growth Accelerators、SquatGrow、Productive Metalworks、Pipe Connector、Item Collectors
+- D QoL：jecharacters、Find Me、Enchantment Descriptions、Dummmmmmy、Client Tweaks、Advancement Plaques、Simply Light、Carry On、FTB Filter System
+- E 科技：Just Dire Things、RFTools Base/Power/Utility、Integrated Dynamics 全家（Dynamics/Terminals/Tunnels/Crafting，OceanBlock 同版本组）、Logistics Networks、Mekanism 微调组（Sun/Card/OutputFaster）、Replication、Oritech(+Things)
+- G 性能：ServerCore、Spark、AllTheLeaks、FastSuite/FastWorkbench/FastFurnace
+- 跳过：更多存储（ExtraStorage/精妙存储）、data_energistics、Refined Storage、装饰组 F
+- 未装：Apothic Enchanting Addition（Modrinth 无，仅 CurseForge）；ProjectE（等价交换）仍待手动下载
+### 修复
+- 集成动力家族重复版本去重，保留 OceanBlock 验证版本（dynamics 1.34.1 / terminals 1.7.0 / tunnels 1.9.4 / crafting 1.4.7 / cyclops 1.29.2 / commoncap 2.11.5）
+- productivelib 由 Productive Bees/Metalworks JarJar 内嵌，无需单独安装
+# 天工浮岛（NewAgeSky）更新日志
+
+格式：按版本倒序，最新在最上面。每次改动后在这里追加一条。
+
+## [v0.6] - 2026-09-05
+### 新增
+- AppliedE（转化接口，AE2 x ProjectE 联动）1.0.8-beta（Modrinth）
+- Mystical Agriculture 8.0.27 + Mystical Agradditions 8.0.14 + Cucumber 8.0.16（本地复制）
+- Sparkweave Engine 0.510.0（本地复制，客户端库）
+- 待手动：ProjectE（等价交换）官方仅 CurseForge；AppliedE 需 ProjectE 才能生效，未装前请勿启动
+
+## [v0.5.1] - 2026-09-05
+### 修复
+- 修复 v0.5 首次启动崩溃：依赖解析漏读 type=required，补齐 9 个前置库（supermartijn642configlib 1.1.8 / supermartijn642corelib 1.1.24 / cloth-config 15.0.140 / titanium 4.0.50 / Placebo 9.9.2 / BrandonsCore 3.2.1.309 / CodeChickenLib 4.6.1.529 / ZeroCore2 2.4.21 / Searchables 1.0.2）
+- 说明：ae2addonlib、ae2wtlib_api、flywheel、ponder、endercore 由所属模组 JarJar 内嵌，无需单独安装
+- 当前 mods 共 96 个
+
+## [v0.5] - 2026-09-05
+### 新增（参考本地 1.21.1 NeoForge 实测组合，从本地参考包复制并自动补齐依赖，共 +45 个模组，现共 87 个）
+- AE2 生态：MegaCells 4.11.0 / AE2 Omni Cells 1.1.6 / AE2 Network Analyzer 2.1.5 / AE2 JEI Integration 1.2.1 / AE2 Batch Craft 1.0.2 / Applied KJS 1.0.0 / ME Placement Tool 2.1.5 / PackagedAuto 4.0.8.21
+- Mek 生态：Mekanism Tools 10.7.19.85 / JustEnoughMekanismMultiblocks 7.18 / kubejs-mekanism / mekajadeupgrade 1.3 / Mekanism Extras 1.4.1
+- 建造与物流：Pipez 1.2.31 / LaserIO 1.9.11 / Flux Networks 8.0.0 / Tesseract 1.0.38 / Entangled 1.3.21 / Building Gadgets 2 1.3.9 / Construction Wand 2.16.12 / CobbleGen Galore 0.2.9
+- 信息 QoL：Jade 15.10.6 / JadeAddons 6.1.0 / Mouse Tweaks 2.26.1 / Crafting Tweaks 21.1.11 / Inventory Sorter 24.0.24 / Controlling 19.0.5 / AppleSkin 3.0.9
+- FTB 官方（本地复制，免 CurseForge）：FTB Chunks 2101.1.21 / FTB Essentials 2101.1.10 / FTB Ultimine 2101.1.15 / FTB JEI Extras 21.1.7 / FTB XMod Compat 21.1.11
+- 自动化扩展：Modular Routers 13.2.7 / Click Machine 9.0.1
+- 重型科技 C 组（不含 Refined Storage）：Create 6.0.10 / Immersive Engineering 12.4.2 / Industrial Foregoing 3.6.39 / PneumaticCraft 8.2.23 / Actually Additions 1.3.26 / EnderIO 8.2.11-beta / Powah 6.2.10 / Extreme Reactors 2 2.4.28 / Draconic Evolution 3.1.4 / SFM 4.34.0
+- 说明：模组均来自本地 1.21.1 同版本实测组合；仅 AE2 Crafting Tree 仍需手动（CurseForge）
+
+## [v0.4] - 2026-09-05
+### 新增（AE2 附属）
+- AE2 Lightning Tech（闪电科技）2.1.0-beta.4 + Thunderbolt Core 2.0.0-beta.3 + AE2LTPP 1.2.0-beta.1（最新开发线；不稳可退回 2.0.9 / 1.0.6 / 1.1.1）
+- AdvancedAE 1.6.12（含前置 Geckolib / Glodium）
+- ExtendedAE 1.21-2.2.35-neoforge
+- ExtendedAE-Plus 1.6.2
+- AE2 Wireless Terminals（AE2WTLib）19.5.1
+- AEInfinityBooster 1.21.1-1.0.0.58
+- AE2 Import Export Card 1.21.1-1.6.0
+- AE2 Utility 1.7.9
+- AE2 WCWT 1.3.9（要求 AE2 19.2.17，已匹配）
+- AdvancedAE Addon 21.1.0
+- 未安装：AE2: Crafting Tree（官方仅 CurseForge 发布，需手动下载）
+
+## [v0.3] - 2026-09-05
+### 新增
+- 空岛世界框架：Skyblock Builder 21.1.36 + LibX 1.21.1-6.0.15（世界类型选 Skyblock 生成虚空空岛）
+- 初始岛模板、FTB 任务树、配方门控在后续版本加入
+
+## [v0.2] - 2026-09-05
+### 修复
+- 修复 FTB Quests/Library/Teams 因缺少 Architectury API 无法加载的崩溃（加入 architectury-13.0.11）
+### 新增（性能优化）
+- Embeddium 1.0.15 / ModernFix 5.27.24 / FerriteCore 7.0.3 / Lithium 0.15.4
+- ImmediatelyFast 1.6.13 / Entity Culling 1.10.5 / Clumps 19.0.0.1 / BadOptimizations 2.4.1
+### 新增（光影）
+- NeOculus 1.8.7（Oculus 的 NeoForge 1.21+ 移植）
+- 光影包 Complementary Reimagined r5.9（shaderpacks）
+
+## [v0.1] - 2026-09-05
+### 新增（初始测试版）
+- Mekanism 10.7.19 + Mekanism: Generators 10.7.19
+- AE2 19.2.17 + Applied Mekanistics 1.6.3
+- Ex Deorum 3.12 + Ex Compressum 21.1.15（无中生有空岛资源）
+- FTB Quests 2101.1.34 + FTB Library 2101.1.35 + FTB Teams 2101.1.11（CurseForge 手动下载）
+- KubeJS 2101.7.2 + Rhino、JEI 19.52.0.424、GuideME 21.1.17、Balm 21.0.65
+- 说明：初始版本仅验证基础模组加载

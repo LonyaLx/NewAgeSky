@@ -1,0 +1,8 @@
+minecraft:overworld
+useless_mod:uselessdim
+minecraft:the_nether
+useless_mod:uselessdim2
+useless_mod:uselessdim3
+compactmachines:compact_world
+minecraft:the_end
+ae2:spatial_storage

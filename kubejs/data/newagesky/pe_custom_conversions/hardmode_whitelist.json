@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "comment": "天工创世：EMC 严格白名单。未列出的机器、无限资源、科技件和高级矿物均不提供 EMC。",
+  "values": {
+    "before": [
+      { "type": "projecte:item", "emc_value": 256, "tag": "c:ingots/iron" },
+      { "type": "projecte:item", "emc_value": 128, "tag": "c:ingots/copper" },
+      { "type": "projecte:item", "emc_value": 128, "tag": "c:ingots/tin" },
+      { "type": "projecte:item", "emc_value": 256, "tag": "c:ingots/lead" },
+      { "type": "projecte:item", "emc_value": 384, "tag": "c:ingots/silver" },
+      { "type": "projecte:item", "emc_value": 384, "tag": "c:ingots/nickel" },
+      { "type": "projecte:item", "emc_value": 256, "tag": "c:ingots/aluminum" },
+      { "type": "projecte:item", "emc_value": 512, "tag": "c:ingots/osmium" },
+      { "type": "projecte:item", "emc_value": 128, "id": "minecraft:coal" },
+      { "type": "projecte:item", "emc_value": 64, "id": "minecraft:charcoal" },
+      { "type": "projecte:item", "emc_value": 64, "id": "minecraft:redstone" },
+      { "type": "projecte:item", "emc_value": 384, "id": "minecraft:glowstone_dust" },
+      { "type": "projecte:item", "emc_value": 512, "id": "minecraft:gunpowder" },
+      { "type": "projecte:item", "emc_value": 32, "id": "minecraft:flint" },
+      { "type": "projecte:item", "emc_value": 32, "id": "minecraft:string" },
+      { "type": "projecte:item", "emc_value": 64, "id": "minecraft:bone" },
+      { "type": "projecte:item", "emc_value": 64, "id": "minecraft:leather" },
+      { "type": "projecte:item", "emc_value": 64, "id": "minecraft:clay_ball" },
+      { "type": "projecte:item", "emc_value": 64, "id": "ae2:certus_quartz_crystal" }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "07c0d97945954309"
+	group: "5DB41788A814AA8C"
+	id: "07C0D97945954309"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F4918942EDD6F7A"
+			tasks: [{
+				id: "17AB913C92B95F3C"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "54BAF0FA996484D2"
+			tasks: [{
+				id: "3BB1EC40CD3CBAE2"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "79264B7D853C9F3A"
+			tasks: [{
+				id: "1CF4843440FAF637"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "5EFFB2BB52947AAB"
+			tasks: [{
+				id: "13476446B0FCCE7C"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "4F910D021C1A41B6"
+			tasks: [{
+				id: "08AA17E5F6ED851A"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "50887EC8F8EBE5C6"
+			tasks: [{
+				id: "5F223BACE698BA71"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "05014E16E8CC57BD"
+			tasks: [{
+				id: "0AEF3EACBFB9EE9B"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "7A97B288C3E2CC8A"
+			tasks: [{
+				id: "708FC0FE29012A84"
+				item: { count: 1, id: "mysticalagriculture:inferium_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "7DBC3700EFF2835D"
+			tasks: [{
+				id: "5EED03F4271BD2BE"
+				item: { count: 1, id: "mysticalagriculture:prudentium_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "17E5E51BD7D9DD91"
+			tasks: [{
+				id: "294BCC6A96CEBFDF"
+				item: { count: 1, id: "mysticalagriculture:tertium_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "4EACCF1264B38EBB"
+			tasks: [{
+				id: "4A4E9A981BE1AC6B"
+				item: { count: 1, id: "mysticalagriculture:imperium_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "67293E4FA84FE243"
+			tasks: [{
+				id: "72421A4471C3486E"
+				item: { count: 1, id: "mysticalagriculture:supremium_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "78BA84093240EC75"
+			tasks: [{
+				id: "517CC467176BB426"
+				item: { count: 1, id: "mysticalagradditions:insanium_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "7BEB44D7DF877DEE"
+			tasks: [{
+				id: "5969F13C6E66B7C5"
+				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0068785D499BCDF7"
+			tasks: [
+				{
+					id: "2142DBB6F0A7DF2C"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "33CB7FECDEC6DEEF"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

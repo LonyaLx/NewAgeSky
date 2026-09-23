@@ -1,0 +1,1251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "771239FADC842121"
+	icon: {
+		id: "powah:energizing_orb"
+	}
+	id: "1B49D773554629D5"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7C0B177971635EE3"
+			rewards: [{
+				count: 4
+				id: "293603970F7D17D8"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B5FB7914E65872E"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "3642C9386950FD0D"
+			rewards: [{
+				count: 4
+				id: "559A10FD0A1C45A5"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5265EDDDAEE2BB5F"
+				item: { count: 1, id: "powah:dielectric_rod" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "1EAC55C1ED1CB727"
+			rewards: [{
+				count: 4
+				id: "619E698E51A691F5"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1178B6926BFA14B4"
+				item: { count: 1, id: "powah:dielectric_rod_horizontal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "041DD618F6D9268E"
+			rewards: [{
+				count: 4
+				id: "7FC3ACCA1CD3A2D5"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C28392AE53CDC03"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "64219F1BADB3B58B"
+			rewards: [{
+				count: 4
+				id: "10F562E72843CC48"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D9C92F617EDDC33"
+				item: { count: 1, id: "powah:wrench" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "166102DA01FF1FC4"
+			rewards: [{
+				count: 8
+				id: "5E397B6B6A2C0BD4"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "562C6947E35F1281"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C0B177971635EE3"]
+			id: "3B558FCBEB63182C"
+			rewards: [{
+				count: 4
+				id: "46E6EE6BD1B9D6FD"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A9485385BC6269B"
+				item: { count: 1, id: "powah:capacitor_basic" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B558FCBEB63182C"]
+			id: "5FF7A41F06300079"
+			rewards: [{
+				count: 4
+				id: "33284E46BE6EDC2A"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21655B4F19D3CBF0"
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B558FCBEB63182C"]
+			id: "3A570EAA47EE6741"
+			rewards: [{
+				count: 4
+				id: "2BA75CD27186C142"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D03128AB6F7E088"
+				item: { count: 1, id: "powah:capacitor_basic_large" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B558FCBEB63182C"]
+			id: "6B67FBC0FB1AC97B"
+			rewards: [{
+				id: "5D64407655639BB0"
+				item: {
+					count: 1
+					id: "powah:steel_energized"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5A81E698F5D465"
+				item: { count: 1, id: "powah:capacitor_hardened" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B67FBC0FB1AC97B"]
+			id: "00B23F27E4176296"
+			rewards: [{
+				id: "336A56FB21AD2A15"
+				item: {
+					count: 1
+					id: "powah:crystal_blazing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52DE15A36D3E298A"
+				item: { count: 1, id: "powah:capacitor_blazing" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00B23F27E4176296"]
+			id: "0D9A8AAAFA5169CA"
+			rewards: [{
+				id: "75F654DD27BAC49F"
+				item: {
+					count: 1
+					id: "powah:crystal_niotic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B96669269B5C274"
+				item: { count: 1, id: "powah:capacitor_niotic" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D9A8AAAFA5169CA"]
+			id: "6C16065AC4F8E24A"
+			rewards: [{
+				id: "47ADD20739B85095"
+				item: {
+					count: 1
+					id: "powah:crystal_spirited"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "718A2A32C790667D"
+				item: { count: 1, id: "powah:capacitor_spirited" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C16065AC4F8E24A"]
+			id: "22B805BF9D6534CC"
+			rewards: [{
+				id: "0E5786202A676101"
+				item: {
+					count: 1
+					id: "powah:crystal_nitro"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "226C3E2B026B4527"
+				item: { count: 1, id: "powah:capacitor_nitro" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["166102DA01FF1FC4"]
+			id: "78EA2574ED5BCB06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6360D38FFD772B13"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3EC42AA262BBBC38"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78EA2574ED5BCB06"]
+			id: "2C89BB5CFA10ED04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5398146012E765EA"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "53C97B3C230DBC73"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C89BB5CFA10ED04"]
+			id: "6F7A59567ACB4FD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31CBE96913E1FECD"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "65BC2EE5D0EB9268"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F7A59567ACB4FD7"]
+			id: "23331664D9DD976E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CBDC7E8DE43BA2D"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5DDFDD3AB6BF15DA"
+				item: { count: 1, id: "powah:crystal_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23331664D9DD976E"]
+			id: "30FA864D536089B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00B9B62F0EF958F2"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1832C4FB7460CCC0"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["166102DA01FF1FC4"]
+			id: "4E819932E670D93F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737267704CD17EEC"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3E5A271FC2C3D1F0"
+				item: { count: 1, id: "powah:energizing_rod_starter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"4E819932E670D93F"
+			]
+			id: "6DAA204DF4BCC5A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC9FF53E8181CF2"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "27B4B8B9C5B628C0"
+				item: { count: 1, id: "powah:energizing_rod_basic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"158E6ABA8ADB4CBF"
+			]
+			id: "56CEE68772364580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5788534B164E7D37"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "39ECBD57B777A603"
+				item: { count: 1, id: "powah:energizing_rod_blazing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"6DAA204DF4BCC5A5"
+			]
+			id: "158E6ABA8ADB4CBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1896DCAC88BF2DFC"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "281795C9F6DD4B37"
+				item: { count: 1, id: "powah:energizing_rod_hardened" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"56CEE68772364580"
+			]
+			id: "2D9CE9931DAB2D4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CEC28647B46FE33"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "72ACA093B93FD5F3"
+				item: { count: 1, id: "powah:energizing_rod_niotic" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"2D9CE9931DAB2D4C"
+			]
+			id: "3936BBC07A692D3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A73639E7B691629"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0CC75E12E155BE9A"
+				item: { count: 1, id: "powah:energizing_rod_spirited" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"166102DA01FF1FC4"
+				"3936BBC07A692D3D"
+			]
+			id: "3EAD5683FBB82956"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159798E11F5F50CD"
+				table_id: 4208742033484532490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1E814F02E20A0C8A"
+				item: { count: 1, id: "powah:energizing_rod_nitro" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["041DD618F6D9268E"]
+			id: "3DF5C6C1A3478BF6"
+			rewards: [{
+				count: 16
+				id: "2C4DF0EC3E234A56"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13398132C23EA0E4"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DF5C6C1A3478BF6"]
+			id: "3D31C44D8C0DE314"
+			rewards: [{
+				count: 64
+				id: "5ED5C730CFE03EF2"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09EF48D63D8BF738"
+				item: { count: 1, id: "powah:furnator_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D31C44D8C0DE314"]
+			id: "44C891654BEB039D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42880FD99340B2E5"
+				type: "random"
+			}]
+			tasks: [{
+				id: "62CCF2B7E54C21C6"
+				item: { count: 1, id: "powah:furnator_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44C891654BEB039D"]
+			id: "131F32909480E70F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "115AAEA4092E2C60"
+				type: "random"
+			}]
+			tasks: [{
+				id: "1779023E7E5E7CE2"
+				item: { count: 1, id: "powah:furnator_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["131F32909480E70F"]
+			id: "3F9F8FA54AFF9325"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05333D6D878DD863"
+				type: "random"
+			}]
+			tasks: [{
+				id: "776F72480088BA0E"
+				item: { count: 1, id: "powah:furnator_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F9F8FA54AFF9325"]
+			id: "285C596C704248A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B4D7F544E991A10"
+				type: "random"
+			}]
+			tasks: [{
+				id: "51D7542E50773A60"
+				item: { count: 1, id: "powah:furnator_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["285C596C704248A2"]
+			id: "51A831F8E37DC2D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D50F89A588391E9"
+				type: "random"
+			}]
+			tasks: [{
+				id: "39985B1478F89DEA"
+				item: { count: 1, id: "powah:furnator_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["041DD618F6D9268E"]
+			id: "519E6578F6A3980F"
+			rewards: [{
+				count: 16
+				id: "33D29626FAD6735E"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27413455EC612410"
+				item: { count: 1, id: "powah:magmator_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["519E6578F6A3980F"]
+			id: "7A5AA1F1738D4864"
+			rewards: [{
+				count: 64
+				id: "55622051ED71599A"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AA3863D6164DEDD"
+				item: { count: 1, id: "powah:magmator_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A5AA1F1738D4864"]
+			id: "07EB8C6F9DFC3B2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CA3841A9144B113"
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FF240EFC975BA63"
+				item: { count: 1, id: "powah:magmator_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07EB8C6F9DFC3B2D"]
+			id: "409D7B0540F496DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F55DF1216A7F5A8"
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B21695C494F8349"
+				item: { count: 1, id: "powah:magmator_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["409D7B0540F496DF"]
+			id: "1B21AE21BC3796B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04DEAA9980709376"
+				type: "random"
+			}]
+			tasks: [{
+				id: "617D28D42B3D1C20"
+				item: { count: 1, id: "powah:magmator_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B21AE21BC3796B5"]
+			id: "68F99F0981A0F6B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09A74419C22176A9"
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C8C7A197FE2A5D9"
+				item: { count: 1, id: "powah:magmator_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68F99F0981A0F6B1"]
+			id: "71BFD34984BE0BDC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32BCD0B00FF52046"
+				type: "random"
+			}]
+			tasks: [{
+				id: "2080AE417DAFE0E0"
+				item: { count: 1, id: "powah:magmator_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["166102DA01FF1FC4"]
+			id: "4A4BFC78E78BD869"
+			rewards: [{
+				count: 2
+				id: "1041D5052FB2EB85"
+				item: {
+					count: 1
+					id: "powah:charged_snowball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F07BD573E9DFEAA"
+				item: { count: 1, id: "powah:charged_snowball" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["041DD618F6D9268E"]
+			id: "4F8350D052089ED0"
+			rewards: [{
+				count: 16
+				id: "24F98F2EE8030074"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3837E220BC71BBF6"
+				item: { count: 1, id: "powah:energy_cable_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F8350D052089ED0"]
+			id: "3E83861A231E4E61"
+			rewards: [{
+				count: 64
+				id: "6397973C6540988E"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56BD37D04647F227"
+				item: { count: 1, id: "powah:energy_cable_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3E83861A231E4E61"]
+			id: "6C89F30B257D1AB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66ED95330D3FD4C6"
+				type: "random"
+			}]
+			tasks: [{
+				id: "22982E02E540A873"
+				item: { count: 1, id: "powah:energy_cable_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C89F30B257D1AB3"]
+			id: "49B77985CEDAA6FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F317645EEA1320"
+				type: "random"
+			}]
+			tasks: [{
+				id: "042ABFE75B48706B"
+				item: { count: 1, id: "powah:energy_cable_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49B77985CEDAA6FB"]
+			id: "027BD5D9D3E1A4DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6173363367FFA4AF"
+				type: "random"
+			}]
+			tasks: [{
+				id: "43C12B16B8C8680F"
+				item: { count: 1, id: "powah:energy_cable_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["027BD5D9D3E1A4DE"]
+			id: "12452F66E815C247"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D2CD78DE63A6A2"
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D7A63E767ADC321"
+				item: { count: 1, id: "powah:energy_cable_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12452F66E815C247"]
+			id: "40058F867DA8207B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60B9F08BF419CCC1"
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A70B1089F24DED8"
+				item: { count: 1, id: "powah:energy_cable_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["041DD618F6D9268E"]
+			id: "555E62AA1E33A869"
+			rewards: [{
+				count: 16
+				id: "0886296168727B76"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F4ED37A0B309CA6"
+				item: { count: 1, id: "powah:energy_cell_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["555E62AA1E33A869"]
+			id: "5BA067C1BCF9D046"
+			rewards: [{
+				count: 64
+				id: "4BE6543665DAFE41"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35BAF51FDFD3BAD3"
+				item: { count: 1, id: "powah:energy_cell_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BA067C1BCF9D046"]
+			id: "43D0B1E27BADA659"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534EB699FF7521EC"
+				type: "random"
+			}]
+			tasks: [{
+				id: "074D59254E3AAE10"
+				item: { count: 1, id: "powah:energy_cell_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43D0B1E27BADA659"]
+			id: "6EC9A0217D643513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D1CFF5ECA91379"
+				type: "random"
+			}]
+			tasks: [{
+				id: "22B7916FA17BD12C"
+				item: { count: 1, id: "powah:energy_cell_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EC9A0217D643513"]
+			id: "7567103C62E16B9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "784138C0706C418E"
+				type: "random"
+			}]
+			tasks: [{
+				id: "47F78C49FB3EB177"
+				item: { count: 1, id: "powah:energy_cell_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7567103C62E16B9E"]
+			id: "08AA4C9ACFD33C46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA7816531B38C7C"
+				type: "random"
+			}]
+			tasks: [{
+				id: "560AD9423A46263D"
+				item: { count: 1, id: "powah:energy_cell_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["08AA4C9ACFD33C46"]
+			id: "0F6003AB1A216CA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2995A1747ACDA6B1"
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E7EE5715D1517FC"
+				item: { count: 1, id: "powah:energy_cell_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["041DD618F6D9268E"]
+			id: "1FB1BC0CD932BE59"
+			rewards: [{
+				count: 16
+				id: "4B977165E0E925A1"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C5BC529A32E914"
+				item: { count: 1, id: "powah:ender_cell_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1FB1BC0CD932BE59"]
+			id: "417CA5EB7603CE6F"
+			rewards: [{
+				count: 64
+				id: "34F5ABE647FA9818"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "510B1B5156E19017"
+				item: { count: 1, id: "powah:ender_cell_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["417CA5EB7603CE6F"]
+			id: "481B8F4B54AEB2A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A372ABC8C0661F8"
+				type: "random"
+			}]
+			tasks: [{
+				id: "57A53FBBD7F16EF7"
+				item: { count: 1, id: "powah:ender_cell_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["481B8F4B54AEB2A7"]
+			id: "1A8AE52313512473"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4A7A90E12C1845"
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BCF456B0763B686"
+				item: { count: 1, id: "powah:ender_cell_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1A8AE52313512473"]
+			id: "361E57468F21AC96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "202BCFD9F7914A32"
+				type: "random"
+			}]
+			tasks: [{
+				id: "255D970B4C294375"
+				item: { count: 1, id: "powah:ender_cell_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["361E57468F21AC96"]
+			id: "68D152E29CAFB41B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C53F500D9317D50"
+				type: "random"
+			}]
+			tasks: [{
+				id: "1789E54112160E3A"
+				item: { count: 1, id: "powah:ender_cell_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["68D152E29CAFB41B"]
+			id: "4B1E895F29627EC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E9E3541F11CBEE0"
+				type: "random"
+			}]
+			tasks: [{
+				id: "7733AD5370A0F94E"
+				item: { count: 1, id: "powah:ender_cell_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B558FCBEB63182C"]
+			id: "1534394652A8BCC0"
+			rewards: [{
+				count: 16
+				id: "5FE118A78C660B3F"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "753F20CE9AA12A75"
+				item: { count: 1, id: "powah:battery_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1534394652A8BCC0"]
+			id: "7390B63DB555A655"
+			rewards: [{
+				count: 64
+				id: "1CC390362C540D13"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D09BEE15E8C0753"
+				item: { count: 1, id: "powah:battery_basic" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7390B63DB555A655"]
+			id: "1F212D4338BFCBC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CBF355AB1AB07B7"
+				type: "random"
+			}]
+			tasks: [{
+				id: "12A65810F493C1A0"
+				item: { count: 1, id: "powah:battery_hardened" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F212D4338BFCBC6"]
+			id: "71807160B407EC87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F6192F796FDE6FB"
+				type: "random"
+			}]
+			tasks: [{
+				id: "213708E18159D54A"
+				item: { count: 1, id: "powah:battery_blazing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71807160B407EC87"]
+			id: "1F3AC148D8F0DEC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40697AB6538AB39C"
+				type: "random"
+			}]
+			tasks: [{
+				id: "210C89E24EE4E0D8"
+				item: { count: 1, id: "powah:battery_niotic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F3AC148D8F0DEC1"]
+			id: "30B24444D30B6849"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4372E6FF26E0C2BB"
+				type: "random"
+			}]
+			tasks: [{
+				id: "685B239F3BB842A1"
+				item: { count: 1, id: "powah:battery_spirited" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30B24444D30B6849"]
+			id: "0A704EA4E3A68625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5970F4D93883EC14"
+				type: "random"
+			}]
+			tasks: [{
+				id: "76ACAEF0CB58F983"
+				item: { count: 1, id: "powah:battery_nitro" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+}

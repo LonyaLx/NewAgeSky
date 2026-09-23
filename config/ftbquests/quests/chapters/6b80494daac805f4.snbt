@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6b80494daac805f4"
+	group: "771239FADC842121"
+	id: "6B80494DAAC805F4"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26F98DD56C7393F4"
+			tasks: [{
+				id: "106BB76AE280A24A"
+				item: { count: 1, id: "draconicevolution:draconium_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E170A1C4F4BEB0E"
+			tasks: [{
+				id: "5A48B2E3D3D244D6"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "25C154C7DD4D8923"
+			tasks: [{
+				id: "0FFA62EB5A8F7A2C"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "360A87D17BF9612F"
+			tasks: [{
+				id: "6113EB732ADD73C9"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "2E0D744F5773ABA4"
+			tasks: [
+				{
+					id: "6AE4CD06A57F3CCE"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+				{
+					id: "03EADC0F7FE620A2"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "74CDD98A461F4822"
+			tasks: [{
+				id: "3F01EA37B5383303"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "4DF72CDF56B6FB6C"
+			tasks: [{
+				id: "4425447CA5323301"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "175A228D9CC8176A"
+			tasks: [{
+				id: "486EE4CE6F63E4AF"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "1E7D767BE8BC36B5"
+			tasks: [{
+				id: "2BD6BD1840E5E334"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "33061E45A3F5B593"
+			tasks: [{
+				id: "3DC1E8EDEE6D4735"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "48D337EBEAA22896"
+			tasks: [{
+				id: "72A26BD7714D0E11"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "729F2045783D16BF"
+			tasks: [{
+				id: "15AF98BD03074B64"
+				item: { count: 1, id: "draconicevolution:dislocator_receptacle" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "22E90B2831A71D71"
+			tasks: [{
+				id: "65C1D22CB7A3EB37"
+				item: { count: 1, id: "draconicevolution:infused_obsidian" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "08AC40BD9960BAE3"
+			tasks: [{
+				id: "07728A96464BEAE0"
+				item: { count: 1, id: "draconicevolution:p2p_dislocator_unbound" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "55FEE39C9B18CA3C"
+			tasks: [{
+				id: "776810297FDF3767"
+				item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "2295B021361DA568"
+			tasks: [{
+				id: "794D4775B5F4FA66"
+				item: { count: 1, id: "draconicevolution:draconic_energy_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "059487D487363ECA"
+			tasks: [{
+				id: "09A900EF8E7AE9B2"
+				item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "45E0EE6D8DB47D70"
+			tasks: [{
+				id: "12BE96F3980791B8"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -121213237, 1301694960, -1573181257, 1464685105 ] }, count: 1, id: "draconicevolution:wyvern_sword" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "1EC4274FE7B7DA6E"
+			tasks: [{
+				id: "34D14E31258D4EAE"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1623172532, -1405073927, -1312995620, 684525672 ] }, count: 1, id: "draconicevolution:draconic_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "522A306463DE64F6"
+			tasks: [{
+				id: "1F9E62F8DC1F6E43"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 878957877, 832719372, -1743052848, -1037808 ] }, count: 1, id: "draconicevolution:chaotic_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "7AED2EF297BB6D77"
+			tasks: [{
+				id: "498AC62EE86DB381"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 835503356, 1063407398, -1346093174, -1253695537 ] }, count: 1, id: "draconicevolution:wyvern_chestpiece" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "1CECE33BF2D17DF0"
+			tasks: [{
+				id: "1D06CA26848E349F"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1383112280, 1666797206, -1622267129, 1650284186 ] }, count: 1, id: "draconicevolution:draconic_chestpiece" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "1E8D4D7C96C009AD"
+			tasks: [{
+				id: "7EBD7CD857434B80"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -1719702371, 612453995, -2070869132, -6775312 ] }, count: 1, id: "draconicevolution:chaotic_chestpiece" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "18991C70F1D1EE64"
+			tasks: [{
+				id: "7FDDB4B562066E12"
+				item: { count: 1, id: "draconicevolution:basic_relay_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "7242DAAF7D0C324B"
+			tasks: [{
+				id: "278E76F3046ADDEA"
+				item: { count: 1, id: "draconicevolution:wyvern_relay_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "07872D24F3BFEFAB"
+			tasks: [{
+				id: "39E2E291534FC135"
+				item: { count: 1, id: "draconicevolution:draconic_relay_crystal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+}
