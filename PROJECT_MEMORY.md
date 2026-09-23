@@ -58,8 +58,8 @@
 - 若继续改配方，必须先退出测试实例，再同步 `config/` 与 `kubejs/`。
 - 本次备份：`_excluded/creative_chain_b_20260910_214607/`。
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
-- 备用 MRPACK 已归档：`_excluded/release_archive/天工创世-1.0.0-精简版.mrpack`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
+- 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
 - 唯一安装包：`01-整合包/天工创世-1.0.0-CurseForge.zip`，69.29 MB；166 个模组由启动器下载，50 个随包提供。
 - 安装包 SHA-256：`7AA4CB6BDA167CE9F529444ED3EA1AF6EE63ED5D73AF15C9E0A555E4FC898A2D`。
 - 模板配方备份：`_excluded/avaritia_template_20260910_222858/`。
