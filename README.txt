@@ -1,5 +1,6 @@
 《天工创世》NewAgeSky — 空岛科技整合包
-版本：Minecraft 1.21.1 · NeoForge 21.1.249 · Java 21 · mods 217
+整合包版本：1.0.1
+运行环境：Minecraft 1.21.1 · NeoForge 21.1.249 · Java 21 · mods 217
 
 一句话：以资源生产方式换代为主线，从手筛、自动筛、作物与蜜蜂，发展到 ME 网络、工厂化和 EMC。
 
