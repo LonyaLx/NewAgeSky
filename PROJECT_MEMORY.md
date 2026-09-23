@@ -61,7 +61,10 @@
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
 - 唯一安装包：`01-整合包/天工创世-1.0.1-CurseForge.zip`，69.37 MB；166 个模组由启动器下载，51 个随包提供。
-- 安装包 SHA-256：`54304774DE0839B3B486D9AA71E83D4BC168DFE711730BF766CF5353FD85AAC6`。
+- 安装包 SHA-256：`603EF5AA4B59F15A9F38EAEE3F8C6CF7B0A51059982714CDAC8CA195B89D3DD7`。
+- 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
+- 封面模板：`tools/cover-template.html`；生成脚本：`tools/render_release_cover.py`。
+- 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张 1280x720 封面。
 - 模板配方备份：`_excluded/avaritia_template_20260910_222858/`。
 - 全模板配方备份：`_excluded/all_smithing_templates_20260910_223314/`。
 ## 工作规则

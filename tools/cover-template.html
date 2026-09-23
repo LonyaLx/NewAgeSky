@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>天工创世 {{VERSION}} 封面</title>
+<style>
+  html,body{margin:0;width:2048px;height:1152px;overflow:hidden;background:#030612}
+  .stage{position:relative;width:2048px;height:1152px;overflow:hidden;font-family:"Noto Sans SC","Microsoft YaHei","Source Han Sans CN",sans-serif;color:#fff}
+  .scene{position:absolute;inset:0;width:2048px;height:1152px}
+  .left-panel{position:absolute;inset:0;background:
+    linear-gradient(90deg,rgba(3,6,18,.98) 0%,rgba(3,7,20,.94) 25%,rgba(4,9,22,.72) 48%,rgba(5,10,24,.20) 68%,rgba(5,10,24,0) 83%),
+    linear-gradient(180deg,rgba(2,4,12,.32),rgba(2,4,12,0) 30%,rgba(2,4,12,.52) 100%);pointer-events:none}
+  .vignette{position:absolute;inset:0;background:radial-gradient(ellipse at 68% 46%,transparent 0%,transparent 42%,rgba(1,3,10,.30) 72%,rgba(1,3,10,.78) 100%);pointer-events:none}
+  .frame{position:absolute;inset:30px;border:1px solid rgba(137,224,255,.20);box-shadow:inset 0 0 80px rgba(29,145,255,.05);pointer-events:none}
+  .frame:before,.frame:after{content:"";position:absolute;width:120px;height:3px;background:linear-gradient(90deg,#79e8ff,rgba(121,232,255,0));top:-2px;left:-2px;box-shadow:0 0 18px rgba(121,232,255,.8)}
+  .frame:after{left:auto;right:-2px;top:auto;bottom:-2px;transform:rotate(180deg)}
+  .corner{position:absolute;width:64px;height:64px;border-color:#87e9ff;border-style:solid;opacity:.78;filter:drop-shadow(0 0 9px rgba(74,205,255,.6))}
+  .c1{left:30px;top:30px;border-width:2px 0 0 2px}.c2{right:30px;top:30px;border-width:2px 2px 0 0}.c3{left:30px;bottom:30px;border-width:0 0 2px 2px}.c4{right:30px;bottom:30px;border-width:0 2px 2px 0}
+  .content{position:absolute;left:116px;top:88px;width:930px;z-index:5}
+  .eyebrow{font-size:23px;letter-spacing:.26em;font-weight:700;color:#a8ddf2;text-transform:uppercase;text-shadow:0 0 18px rgba(72,204,255,.45)}
+  .eyebrow .sep{color:#ffb553;margin:0 10px}
+  .title-row{display:flex;align-items:flex-end;gap:24px;margin-top:18px}
+  .title{font-size:164px;line-height:.98;font-weight:900;letter-spacing:.035em;background:linear-gradient(180deg,#fff9dc 0%,#ffd77a 33%,#ff9b3d 62%,#75e7ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 8px 0 rgba(4,8,18,.55)) drop-shadow(0 0 28px rgba(255,164,58,.34));white-space:nowrap}
+  .version{margin-bottom:18px;padding:9px 14px 8px;border:1px solid rgba(126,231,255,.65);border-radius:5px;background:linear-gradient(180deg,rgba(18,109,150,.52),rgba(8,30,57,.74));color:#bff6ff;font-size:23px;font-weight:900;letter-spacing:.12em;box-shadow:0 0 22px rgba(54,194,255,.22)}
+  .english{margin-top:18px;font-size:41px;line-height:1;font-weight:800;letter-spacing:.36em;color:#fff;text-shadow:0 0 22px rgba(108,223,255,.48)}
+  .subtitle{margin-top:31px;font-size:31px;line-height:1.45;font-weight:600;color:#e9f7ff;text-shadow:0 2px 14px rgba(0,0,0,.85)}
+  .subtitle .accent{color:#ffc05e}
+  .stats{display:flex;align-items:center;gap:25px;margin-top:33px}
+  .stat{display:flex;align-items:baseline;gap:9px;min-width:148px}.stat b{font-size:43px;line-height:1;color:#fff;text-shadow:0 0 18px rgba(90,214,255,.42)}.stat span{font-size:16px;letter-spacing:.18em;color:#88cadd;font-weight:800}
+  .divider{width:1px;height:40px;background:linear-gradient(180deg,transparent,rgba(135,233,255,.8),transparent)}
+  .tags{display:flex;gap:10px;margin-top:30px;flex-wrap:wrap;max-width:880px}
+  .tags span{padding:9px 16px 8px;border:1px solid rgba(126,226,255,.30);border-radius:999px;background:linear-gradient(180deg,rgba(18,56,86,.70),rgba(8,23,43,.72));color:#c8f4ff;font-size:18px;font-weight:700;letter-spacing:.04em;box-shadow:inset 0 0 18px rgba(45,176,255,.08)}
+  .tags span.hot{border-color:rgba(255,169,70,.55);color:#ffd39a;background:linear-gradient(180deg,rgba(112,50,16,.58),rgba(48,22,10,.72))}
+  .footer{position:absolute;left:116px;bottom:88px;display:flex;align-items:center;gap:14px;font-size:20px;letter-spacing:.05em;color:#a9cfdd;font-weight:600;z-index:6}
+  .footer .dot{color:#ffb454;font-size:24px}.footer b{color:#fff}
+  .side-badge{position:absolute;right:70px;top:66px;padding:15px 19px 14px;border:1px solid rgba(147,231,255,.20);border-left:3px solid #ffae4e;border-radius:5px;background:linear-gradient(135deg,rgba(5,13,26,.90),rgba(8,25,43,.72));box-shadow:0 12px 40px rgba(0,0,0,.38);backdrop-filter:blur(5px);z-index:6}
+  .side-badge b{display:block;font-size:28px;color:#ffe5b4;letter-spacing:.06em}.side-badge span{display:block;margin-top:4px;font-size:14px;letter-spacing:.20em;color:#8bc7dc;font-weight:800}
+  .scan{position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(255,255,255,.018) 0 1px,transparent 1px 5px);mix-blend-mode:screen;opacity:.38;pointer-events:none}
+</style>
+</head>
+<body>
+<div class="stage">
+  <svg id="scene" class="scene" viewBox="0 0 2048 1152" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div class="left-panel"></div><div class="vignette"></div>
+  <div class="frame"></div><div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+  <div class="content">
+    <div class="eyebrow">MINECRAFT 1.21.1<span class="sep">·</span>NEOFORGE<span class="sep">·</span>空岛科技整合包</div>
+    <div class="title-row"><div class="title">天工创世</div><div class="version">v{{VERSION}}</div></div>
+    <div class="english">NEWAGESKY</div>
+    <div class="subtitle">从空岛起步，进阶到<span class="accent">ME 网络</span>与<span class="accent">创造终局</span></div>
+    <div class="stats">
+      <div class="stat"><b>{{MODS}}</b><span>MODS</span></div><div class="divider"></div>
+      <div class="stat"><b>{{QUESTS}}</b><span>QUESTS</span></div><div class="divider"></div>
+      <div class="stat"><b>{{CHAPTERS}}</b><span>CHAPTERS</span></div>
+    </div>
+    <div class="tags"><span>空岛科技</span><span>自动化</span><span>AE2</span><span>Mekanism</span><span class="hot">ProjectE 困难模式</span></div>
+  </div>
+  <div class="side-badge"><b>{{MODS}} MODS</b><span>PROJECT E HARD MODE</span></div>
+  <div class="footer"><span>制作：<b>凉寻Lonya</b></span><span class="dot">·</span><span>NeoForge 21.1.249 / Java 21</span></div>
+  <div class="scan"></div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg',svg=document.getElementById('scene');
+const E=(n,a={})=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const A=(p,n,a={})=>{const e=E(n,a);p.appendChild(e);return e};
+let seed=20260918;const R=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296};
+const C=(x,y,r,f,o=1,extra={})=>A(svg,'circle',Object.assign({cx:x,cy:y,r:r,fill:f,opacity:o},extra));
+const P=(pts,f,o=1,extra={})=>A(svg,'polygon',Object.assign({points:pts,fill:f,opacity:o},extra));
+const L=(x1,y1,x2,y2,s,w,o=1,extra={})=>A(svg,'line',Object.assign({x1:x1,y1:y1,x2:x2,y2:y2,stroke:s,'stroke-width':w,opacity:o},extra));
+const defs=A(svg,'defs');
+const grad=(id,stops,x1=0,y1=0,x2=1,y2=1)=>{const g=A(defs,'linearGradient',{id:id,x1:x1,y1:y1,x2:x2,y2:y2});stops.forEach(s=>A(g,'stop',{offset:s[0],'stop-color':s[1],'stop-opacity':s[2]??1}));return g};
+const rgrad=(id,stops)=>{const g=A(defs,'radialGradient',{id:id});stops.forEach(s=>A(g,'stop',{offset:s[0],'stop-color':s[1],'stop-opacity':s[2]??1}));return g};
+grad('sky',[[0,'#02030a'],[.28,'#06182f'],[.55,'#0a3150'],[.76,'#273e61'],[1,'#9b5039']],0,0,0,1);
+rgrad('neb1',[[0,'#28a7ff',.34],[.45,'#1456a8',.12],[1,'#031024',0]]);rgrad('neb2',[[0,'#ff8b3d',.27],[.5,'#a63f33',.09],[1,'#1b0b18',0]]);rgrad('portal',[[0,'#04020b',1],[.32,'#34124f',1],[.62,'#a52f66',.88],[.8,'#ff9d3d',.42],[1,'#6ee8ff',0]]);rgrad('core',[[0,'#fff7cf',1],[.12,'#ffb14a',.96],[.34,'#ef3e6c',.72],[.62,'#440d4c',.35],[1,'#08030c',0]]);rgrad('glow',[[0,'#8ff7ff',.92],[.35,'#2fb4ff',.32],[1,'#2fb4ff',0]]);
+grad('grass',[[0,'#8cd84f'],[.45,'#55b94b'],[1,'#2f7f46']],0,0,1,1);grad('grassSide',[[0,'#4b913f'],[1,'#1f5a37']],0,0,0,1);grad('dirt',[[0,'#8b5b36'],[1,'#4e3024']],0,0,0,1);grad('stone',[[0,'#66717c'],[1,'#2c3544']],0,0,0,1);grad('metal',[[0,'#d7e3e8'],[.5,'#71828d'],[1,'#303b48']],0,0,0,1);grad('copper',[[0,'#f0a15b'],[.5,'#b85e36'],[1,'#67302b']],0,0,0,1);grad('me',[[0,'#a8fbff'],[.45,'#23b9d7'],[1,'#12527e']],0,0,0,1);grad('water',[[0,'#bff8ff',.9],[.45,'#36b9e8',.72],[1,'#1267a8',.10]],0,0,0,1);grad('beam',[[0,'#ff9e45'],[.5,'#ffdf77'],[1,'#6ef2ff']],0,0,1,0);
+const glow=A(defs,'filter',{id:'glow',x:'-50%',y:'-50%',width:'200%',height:'200%'});A(glow,'feGaussianBlur',{stdDeviation:'8',result:'b'});const gm=A(glow,'feMerge');A(gm,'feMergeNode',{in:'b'});A(gm,'feMergeNode',{in:'SourceGraphic'});
+const soft=A(defs,'filter',{id:'soft',x:'-50%',y:'-50%',width:'200%',height:'200%'});A(soft,'feGaussianBlur',{stdDeviation:'22'});
+A(svg,'rect',{x:0,y:0,width:2048,height:1152,fill:'url(#sky)'});
+A(svg,'ellipse',{cx:480,cy:270,rx:650,ry:360,fill:'url(#neb1)',filter:'url(#soft)'});
+A(svg,'ellipse',{cx:1690,cy:530,rx:580,ry:410,fill:'url(#neb2)',filter:'url(#soft)'});
+for(let i=0;i<290;i++){const x=R()*2048,y=R()*800,r=.45+R()*2.0;C(x,y,r,R()>.78?'#ffe0a2':'#bcecff',.18+R()*.72)}
+for(let i=0;i<24;i++){const x=R()*2048,y=R()*760;C(x,y,7+R()*18,R()>.5?'#54d9ff':'#ff9d52',.025+R()*.05,{filter:'url(#soft)'})}
+const gline=A(svg,'g',{opacity:.15});for(let i=0;i<15;i++){const y=740+i*22;L(0,y,2048,y+90,'#55dfff',1,.10)}for(let i=0;i<23;i++){const x=760+i*58;L(x,560,x+220,1080,'#55dfff',1,.06)}
+const di=(x,y,s)=>{P(`${x},${y-s*.50} ${x+s},${y} ${x},${y+s*.50} ${x-s},${y}`,'url(#grass)',.88);P(`${x-s},${y} ${x},${y+s*.50} ${x},${y+s*1.05} ${x-s},${y+s*.55}`,'url(#dirt)',.9);P(`${x},${y+s*.50} ${x+s},${y} ${x+s},${y+s*.55} ${x},${y+s*1.05}`,'url(#stone)',.9)};
+[[300,420,105],[1930,270,78],[710,250,48],[208,760,58],[1890,820,42]].forEach(v=>{A(svg,'g',{opacity:.45+R()*.35}).appendChild((()=>{const g=A(svg,'g');return g})());});
+const far=A(svg,'g',{opacity:.52});[[305,420,105],[1930,265,78],[712,248,48],[205,755,58],[1888,815,42]].forEach(v=>{const g=A(far,'g');const[x,y,s]=v;A(g,'ellipse',{cx:x,cy:y+s*.75,rx:s*1.25,ry:s*.35,fill:'#061422',opacity:.65,filter:'url(#soft)'});A(g,'polygon',{points:`${x},${y-s*.5} ${x+s},${y} ${x},${y+s*.5} ${x-s},${y}`,fill:'#3d8150'});A(g,'polygon',{points:`${x-s},${y} ${x},${y+s*.5} ${x},${y+s*1.25} ${x-s},${y+s*.65}`,fill:'#5a3a2b'});A(g,'polygon',{points:`${x},${y+s*.5} ${x+s},${y} ${x+s},${y+s*.65} ${x},${y+s*1.25}`,fill:'#303849'})});
+const portal=A(svg,'g',{filter:'url(#glow)'});A(portal,'circle',{cx:1645,cy:405,r:330,fill:'url(#portal)',opacity:.62});A(portal,'circle',{cx:1645,cy:405,r:252,fill:'#05040d',stroke:'#ff9b46','stroke-width':7,opacity:.92});A(portal,'circle',{cx:1645,cy:405,r:218,fill:'none',stroke:'#62e9ff','stroke-width':3,'stroke-dasharray':'22 18',opacity:.8,transform:'rotate(18 1645 405)'});A(portal,'circle',{cx:1645,cy:405,r:186,fill:'url(#core)',opacity:.96});
+for(let i=0;i<64;i++){const a=R()*Math.PI*2,d=190+R()*190;C(1645+Math.cos(a)*d,405+Math.sin(a)*d*.72,1.5+R()*4.5,R()>.5?'#ffd28a':'#75ecff',.35+R()*.6)}
+const island=A(svg,'g');
+A(island,'ellipse',{cx:1320,cy:1010,rx:520,ry:95,fill:'#02050c',opacity:.75,filter:'url(#soft)'});
+A(island,'polygon',{points:'830,780 1320,930 1320,1045 830,895',fill:'url(#stone)'});
+A(island,'polygon',{points:'1320,930 1810,780 1810,895 1320,1045',fill:'url(#dirt)'});
+A(island,'polygon',{points:'860,815 1320,955 1320,1015 860,875',fill:'#3b4552',opacity:.42});
+A(island,'polygon',{points:'1320,955 1780,815 1780,875 1320,1015',fill:'#75472f',opacity:.40});
+A(island,'polygon',{points:'1320,610 1810,780 1320,930 830,780',fill:'url(#grass)',stroke:'#b7f276','stroke-width':2});
+for(let i=0;i<230;i++){let a,b;do{a=R()*2-1;b=R()*2-1}while(Math.abs(a)+Math.abs(b)>1);const x=1320+a*490,y=770+b*160;A(island,'polygon',{points:`${x},${y} ${x+17},${y+9} ${x},${y+18} ${x-17},${y+9}`,fill:R()>.5?'#73cb4c':'#3e9d48',opacity:.25+R()*.38})}
+for(let i=0;i<34;i++){const t=i/33;const x=830+t*490,y=780+t*150;A(island,'polygon',{points:`${x-10},${y} ${x+10},${y+8} ${x+8},${y+23} ${x-12},${y+15}`,fill:'#2d693c',opacity:.92})}
+for(let i=0;i<34;i++){const t=i/33;const x=1810-t*490,y=780+t*150;A(island,'polygon',{points:`${x-10},${y+8} ${x+10},${y} ${x+12},${y+15} ${x-8},${y+23}`,fill:'#347940',opacity:.92})}
+for(let i=0;i<18;i++){const x=900+R()*400,y=820+R()*80;A(island,'path',{d:`M${x},${y} q-18,55 ${x+R()*30-15},${100+R()*70}`,fill:'none',stroke:R()>.5?'#4fa85a':'#2d7044','stroke-width':4+R()*4,opacity:.74})}
+A(island,'polygon',{points:'1005,866 1036,877 1024,1048 1004,1090 984,1048 976,877',fill:'#6ee7ff',opacity:.12,filter:'url(#glow)'});A(island,'ellipse',{cx:1004,cy:1088,rx:58,ry:18,fill:'#6ee7ff',opacity:.12,filter:'url(#soft)'});A(island,'path',{d:'M1007 871 C996 944 1014 1004 1002 1068',fill:'none',stroke:'#e9ffff','stroke-width':3,opacity:.80,filter:'url(#glow)'});A(island,'path',{d:'M1022 880 C1014 950 1028 1005 1018 1067',fill:'none',stroke:'#6ee7ff','stroke-width':2,opacity:.72});A(island,'path',{d:'M990 879 C982 944 994 1002 986 1060',fill:'none',stroke:'#6ee7ff','stroke-width':2,opacity:.55});for(let i=0;i<12;i++){C(1004+(R()-.5)*36,1060+R()*36,1+R()*3,'#9df7ff',.35+R()*.5)}
+const cube=(p,x,y,s,top,left,right,op=1)=>{const g=A(p,'g',{opacity:op});A(g,'polygon',{points:`${x},${y-s*.5} ${x+s},${y} ${x},${y+s*.5} ${x-s},${y}`,fill:top});A(g,'polygon',{points:`${x-s},${y} ${x},${y+s*.5} ${x},${y+s*1.15} ${x-s},${y+s*.65}`,fill:left});A(g,'polygon',{points:`${x},${y+s*.5} ${x+s},${y} ${x+s},${y+s*.65} ${x},${y+s*1.15}`,fill:right});return g};
+const iso=(x,y,s)=>cube(island,x,y,s,'url(#metal)','#4a5864','#2d3743');
+const tree=(x,y)=>{cube(island,x,y,22,'#9a6536','#704329','#553221');[[x-32,y-34],[x,y-48],[x+32,y-34],[x,y-16],[x-16,y-44],[x+16,y-44]].forEach((q,i)=>cube(island,q[0],q[1],28,i%2?'#5fc450':'#3fa759','#2e7b42','#246338'))};
+
+const farm=A(island,'g');for(let r=0;r<4;r++)for(let c=0;c<6;c++){const x=915+c*27+r*0,y=795+r*14;A(farm,'polygon',{points:`${x},${y} ${x+24},${y+12} ${x+12},${y+20} ${x-12},${y+8}`,fill:c%2?'#487237':'#765328'});L(x+6,y+7,x+6,y-9,'#e6c85d',2,.9);L(x+11,y+10,x+11,y-7,'#8bd15d',2,.9)}
+const sieve=A(island,'g');A(sieve,'polygon',{points:'870,760 930,788 900,810 840,782',fill:'#b77b43',stroke:'#e0ae68','stroke-width':4});A(sieve,'polygon',{points:'878,765 924,787 900,802 854,780',fill:'#30291f',opacity:.7});for(let i=0;i<7;i++)L(860+i*8,770+i*4,886+i*8,784+i*4,'#e7c27d',2,.65);
+const machines=A(island,'g');[[1215,745,38],[1290,785,46],[1370,735,42],[1455,785,50],[1540,730,39]].forEach((v,i)=>{cube(machines,v[0],v[1],v[2],i%2?'url(#copper)':'url(#metal)',i%2?'#79402e':'#4d5a66',i%2?'#4c2c26':'#2d3742');if(i%2===0){A(machines,'rect',{x:v[0]-7,y:v[1]-v[2]*1.25,width:14,height:24,fill:'#6b7783',rx:2})}});
+const gear=(x,y,r,teeth=12,col='#aebac2')=>{const g=A(machines,'g');for(let i=0;i<teeth;i++){const a=i*Math.PI*2/teeth;A(g,'rect',{x:x+Math.cos(a)*r-4,y:y+Math.sin(a)*r-4,width:8,height:8,fill:col,transform:`rotate(${a*180/Math.PI} ${x+Math.cos(a)*r} ${y+Math.sin(a)*r})`})}A(g,'circle',{cx:x,cy:y,r:r*.72,fill:'#52616e',stroke:col,'stroke-width':5});A(g,'circle',{cx:x,cy:y,r:r*.24,fill:'#17222c'});return g};
+gear(1318,708,34,14,'#e0a76c');gear(1398,760,42,16,'#a8bdc7');
+const pipes=A(machines,'g');A(pipes,'path',{d:'M1200 790 C1150 810 1155 850 1095 845 C1040 840 1010 805 960 820',fill:'none',stroke:'#718491','stroke-width':13,'stroke-linecap':'round'});A(pipes,'path',{d:'M1230 725 C1320 650 1450 650 1560 700',fill:'none',stroke:'#6e8794','stroke-width':12,'stroke-linecap':'round'});A(pipes,'path',{d:'M1230 725 C1320 650 1450 650 1560 700',fill:'none',stroke:'#70e6ff','stroke-width':4,'stroke-linecap':'round','stroke-dasharray':'18 20',filter:'url(#glow)'});
+const factoryGlow=A(machines,'g');[[1280,775],[1450,775],[1360,725]].forEach(v=>{A(factoryGlow,'rect',{x:v[0]-21,y:v[1]-14,width:42,height:28,fill:'#ff9b43',rx:4,filter:'url(#glow)'});A(factoryGlow,'rect',{x:v[0]-12,y:v[1]-5,width:24,height:12,fill:'#fff0a4',rx:2})});
+for(let i=0;i<8;i++){const x=1265+R()*260,y=640+R()*70;C(x,y,18+R()*25,'#d8f7ff',.035+R()*.05,{filter:'url(#soft)'})}
+const me=A(island,'g',{filter:'url(#glow)'});cube(me,1605,625,64,'url(#me)','#147da8','#0a486f',.96);for(let i=0;i<5;i++)L(1565+i*20,625,1605+i*20,585,'#d8ffff',2,.55);A(me,'ellipse',{cx:1605,cy:625,rx:102,ry:35,fill:'none',stroke:'#6df3ff','stroke-width':3,'stroke-dasharray':'12 11',transform:'rotate(-16 1605 625)'});A(me,'ellipse',{cx:1605,cy:625,rx:115,ry:42,fill:'none',stroke:'#ffb45b','stroke-width':2,opacity:.7,transform:'rotate(22 1605 625)'});
+A(island,'path',{d:'M1560 690 C1450 760 1400 790 1340 820',fill:'none',stroke:'url(#beam)','stroke-width':5,opacity:.9,filter:'url(#glow)','stroke-dasharray':'14 10'});A(island,'path',{d:'M1640 590 C1680 520 1700 470 1710 410',fill:'none',stroke:'#ffb35c','stroke-width':4,opacity:.7,filter:'url(#glow)','stroke-dasharray':'9 13'});
+for(let i=0;i<90;i++){const x=1040+R()*560,y=620+R()*260;C(x,y,1+R()*3.2,R()>.45?'#8df5ff':'#ffc16b',.35+R()*.55)}
+const overlay=A(svg,'g');A(overlay,'rect',{x:0,y:920,width:2048,height:232,fill:'url(#sky)',opacity:.18});
+for(let i=0;i<12;i++){const x=1160+R()*650,y=680+R()*300;L(x,y,x+R()*80-40,y-R()*80-20,'#9ef5ff',1,.11)}
+</script>
+</body>
+</html>
