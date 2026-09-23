@@ -62,7 +62,7 @@
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
 - 唯一安装包：`01-整合包/天工创世-1.0.1-CurseForge.zip`，69.37 MB；166 个模组由启动器下载，51 个随包提供。
-- 安装包 SHA-256：`16BE722D9DDED1C6AECC219B93C37FFA03AD1AEBA8464809D13B5904C82682E5`。
+- 安装包 SHA-256：`F8CE01BBA0EA44388076F21A30BAA07B3F9A41172B9A51E699960E69C135C0AA`。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 封面模板：`tools/cover-template.html`；生成脚本：`tools/render_release_cover.py`。
 - 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张 1280x720 封面。
@@ -81,4 +81,4 @@
 - `CHANGELOG.md`
 - `MODLIST.txt`
 - `_excluded/`
-- CurseForge 项目状态审计 166/166 可用；当前随包模组 51 个，无下架回退项。
+- CurseForge 项目状态审计：164/166 个远程项目仍在；AE2 Lightning Tech 与 Thunderbolt 已下架，改为随包提供。

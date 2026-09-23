@@ -3,6 +3,7 @@ from __future__ import annotations
 import concurrent.futures
 import datetime as dt
 import json
+import re
 import time
 import urllib.error
 import urllib.request
@@ -53,6 +54,9 @@ def check(item: tuple[str, dict]) -> dict:
     data = fetch(project_id)
     if data.get("missing"):
         return {**result, "status": "project_missing"}
+    api_title = str(data.get("title", ""))
+    if re.fullmatch(r"project-\d+", api_title):
+        return {**result, "status": "project_missing", "actual_title": api_title}
     file_ids = {int(entry["id"]) for entry in data.get("files", []) if "id" in entry}
     download_id = data.get("download", {}).get("id")
     if isinstance(download_id, int):
@@ -104,7 +108,7 @@ def main() -> int:
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"checked": report["checked"], "ok": report["ok"], "problems": len(problems)}, ensure_ascii=False))
     for row in problems:
-        print(f"{row['status']}: {row.get('title') or row['file']} ({row['projectID']}/{row['fileID']})")
+        print(f"{row['status']}: {row['file']} ({row['projectID']}/{row['fileID']})")
     print(f"report={path}")
     return 0
 
