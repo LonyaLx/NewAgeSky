@@ -44,7 +44,7 @@ missing = []
 for item in sorted(refs):
     if item in CUSTOM or item in VALID_TYPES:
         continue
-    if item.startswith(("newagesky:", "minecraft:")) or "_ae" in item:
+    if item.startswith(("sky-craft-creation:", "minecraft:")) or "_ae" in item:
         continue
     if ":item/" in item or ":block/" in item:
         continue

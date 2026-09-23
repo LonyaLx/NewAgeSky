@@ -5,7 +5,7 @@ root = Path(r"C:\Users\admin\Desktop\NewAgeSky-1.21.1")
 script = root / "kubejs" / "server_scripts" / "avaritia_hardmode.js"
 text = script.read_text(encoding="utf-8")
 refs = set(re.findall(r"['\"]([a-z0-9_]+:[a-z0-9_/\.-]+)['\"]", text))
-refs = {r for r in refs if not r.startswith(("newagesky:", "minecraft:", "kubejs:")) and ":item/" not in r and ":block/" not in r}
+refs = {r for r in refs if not r.startswith(("sky-craft-creation:", "minecraft:", "kubejs:")) and ":item/" not in r and ":block/" not in r}
 refs.discard("avaritia:shaped_table")
 refs.discard("avaritia:infinity_catalyst_eternal")
 refs = {r for r in refs if not (r.startswith('packagedavaritia:') and r.endswith('_ae'))}

@@ -1,4 +1,4 @@
-# 天工创世 (NewAgeSky) mods (1.21.1 + NeoForge)
+# 天工创世 (sky-craft-creation) mods (1.21.1 + NeoForge)
 
 mods\actuallyadditions-1.3.26+mc1.21.1.jar
 mods\advancedae_addon-21.1.0.jar

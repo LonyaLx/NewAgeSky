@@ -54,14 +54,14 @@ ServerEvents.recipes(event => {
     ['extendedcrafting:black_iron_ingot', 4],
     ['enderio:reinforced_obsidian_block', 4],
     ['ae2:fluix_crystal', 4]
-  ], 'newagesky:endgame/tiangong_alloy_frame')
+  ], 'sky-craft-creation:endgame/tiangong_alloy_frame')
 
   tableRecipe('kubejs:quantum_control_matrix', 4, [
     ['advanced_ae:quantum_core', 4],
     ['mekanismsun:supernova_control_circuit', 4],
     ['ae2:calculation_processor', 4],
     ['packagedauto:me_package_component', 4]
-  ], 'newagesky:endgame/quantum_control_matrix')
+  ], 'sky-craft-creation:endgame/quantum_control_matrix')
 
   tableRecipe('kubejs:emc_focus_module', 4, [
     ['projecte:mobius_fuel', 4],
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
     ['powah:ender_core', 4],
     ['ae2:pattern_provider', 4],
     ['mekanism:ultimate_control_circuit', 4]
-  ], 'newagesky:endgame/emc_focus_module')
+  ], 'sky-craft-creation:endgame/emc_focus_module')
 
   tableRecipe('kubejs:infinity_structural_core', 2, [
     ['avaritia:infinity_catalyst', 1],
@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
     ['avaritia:neutron_ingot', 2],
     ['kubejs:emc_focus_module', 1],
     ['kubejs:quantum_control_matrix', 1]
-  ], 'newagesky:endgame/infinity_structural_core')
+  ], 'sky-craft-creation:endgame/infinity_structural_core')
 
   // 天工核心链：世界心产出 2 份；天工核心批量产出 4 份。
   tableRecipe('kubejs:celestial_frame', 4, [
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
     ['extendedcrafting:black_iron_ingot', 2],
     ['immersiveengineering:component_steel', 2],
     ['extendedcrafting:the_ultimate_component', 1]
-  ], 'newagesky:endgame/celestial_frame')
+  ], 'sky-craft-creation:endgame/celestial_frame')
 
   tableRecipe('kubejs:worldheart_matrix', 2, [
     ['kubejs:quantum_control_matrix', 2],
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
     ['hostilenetworks:prediction_matrix', 2],
     ['mekanismsun:supernova_control_circuit', 2],
     ['kubejs:celestial_frame', 2]
-  ], 'newagesky:endgame/worldheart_matrix')
+  ], 'sky-craft-creation:endgame/worldheart_matrix')
 
   tableRecipe('kubejs:tiangong_core', 4, [
     ['kubejs:quantum_control_matrix', 2],
@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
     ['projectexpansion:final_power_flower', 2],
     ['bigreactors:energycore', 2],
     ['packagedauto:me_package_component', 4]
-  ], 'newagesky:endgame/tiangong_core')
+  ], 'sky-craft-creation:endgame/tiangong_core')
 
   // 阶段 1：能源与动力。创造能源立方是全部创造链的根节点。
   tableRecipe('mekanism:creative_energy_cube', 1, [
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
     ['mekanismsun:supernova_control_circuit', 4],
     ['powah:energy_cell_nitro', 4],
     ['mekanism:ultimate_energy_cube', 1]
-  ], 'newagesky:creative/chain/01_energy_cube')
+  ], 'sky-craft-creation:creative/chain/01_energy_cube')
 
   tableRecipe('create:creative_motor', 1, [
     ['mekanism:creative_energy_cube', 1],
@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
     ['create:precision_mechanism', 4],
     ['immersiveengineering:capacitor_hv', 2],
     ['mekanism:alloy_atomic', 2]
-  ], 'newagesky:creative/chain/02_motor')
+  ], 'sky-craft-creation:creative/chain/02_motor')
 
   // 阶段 2：固体与流体存储。能源核心向两条存储支线分流。
   tableRecipe('mekanism:creative_bin', 1, [
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
     ['extendedcrafting:the_ultimate_ingot', 4],
     ['mekanism:alloy_atomic', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/03_bin')
+  ], 'sky-craft-creation:creative/chain/03_bin')
 
   tableRecipe('create:creative_crate', 1, [
     ['create:creative_motor', 1],
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
     ['sophisticatedstorage:netherite_chest', 2],
     ['extendedcrafting:the_ultimate_ingot', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/04_crate')
+  ], 'sky-craft-creation:creative/chain/04_crate')
 
   tableRecipe('mekanism:creative_fluid_tank', 1, [
     ['mekanism:creative_energy_cube', 1],
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
     ['enderio:reinforced_obsidian_block', 4],
     ['mekanism:alloy_atomic', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/05_fluid_tank')
+  ], 'sky-craft-creation:creative/chain/05_fluid_tank')
 
   tableRecipe('mekanism:creative_chemical_tank', 1, [
     ['mekanism:creative_fluid_tank', 1],
@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
     ['extendedcrafting:the_ultimate_component', 4],
     ['mekanism:alloy_atomic', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/06_chemical_tank')
+  ], 'sky-craft-creation:creative/chain/06_chemical_tank')
 
   tableRecipe('create:creative_fluid_tank', 1, [
     ['mekanism:creative_fluid_tank', 1],
@@ -174,7 +174,7 @@ ServerEvents.recipes(event => {
     ['enderio:reinforced_obsidian_block', 4],
     ['mekanism:alloy_atomic', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/07_create_fluid_tank')
+  ], 'sky-craft-creation:creative/chain/07_create_fluid_tank')
 
   // 阶段 3：高阶机器支线，必须同时接入能源、存储和流体创造件。
   tableRecipe('draconicevolution:creative_op_capacitor', 1, [
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
     ['draconicevolution:chaotic_energy_core', 2],
     ['draconicevolution:awakened_draconium_block', 6],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/08_draconic_capacitor')
+  ], 'sky-craft-creation:creative/chain/08_draconic_capacitor')
 
   tableRecipe('pneumaticcraft:creative_compressed_iron_block', 1, [
     ['create:creative_crate', 1],
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
     ['pneumaticcraft:advanced_pressure_tube', 4],
     ['mekanismsun:artificial_sun_casing', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/09_pneumatic_core')
+  ], 'sky-craft-creation:creative/chain/09_pneumatic_core')
 
   tableRecipe('jdte:creative_upgrade', 1, [
     ['draconicevolution:creative_op_capacitor', 1],
@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
     ['mekanismsun:supernova_control_circuit', 4],
     ['projectexpansion:final_power_flower', 4],
     ['packagedauto:me_package_component', 2]
-  ], 'newagesky:creative/chain/10_jdte_upgrade')
+  ], 'sky-craft-creation:creative/chain/10_jdte_upgrade')
 
   // 阶段 4：全部十件创造物品收敛，最终解锁 ME 创造存储元件。
   tableRecipe('kubejs:creative_convergence_core', 1, [
@@ -221,7 +221,7 @@ ServerEvents.recipes(event => {
     ['kubejs:infinity_structural_core', 1],
     ['kubejs:quantum_control_matrix', 2],
     ['kubejs:tiangong_alloy_frame', 2]
-  ], 'newagesky:creative/convergence_core')
+  ], 'sky-craft-creation:creative/convergence_core')
 
   tableRecipe('ae2:creative_storage_cell', 1, [
     ['kubejs:creative_convergence_core', 1],
@@ -231,5 +231,5 @@ ServerEvents.recipes(event => {
     ['ae2:cell_component_256k', 4],
     ['ae2:singularity', 8],
     ['packagedauto:me_package_component', 8]
-  ], 'newagesky:creative/chain/final_me_creative_storage_cell')
+  ], 'sky-craft-creation:creative/chain/final_me_creative_storage_cell')
 })

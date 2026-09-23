@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     I: 'minecraft:iron_ingot',
     D: 'minecraft:diamond',
     O: 'minecraft:obsidian'
-  }).id('newagesky:smithing_templates/blank')
+  }).id('sky-craft-creation:smithing_templates/blank')
 
   const templates = [
     'minecraft:netherite_upgrade_smithing_template',
@@ -41,6 +41,6 @@ ServerEvents.recipes(event => {
       D: 'minecraft:diamond',
       T: 'minecraft:gold_ingot',
       B: 'kubejs:smithing_template_blank'
-    }).id('newagesky:smithing_templates/' + name)
+    }).id('sky-craft-creation:smithing_templates/' + name)
   })
 })

@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     },
     result: { id: 'extendedcrafting:the_ultimate_ingot', count: 1 },
     tier: 4
-  }).id('newagesky:materials/the_ultimate_ingot')
+  }).id('sky-craft-creation:materials/the_ultimate_ingot')
 
   // Ex Deorum 碎矿 → 已安装模组的原料，解决只有反向配方的矿物死循环。
   const oreChunks = [
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 
   oreChunks.forEach(entry => {
     event.shapeless(entry[1], ['4x ' + entry[0]])
-      .id('newagesky:materials/ore_chunks/' + entry[1].replace(':', '/'))
+      .id('sky-craft-creation:materials/ore_chunks/' + entry[1].replace(':', '/'))
   })
 
   // 蜜脾首件来源，解除“坚固蜂笼需要蜜脾、蜜脾依赖蜜蜂”的循环。
@@ -42,25 +42,25 @@ ServerEvents.recipes(event => {
     '4x minecraft:sugar',
     'minecraft:yellow_dye',
     'minecraft:string'
-  ]).id('newagesky:materials/honeycomb')
+  ]).id('sky-craft-creation:materials/honeycomb')
 
   // 锇农业种子首件来源，拿到首个锇后即可建立可再生线。
   event.shapeless('mysticalagriculture:osmium_seeds', [
     'mysticalagriculture:prosperity_seed_base',
     '2x mekanism:raw_osmium',
     '2x mysticalagriculture:earth_essence'
-  ]).id('newagesky:materials/osmium_seeds')
+  ]).id('sky-craft-creation:materials/osmium_seeds')
 
   // 蜜脾农业种子首件来源，避免蜜蜂设施出故障时再次锁死。
   event.shapeless('mysticalagriculture:honey_seeds', [
     'mysticalagriculture:prosperity_seed_base',
     '2x minecraft:honeycomb',
     '2x mysticalagriculture:nature_essence'
-  ]).id('newagesky:materials/honey_seeds')
+  ]).id('sky-craft-creation:materials/honey_seeds')
 
   // 门瑞欧树脂桶在空岛上补充一条由门瑞欧浆果获取的首件来源。
   event.shapeless('integrateddynamics:bucket_menril_resin', [
     'minecraft:bucket',
     '4x integrateddynamics:menril_berries'
-  ]).id('newagesky:materials/bucket_menril_resin')
+  ]).id('sky-craft-creation:materials/bucket_menril_resin')
 })

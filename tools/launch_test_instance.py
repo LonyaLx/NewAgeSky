@@ -99,7 +99,7 @@ cmd = [
     "--assetIndex", str(data.get("assetIndex", {}).get("id", "17")),
     "--uuid", "6b6804c716da4423ac24aeb3023012e4",
     "--accessToken", "offline",
-    "--clientId", "newagesky-test",
+    "--clientId", "sky-craft-creation-test",
     "--xuid", "0",
     "--userType", "msa",
     "--versionType", "PCL",

@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
     C: 'avaritia:crystal_matrix_ingot',
     N: 'avaritia:neutron_pile',
     U: 'kubejs:emc_machine_core'
-  }).id('newagesky:avaritia/upgrade_smithing_template_first')
+  }).id('sky-craft-creation:avaritia/upgrade_smithing_template_first')
   // 极端工作台必须先建立 End Package Crafter，完成四阶自动封装升级。
   event.custom({
     type: 'avaritia:shaped_table',
@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
     },
     result: { id: 'avaritia:extreme_crafting_table', count: 1 },
     tier: 3
-  }).id('newagesky:avaritia/extreme_crafting_table')
+  }).id('sky-craft-creation:avaritia/extreme_crafting_table')
 
   tableRecipe('avaritia:neutron_collector', 1, [
     ['kubejs:tiangong_alloy_frame', 2],
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
     ['minecraft:iron_block', 8],
     ['minecraft:redstone_block', 8],
     ['minecraft:quartz_block', 4]
-  ], 'newagesky:avaritia/neutron_collector')
+  ], 'sky-craft-creation:avaritia/neutron_collector')
 
   tableRecipe('avaritia:neutron_compressor', 1, [
     ['kubejs:tiangong_alloy_frame', 2],
@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
     ['minecraft:iron_block', 8],
     ['minecraft:redstone_block', 4],
     ['minecraft:hopper', 2]
-  ], 'newagesky:avaritia/neutron_compressor')
+  ], 'sky-craft-creation:avaritia/neutron_compressor')
 
   event.custom({
     type: 'avaritia:infinity_catalyst',
@@ -163,12 +163,12 @@ ServerEvents.recipes(event => {
       { item: 'kubejs:emc_machine_core' },
       { item: 'kubejs:quantum_control_matrix' }
     ]
-  }).id('newagesky:avaritia/infinity_catalyst')
+  }).id('sky-craft-creation:avaritia/infinity_catalyst')
 
   tableRecipe('avaritia:infinity_ingot', 1, [
     ['kubejs:infinity_structural_core', 1],
     ['avaritia:neutron_ingot', 12],
     ['avaritia:crystal_matrix_ingot', 8],
     ['kubejs:emc_machine_core', 1]
-  ], 'newagesky:avaritia/infinity_ingot')
+  ], 'sky-craft-creation:avaritia/infinity_ingot')
 })

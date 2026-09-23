@@ -40,7 +40,7 @@ def main() -> int:
     for key, value in replacements.items():
         html = html.replace(key, value)
 
-    with tempfile.TemporaryDirectory(prefix="newagesky-cover-") as temp_name:
+    with tempfile.TemporaryDirectory(prefix="sky-craft-creation-cover-") as temp_name:
         temp = Path(temp_name)
         html_path = temp / "cover.html"
         png_path = temp / "cover.png"

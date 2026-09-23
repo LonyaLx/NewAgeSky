@@ -5,6 +5,7 @@
 - 测试实例：`D:\我的世界整合包\1\versions\测试`
 - Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 217。
 - 游戏窗口标题：《天工创世》--凉寻Lonya。
+- 整合包英文名称：sky-craft-creation。内部技术命名空间同步为 `sky-craft-creation`。
 - FTB Quests：23 章、695 个任务、2 个奖励表、29 个任务文件；最终目标已有 19 个创造链任务。
 - 不安装 data_energistics、Refined Storage、apothicenchantingaddition。
 - 渲染组合：Sodium + Iris。
@@ -61,7 +62,7 @@
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
 - 唯一安装包：`01-整合包/天工创世-1.0.1-CurseForge.zip`，69.37 MB；166 个模组由启动器下载，51 个随包提供。
-- 安装包 SHA-256：`603EF5AA4B59F15A9F38EAEE3F8C6CF7B0A51059982714CDAC8CA195B89D3DD7`。
+- 安装包 SHA-256：`16BE722D9DDED1C6AECC219B93C37FFA03AD1AEBA8464809D13B5904C82682E5`。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 封面模板：`tools/cover-template.html`；生成脚本：`tools/render_release_cover.py`。
 - 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张 1280x720 封面。
@@ -80,3 +81,4 @@
 - `CHANGELOG.md`
 - `MODLIST.txt`
 - `_excluded/`
+- CurseForge 项目状态审计 166/166 可用；当前随包模组 51 个，无下架回退项。

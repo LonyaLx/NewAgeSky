@@ -1,4 +1,4 @@
-《天工创世》NewAgeSky — 空岛科技整合包
+《天工创世》sky-craft-creation — 空岛科技整合包
 整合包版本：1.0.1
 运行环境：Minecraft 1.21.1 · NeoForge 21.1.249 · Java 21 · mods 217
 
@@ -40,8 +40,3 @@ MODLIST.txt        模组清单
 
 [建空岛世界]
 新建世界 → 更多世界选项 → 世界类型选择 Skyblock（Skyblock Builder），直接生成。
-
-[说明]
-- 桌面包：C:\Users\admin\Desktop\NewAgeSky-1.21.1
-- 测试实例：D:\我的世界整合包\1\versions\测试
-- 游戏内修改任务后，先退出游戏，再执行保存与哈希校验。
