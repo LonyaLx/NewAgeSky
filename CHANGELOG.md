@@ -2,11 +2,12 @@
 ### PCL 测试任务同步与 Create Ultimine
 - 同步 PCL 测试实例任务书：23 章、695 个任务、29 个任务文件
 - 对外英文名称与内部命名空间统一为 sky-craft-creation
+- 游戏窗口标题增加版本号：v1.0.1。
 - 主线与专题任务结构重做，新增气动工业章节，并移除测试实例中已删除的旧章节
 - 新增 Create Ultimine 1.21.1-neoforge-1.3.3，模组数量 216 → 217
 - 开发源包与测试实例任务文件 SHA-256 比对一致，新增模组 JAR 已通过 SHA-512 校验
 - 发布渠道限定为 BBSMC、MCMOD、CurseForge，移除 Modrinth 包和相关缓存
-- 重建 CurseForge 发布包：217 个模组、23 章、695 个任务，
+- 重建 CurseForge 发布包：217 个模组、23 章、695 个任务。
 ## [v0.24.6] - 2026-09-10
 ### 发布目录整理
 - 最终只保留一个 PCL/HMCL 通用 CurseForge 安装包

@@ -4,7 +4,7 @@
 - 桌面包：`C:\Users\admin\Desktop\NewAgeSky-1.21.1`
 - 测试实例：`D:\我的世界整合包\1\versions\测试`
 - Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 217。
-- 游戏窗口标题：《天工创世》--凉寻Lonya。
+- 游戏窗口标题：《天工创世》v1.0.1 --凉寻Lonya。
 - 整合包英文名称：sky-craft-creation。内部技术命名空间同步为 `sky-craft-creation`。
 - FTB Quests：23 章、695 个任务、2 个奖励表、29 个任务文件；最终目标已有 19 个创造链任务。
 - 不安装 data_energistics、Refined Storage、apothicenchantingaddition。
@@ -62,7 +62,7 @@
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
 - 唯一安装包：`01-整合包/天工创世-1.0.1-CurseForge.zip`，78.31 MB；164 个模组由启动器下载，53 个随包提供。
-- 安装包 SHA-256：`8BE277DB2DA1E638EBF47B78529C8BC20C81608CE6B7E0C920517C75F2821ABA`。
+- 安装包 SHA-256：`99D4C414B699019120AFBF9A1DCB0271AEF9DD969798A42C7271FB5135E161D4`。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 封面模板：`tools/cover-template.html`；生成脚本：`tools/render_release_cover.py`。
 - 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张 1280x720 封面。
