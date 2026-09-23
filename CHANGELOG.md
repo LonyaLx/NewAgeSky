@@ -5,6 +5,7 @@
 - 新增 Create Ultimine 1.21.1-neoforge-1.3.3，模组数量 216 → 217
 - 开发源包与测试实例任务文件 SHA-256 比对一致，新增模组 JAR 已通过 SHA-512 校验
 - 发布渠道限定为 BBSMC、MCMOD、CurseForge，移除 Modrinth 包和相关缓存
+- 重建 CurseForge 发布包：217 个模组、23 章、695 个任务，包大小约 69.37 MB
 ## [v0.24.6] - 2026-09-10
 ### 发布目录整理
 - 最终只保留一个 PCL/HMCL 通用 CurseForge 安装包

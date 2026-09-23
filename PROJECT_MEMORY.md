@@ -45,13 +45,13 @@
 ## 实机验收
 - KubeJS：0 错误、0 失败配方；本次新增 92 条、移除 34 条。
 - JEI：本次新增配方 0 broken。
-- 发布包结构校验：CurseForge 清单 166 个远程文件、50 个内置模组，名称/制作人/说明/校验文件齐全。
+- 发布包结构校验：CurseForge 清单 166 个远程文件、51 个内置模组，名称/制作人/说明/校验文件齐全。
 - Avaritia、PackagedAvaritia、ProjectE 均正常加载。
 - 桌面端与测试实例相关文件 SHA-256 一致。
 - 游戏已关闭；后续测试或修改前不要覆盖运行中的任务文件。
 
 ## 下次继续
-- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.0.0-CurseForge.zip`，验证 166 个远程模组下载和 50 个内置模组安装。
+- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.0.0-CurseForge.zip`，验证 166 个远程模组下载和 51 个内置模组安装。
 - 在游戏内实际制作一条创造链，重点验证 Extreme Package Crafter、封包编码器和最终 ME 创造存储元件。
 - 检查新增中间物在 JEI 中的合成树和批量产出显示。
 - 继续从任务物品反查根来源，排查“有配方但配方链自我循环”的材料。
@@ -60,8 +60,8 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.0.0-CurseForge.zip`，69.29 MB；166 个模组由启动器下载，50 个随包提供。
-- 安装包 SHA-256：`7AA4CB6BDA167CE9F529444ED3EA1AF6EE63ED5D73AF15C9E0A555E4FC898A2D`。
+- 唯一安装包：`01-整合包/天工创世-1.0.0-CurseForge.zip`，69.37 MB；166 个模组由启动器下载，51 个随包提供。
+- 安装包 SHA-256：`C29266FBEEF9553A0214D10FC8EF601BEBF1468A7C2E2ED4A4638336230E0F0A`。
 - 模板配方备份：`_excluded/avaritia_template_20260910_222858/`。
 - 全模板配方备份：`_excluded/all_smithing_templates_20260910_223314/`。
 ## 工作规则
