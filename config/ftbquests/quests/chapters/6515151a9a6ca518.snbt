@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6515151a9a6ca518"
+	group: "771239FADC842121"
+	id: "6515151A9A6CA518"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "169D39173C9C1FAD"
+			tasks: [{
+				id: "577B3D6356593947"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "492050424EBF8E4C"
+			tasks: [{
+				id: "58E11400C61BFE16"
+				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "585DE2319438D95D"
+			tasks: [{
+				id: "2C29B82EE458D4DF"
+				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "05BB4817AE1E790B"
+			tasks: [
+				{
+					id: "4B4B3684B3B83E51"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					id: "02BD34914D3E39B8"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					id: "64601CE739A67B04"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+				{
+					id: "6DA9FE43E65E3600"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1FE0AE9F40C148B5"
+			tasks: [{
+				id: "6E04390B2DD366C0"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6A62C02D0718DAAE"
+			tasks: [
+				{
+					id: "1F6E0189D3398537"
+					item: { count: 1, id: "pneumaticcraft:security_upgrade" }
+					type: "item"
+				}
+				{
+					id: "130859FFD1B90E6D"
+					item: { count: 1, id: "pneumaticcraft:speed_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "489ACA9DDE3E69D9"
+			tasks: [{
+				id: "2F2E24790697F625"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "63F49CF32B84AA02"
+			tasks: [{
+				id: "1C289E65E47AC9CC"
+				item: { count: 1, id: "pneumaticcraft:small_tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "55D0210322B8DECD"
+			tasks: [
+				{
+					id: "7F6EF3C6537FDEBD"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_import" }
+					type: "item"
+				}
+				{
+					id: "43281B5B1470BDE6"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_export" }
+					type: "item"
+				}
+				{
+					id: "424C4224D415DE91"
+					item: { count: 1, id: "pneumaticcraft:assembly_laser" }
+					type: "item"
+				}
+				{
+					id: "5742CAE10DD18CD8"
+					item: { count: 1, id: "pneumaticcraft:assembly_drill" }
+					type: "item"
+				}
+				{
+					id: "0F81479A47B603D4"
+					item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "42660D695AA0C9D5"
+			tasks: [{
+				id: "7EF2DD11EBF824F5"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "58C15E18D7570841"
+			tasks: [{
+				id: "6CA5DF84DA2068CA"
+				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

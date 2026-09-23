@@ -242,6 +242,15 @@
 		}
 		{
 			id: "14FFD4AECF3E59BF"
+			rewards: [{
+				count: 64
+				id: "3696523FC4ED0321"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62B259BFDF85EAB9"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -252,6 +261,15 @@
 		}
 		{
 			id: "44863D7CA185B59C"
+			rewards: [{
+				count: 64
+				id: "54DE299C2060A2FE"
+				item: {
+					count: 1
+					id: "minecraft:gravel"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3158028A9623A5CC"
 				item: { count: 1, id: "minecraft:gravel" }
@@ -531,46 +549,6 @@
 			y: 3.5d
 		}
 		{
-			id: "3438374236B2E117"
-			tasks: [{
-				id: "43C75E12A412BB91"
-				item: { count: 1, id: "mekanism:alloy_reinforced" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.5d
-		}
-		{
-			id: "606674895AB2EF48"
-			tasks: [{
-				id: "4FA5665E6CFFE46A"
-				item: { count: 1, id: "mekanism:advanced_control_circuit" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.5d
-		}
-		{
-			id: "180CBA68036D6C83"
-			tasks: [{
-				id: "670B2F86B11FE2AD"
-				item: { count: 1, id: "mekanism:alloy_atomic" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			id: "7E6E3AFD065669C4"
-			tasks: [{
-				id: "7A2B363FC81FBB90"
-				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
 			id: "581B1C69E3107625"
 			tasks: [{
 				id: "44E4F2E0B9D30AA5"
@@ -608,26 +586,6 @@
 			y: 3.5d
 		}
 		{
-			id: "5DD37838F6AF6121"
-			tasks: [{
-				id: "6C3E70A040F0FFB0"
-				item: { count: 1, id: "mekanism:advanced_universal_cable" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			id: "585BCAA212770E61"
-			tasks: [{
-				id: "69D92FB81CBC068C"
-				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.5d
-		}
-		{
 			id: "110B97D5EFAD0B74"
 			tasks: [{
 				id: "1B83EF16297627C7"
@@ -636,26 +594,6 @@
 			}]
 			x: 7.0d
 			y: 3.5d
-		}
-		{
-			id: "66CE7A32992E07F8"
-			tasks: [{
-				id: "606F58C62B526135"
-				item: { count: 1, id: "mekanism:advanced_energy_cube" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			id: "264403F9CFD01FA0"
-			tasks: [{
-				id: "18347A33DD0B8601"
-				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.5d
 		}
 		{
 			id: "5BCCB8AC95A9D9D4"
@@ -681,8 +619,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 4.5d
+			x: 10.5d
+			y: 3.5d
 		}
 	]
 }

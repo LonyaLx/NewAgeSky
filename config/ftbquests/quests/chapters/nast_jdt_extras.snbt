@@ -233,26 +233,6 @@
 			y: -2.0d
 		}
 		{
-			hide_dependent_lines: true
-			icon: {
-				id: "jdte:time_fluid_catalyst"
-			}
-			id: "62020E56698AAA2B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "18D146EBBFDF2377"
-				table_id: 2551747607834831427L
-				type: "random"
-			}]
-			tasks: [{
-				id: "51B6AD1F79ED52A5"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "20E398569ADC4E60"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -269,7 +249,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "6D09A01BC4F71BAF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -286,7 +265,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "3B9473EB19EA6AC5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -303,7 +281,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "4A52E709528C8038"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -320,7 +297,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "51CC9483A8AABB6B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -354,7 +330,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "4063237448145893"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -371,7 +346,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "1CFE1EE2EF216AD5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -388,7 +362,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "532E19DD97F3DB3A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -405,7 +378,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "1D2D984BE02D9423"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -422,7 +394,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "22F57D3DB0950C19"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -452,11 +423,10 @@
 				item: { count: 1, id: "jdte:loot_fabricator" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 12.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["62020E56698AAA2B"]
 			id: "19C282CEBAB0E7FA"
 			rewards: [{
 				exclude_from_claim_all: true

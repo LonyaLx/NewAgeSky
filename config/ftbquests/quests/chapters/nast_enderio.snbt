@@ -1078,26 +1078,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5C2C29F35FDA8552"]
-			id: "62D830BA0CDCE207"
-			rewards: [{
-				count: 2
-				id: "306BE41F40B0A419"
-				item: {
-					count: 1
-					id: "enderio:grains_of_infinity"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "311C6F8076924709"
-				item: { count: 1, id: "enderio:yeta_wrench" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["04ACFDFF62C88F78"]
 			id: "5BD88DA82AD103D7"
 			rewards: [{

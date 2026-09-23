@@ -75,7 +75,7 @@
 			dependencies: ["7EC0725E95355530"]
 			id: "0A9229468136BABC"
 			rewards: [{
-				command: "/gamerule doDaylightCycle true"
+				command: "/gamerule doDaylightCycle false"
 				id: "2B10AE3E5C0CCFE9"
 				type: "command"
 			}]
@@ -121,6 +121,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3FCB5F67A335D2B5"]
 			id: "122FC6282BD82C83"
 			tasks: [{
 				id: "711FAF125722500A"
@@ -128,6 +129,38 @@
 			}]
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7EC0725E95355530"]
+			id: "5337B9B20BC5CF23"
+			rewards: [{
+				command: "/time set day"
+				id: "1495F4BF4BD11F65"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2B0C5FE8876366A3"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7EC0725E95355530"]
+			id: "1C44527469E7E364"
+			rewards: [{
+				command: "/weather clear"
+				id: "0B20F6F3A489669D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1D87FA0FC7AA81D1"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 	]
 }
