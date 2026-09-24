@@ -49,24 +49,21 @@
   "seaHeight": 63,
   
   // Should a surface be generated in the dimensions? [default: false]
-  "surface": false,
+  "surface": true,
   
   // The block settings for generating the different dimensions surfaces.
   // Same format as flat world generation settings (blocks only)
   "surfaceSettings": {
-    "minecraft:overworld": [
+    "minecraft:overworld": [],
+    "minecraft:the_nether": [
       {
         "block": "minecraft:bedrock"
       },
       {
-        "block": "minecraft:dirt",
-        "height": 2
-      },
-      {
-        "block": "minecraft:grass_block"
+        "block": "minecraft:netherrack",
+        "height": 3
       }
     ],
-    "minecraft:the_nether": [],
     "minecraft:the_end": []
   },
   

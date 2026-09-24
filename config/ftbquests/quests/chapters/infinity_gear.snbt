@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infinity_gear"
+	group: "4A4AA7622FF9900F"
+	id: "CA4960855119ECCC"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "D425268D5BF2208B"
+			tasks: [{
+				id: "71556BE1EC3E692F"
+				item: { count: 1, id: "avaritia:infinity_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "6C42131B93152276"
+			tasks: [{
+				id: "45F60EF489BCFB87"
+				item: { count: 1, id: "avaritia:infinity_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "B6AB9EE563133BA0"
+			tasks: [{
+				id: "8424AEBAFB68AD07"
+				item: { count: 1, id: "avaritia:infinity_pants" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "CEA429C4C7B1E65D"
+			tasks: [{
+				id: "F4CC8335C27320B7"
+				item: { count: 1, id: "avaritia:infinity_boots" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "B4E999B118BE658E"
+			tasks: [{
+				id: "862DE0B7E67D918F"
+				item: { count: 1, id: "avaritia:infinity_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "A13D2433FDCAE013"
+			tasks: [{
+				id: "1250B5B3F39ECB7B"
+				item: { count: 1, id: "avaritia:infinity_pickaxe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A54408DB600DE32"]
+			id: "9937C0418CBAD401"
+			tasks: [{
+				id: "1800EA9CA64D45B8"
+				item: { count: 1, id: "avaritia:infinity_shovel" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

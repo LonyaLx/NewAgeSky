@@ -36,7 +36,6 @@
 - 下界合金升级模板及 16 种盔甲纹饰模板，共 17 种，统一使用模板胚、4 钻石和 4 金锭的有序配方。
 - 覆盖：netherite、coast、dune、eye、host、raiser、rib、sentry、shaper、silence、snout、spire、tide、vex、ward、wayfinder、wild。
 ## 升级锻造模板首件
-- 4 水晶矩阵锭 + 4 中子碎块 + 1 EMC 机器核心 → 1 个 `avaritia:upgrade_smithing_template`。
 - 原 Re-Avaritia「用已有模板复制模板」配方保留。
 
 ## 当前配方文件
@@ -51,12 +50,6 @@
 - 工业先锋流体：机器动态产出。
 - 动态联合和无线终端：模组自定义配方。
 - 工作台、熔炉、避雷针：原版硬编码或普通配方。
-## 2026-09-10 v4：ProjectE 与终局创造链
-- KubeJS 运行时约 68 条配方，新增 5 个终局自定义物品。
-- ProjectE 核心与 Mk1–Mk3 机器改为 Extreme Package Crafter 执行的 tier 4 配方。
-- EMC 使用严格白名单数据包并关闭配方自动推导；未列出的科技件默认无 EMC。
-- 天工三阶段核心与 11 件创造物品已实装；实机验证通过，KubeJS 0 错误、0 失败配方、本次新增 JEI 配方 0 broken。
-- 静态检查：JavaScript 语法通过，脚本引用物品、方块和纹理 ID 均存在。
 ## 2026-09-10 Avaritia
 - 加入 Re-Avaritia 1.4.1 与 PackagedAvaritia 3.0.1.5。
 - 158 条模组原生配方保留；关键终局链增加 8 条 KubeJS 配方。

@@ -1,10 +1,10 @@
-# 天工创世 · 项目记忆（2026-09-23）
+# 天工创世 · 项目记忆（2026-09-24）
 
 ## 当前状态
 - 桌面包：`C:\Users\admin\Desktop\NewAgeSky-1.21.1`
 - 测试实例：`D:\我的世界整合包\1\versions\测试`
-- Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 217。
-- 游戏窗口标题：《天工创世》v1.0.1 --凉寻Lonya。
+- Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 218。
+- 游戏窗口标题：《天工创世》v1.1.0 --凉寻Lonya。
 - 整合包英文名称：sky-craft-creation。内部技术命名空间同步为 `sky-craft-creation`。
 - FTB Quests：23 章、695 个任务、2 个奖励表、29 个任务文件；最终目标已有 19 个创造链任务。
 - 不安装 data_energistics、Refined Storage、apothicenchantingaddition。
@@ -18,18 +18,12 @@
 - 最终目标仍为 19 个连续创造链任务。
 
 ## 终局平衡
-- ProjectE 的贤者之石、交换桌、平板、暗/红物质及机器默认配方已移除。
-- ProjectE 与创造物品现为 tier 4 的 9×9 `avaritia:shaped_table` 配方，由 Extreme Package Crafter 执行。
 - `packagedauto:package` 不再作为普通工作台材料。
-- 天工框架、世界心矩阵、天工之心改为批量产出；创造物品组成十阶段有序链，最终合成 `ae2:creative_storage_cell`。
-- EMC 使用严格白名单，关闭自动配方推导，`covalenceLoss=0.6`。
-- ProjectE 实机注册 411 个 EMC 值。
 
 ## 无尽贪婪
-- 模组：Re-Avaritia 1.4.1、PackagedAvaritia 3.0.1.5。
+- 模组：Re-Avaritia 1.4.2、PackagedAvaritia 3.0.1.5。
 - 四级 Package Crafter、Extreme Crafting Table、中子收集/压缩和无限材料链已接入。
 - 极端工作台必须消耗 End Package Crafter。
-- 奇点生成时间 600 秒，ProjectE 奇点计数加成关闭。
 - Avaritia 原生 158 条配方保留，关键终局链由 KubeJS 重排。
 
 ## 材料来源
@@ -42,17 +36,18 @@
 - 蜜脾、锇种子和蜜糖种子已有非循环首件来源。
 - 全任务材料复扫 980 种，剩余 18 种均为创造/调试、动态机器产物或原版硬编码。
 - 本次实机 KubeJS 新增 92 条、移除 34 条配方，0 失败。终局自定义物品共 11 个。
+- 2026-09-24 模组批量更新：保留 52 个版本更新，新增 Useless Stretcher；JEI 与 Multiblocked2 保持原版本。
+- 发布包审计：165/165 个 CurseForge 项目与下载源通过，53 个随包模组齐全。
 
 ## 实机验收
 - KubeJS：0 错误、0 失败配方；本次新增 92 条、移除 34 条。
 - JEI：本次新增配方 0 broken。
-- 发布包结构校验：CurseForge 清单 164 个远程文件、53 个内置模组，名称/制作人/说明/校验文件齐全。
-- Avaritia、PackagedAvaritia、ProjectE 均正常加载。
+- 发布包结构校验：CurseForge 清单更新为 165 个远程文件、53 个内置模组，名称/制作人/说明/校验文件齐全。
 - 桌面端与测试实例相关文件 SHA-256 一致。
 - 游戏已关闭；后续测试或修改前不要覆盖运行中的任务文件。
 
 ## 下次继续
-- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.0.1-CurseForge.zip`，验证 164 个远程模组下载和 53 个内置模组安装。
+- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.1.0-CurseForge.zip`，验证 165 个远程模组下载和 53 个内置模组安装。
 - 在游戏内实际制作一条创造链，重点验证 Extreme Package Crafter、封包编码器和最终 ME 创造存储元件。
 - 检查新增中间物在 JEI 中的合成树和批量产出显示。
 - 继续从任务物品反查根来源，排查“有配方但配方链自我循环”的材料。
@@ -61,11 +56,18 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.0.1-CurseForge.zip`，78.31 MB；164 个模组由启动器下载，53 个随包提供。
-- 安装包 SHA-256：`99D4C414B699019120AFBF9A1DCB0271AEF9DD969798A42C7271FB5135E161D4`。
+- 唯一安装包：`01-整合包/天工创世-1.1.0-CurseForge.zip`，82.25 MB；165 个模组由启动器下载，53 个随包提供。
+- 安装包 SHA-256：以 `天工创世-发布\03-校验\SHA256.txt` 为准。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
-- 封面模板：`tools/cover-template.html`；生成脚本：`tools/render_release_cover.py`。
-- 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张 1280x720 封面。
+- 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。
+- 启动器图标：`PCL/Logo.png`；游戏窗口图标：`config/customwindowtitle/icon.png`，均使用 `天工创世图标v4.jpg` 生成。
+- 游戏窗口图标配置：`config/customwindowtitle-client.toml` 中的 `icon = 'customwindowtitle/icon.png'`。
+- 启动随机文案：`kubejs/startup_scripts/skycraft_launch_wish.js`，内含 100 条阳光祝福，每次启动随机输出一条到启动日志。
+- 游戏窗口标题：`kubejs/client_scripts/skycraft_window_title.js` 在启动后随机选择一条文案，将窗口标题设置为“原标题 tips:随机文案”，并在客户端 tick 中周期校验、进入世界时再次补齐，防止被其他模组覆盖。
+- 模组更新备份：`_excluded/mod_backups/pre_update_20260924_230041/`。
+- 2026-09-24 窗口标题随机 tips：已实机启动验证，窗口标题会显示为“《天工创世》v1.1.0 --凉寻Lonya tips:随机文案”。
+- 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张无版本号封面。
+- 更新日志规则：每次修改都追加到当前版本日志，并在每组记录前写 `更新时间：YYYY-MM-DD HH:mm`；未明确指定新版本号时保持同一日志文件，指定新版本号后重新生成对应版本号的日志。
 - 模板配方备份：`_excluded/avaritia_template_20260910_222858/`。
 - 全模板配方备份：`_excluded/all_smithing_templates_20260910_223314/`。
 ## 工作规则

@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tiangong_endgame"
+	group: "4A4AA7622FF9900F"
+	id: "118749FEE2C9DA8D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40D277EA2B131517"
+			tasks: [{
+				id: "3CBFE565F821AD1A"
+				item: { count: 1, id: "kubejs:tiangong_alloy_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D277EA2B131517"]
+			id: "9F143E011B4189C5"
+			tasks: [{
+				id: "C3223140725E6AA4"
+				item: { count: 1, id: "kubejs:quantum_control_matrix" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["9F143E011B4189C5"]
+			id: "52E464D2074D8118"
+			tasks: [{
+				id: "432E07288588C095"
+				item: { count: 1, id: "kubejs:endless_structure_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "F7F8635D79C2012D"
+			tasks: [{
+				id: "3F0A4CE01885A302"
+				item: { count: 1, id: "kubejs:chaotic_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["F7F8635D79C2012D"]
+			id: "834B4201122130CA"
+			tasks: [{
+				id: "60401F86A47DA535"
+				item: { count: 1, id: "kubejs:tiangong_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40D277EA2B131517"]
+			id: "062478ECBBD526EA"
+			tasks: [{
+				id: "76B5F74F1A7E2F26"
+				item: { count: 1, id: "create:creative_crate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D277EA2B131517"]
+			id: "C99B391F15849709"
+			tasks: [{
+				id: "320541AD213E7798"
+				item: { count: 1, id: "create:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["9F143E011B4189C5", "52E464D2074D8118"]
+			id: "E4F2C20EC4A6583B"
+			tasks: [{
+				id: "DACF6119120FF7B9"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9F143E011B4189C5"]
+			id: "51BE413D8A4EB9A5"
+			tasks: [{
+				id: "AD6906796071FF21"
+				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "2458B7581D70C66F"
+			tasks: [{
+				id: "365AED41A4D3FB8C"
+				item: { count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "715624A0C5CEDBD5"
+			tasks: [{
+				id: "7CF7B0B52E93161D"
+				item: { count: 1, id: "mekanism:creative_bin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118", "C99B391F15849709"]
+			id: "59D01E6B37EB443E"
+			tasks: [{
+				id: "DE4F1DDB16CBB22B"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "42C0FDA46D2B0379"
+			tasks: [{
+				id: "D5A7637DC2B9BC98"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "C8D08660C1F81D1F"
+			tasks: [{
+				id: "9688239202E5F723"
+				item: { count: 1, id: "extendedcrafting:ultimate_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52E464D2074D8118"]
+			id: "452847F05EAAB9FE"
+			tasks: [{
+				id: "2A8CA8471D63EAFF"
+				item: { count: 1, id: "jdte:creative_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["834B4201122130CA", "2458B7581D70C66F"]
+			id: "C803D9C8BE6D41B9"
+			tasks: [{
+				id: "065B9AC5C0D1DA03"
+				item: { count: 1, id: "draconicevolution:creative_capacitor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40D277EA2B131517", "9F143E011B4189C5", "52E464D2074D8118", "F7F8635D79C2012D", "834B4201122130CA", "062478ECBBD526EA", "C99B391F15849709", "E4F2C20EC4A6583B", "51BE413D8A4EB9A5", "2458B7581D70C66F", "715624A0C5CEDBD5", "59D01E6B37EB443E", "42C0FDA46D2B0379", "452847F05EAAB9FE", "C803D9C8BE6D41B9"]
+			id: "3A54408DB600DE32"
+			tasks: [{
+				id: "8102971C30457B98"
+				item: { count: 1, id: "kubejs:creation_convergence_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

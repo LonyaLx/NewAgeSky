@@ -39,7 +39,7 @@
 	#Singularity default time required
 	# Default: 240
 	# Range: > 1
-	"Singularity Time Required" = 600
+	"Singularity Time Required" = 240
 	#Growth soul farmland rate
 	# Default: 0.8
 	# Range: 0.0 ~ 1.0

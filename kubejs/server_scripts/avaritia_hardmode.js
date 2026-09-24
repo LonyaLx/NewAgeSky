@@ -33,11 +33,6 @@ ServerEvents.recipes(event => {
   }
 
   ;[
-    'avaritia:neutron_collector',
-    'avaritia:neutron_compressor',
-    'avaritia:infinity_catalyst',
-    'avaritia:infinity_catalyst_eternal',
-    'avaritia:infinity_ingot',
     'avaritia:extreme_crafting_table'
   ].forEach(id => event.remove({ id: id }))
 
@@ -91,16 +86,6 @@ ServerEvents.recipes(event => {
   }).id('packagedavaritia:extreme_crafter_ae')
 
   // 空岛首件：升级锻造模板本身没有正向配方，先提供一条 3x3 有序来源。
-  event.shaped('avaritia:upgrade_smithing_template', [
-    'CNC',
-    'NUN',
-    'CNC'
-  ], {
-    C: 'avaritia:crystal_matrix_ingot',
-    N: 'avaritia:neutron_pile',
-    U: 'kubejs:emc_machine_core'
-  }).id('sky-craft-creation:avaritia/upgrade_smithing_template_first')
-  // 极端工作台必须先建立 End Package Crafter，完成四阶自动封装升级。
   event.custom({
     type: 'avaritia:shaped_table',
     pattern: [
@@ -129,46 +114,4 @@ ServerEvents.recipes(event => {
     tier: 3
   }).id('sky-craft-creation:avaritia/extreme_crafting_table')
 
-  tableRecipe('avaritia:neutron_collector', 1, [
-    ['kubejs:tiangong_alloy_frame', 2],
-    ['kubejs:emc_focus_module', 1],
-    ['kubejs:quantum_control_matrix', 1],
-    ['kubejs:emc_machine_core', 1],
-    ['avaritia:crystal_matrix_ingot', 6],
-    ['minecraft:iron_block', 8],
-    ['minecraft:redstone_block', 8],
-    ['minecraft:quartz_block', 4]
-  ], 'sky-craft-creation:avaritia/neutron_collector')
-
-  tableRecipe('avaritia:neutron_compressor', 1, [
-    ['kubejs:tiangong_alloy_frame', 2],
-    ['kubejs:emc_machine_core', 1],
-    ['kubejs:quantum_control_matrix', 1],
-    ['avaritia:crystal_matrix_ingot', 6],
-    ['avaritia:neutron_ingot', 12],
-    ['minecraft:iron_block', 8],
-    ['minecraft:redstone_block', 4],
-    ['minecraft:hopper', 2]
-  ], 'sky-craft-creation:avaritia/neutron_compressor')
-
-  event.custom({
-    type: 'avaritia:infinity_catalyst',
-    ingredients: [
-      { item: 'avaritia:crystal_matrix_ingot' },
-      { item: 'avaritia:neutron_ingot' },
-      { item: 'avaritia:endest_pearl' },
-      { item: 'avaritia:cosmic_meatballs' },
-      { item: 'avaritia:ultimate_stew' },
-      { item: 'avaritia:record_fragment' },
-      { item: 'kubejs:emc_machine_core' },
-      { item: 'kubejs:quantum_control_matrix' }
-    ]
-  }).id('sky-craft-creation:avaritia/infinity_catalyst')
-
-  tableRecipe('avaritia:infinity_ingot', 1, [
-    ['kubejs:infinity_structural_core', 1],
-    ['avaritia:neutron_ingot', 12],
-    ['avaritia:crystal_matrix_ingot', 8],
-    ['kubejs:emc_machine_core', 1]
-  ], 'sky-craft-creation:avaritia/infinity_ingot')
 })

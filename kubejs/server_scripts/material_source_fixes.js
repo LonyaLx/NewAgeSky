@@ -64,3 +64,57 @@ ServerEvents.recipes(event => {
     '4x integrateddynamics:menril_berries'
   ]).id('sky-craft-creation:materials/bucket_menril_resin')
 })
+
+// 难度适中版：下界与末地资源的首件来源。
+ServerEvents.recipes(event => {
+  event.shaped('minecraft:end_portal_frame', [
+    'OOO',
+    'OEO',
+    'OOO'
+  ], {
+    O: 'minecraft:obsidian',
+    E: 'minecraft:ender_eye'
+  }).id('sky-craft-creation:materials/end_portal_frame')
+
+  event.shapeless('mysticalagriculture:blaze_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '2x mysticalagriculture:fire_essence',
+    '2x mysticalagriculture:inferium_essence',
+    'minecraft:magma_cream'
+  ]).id('sky-craft-creation:materials/blaze_seeds')
+
+  event.shapeless('mysticalagriculture:ghast_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '2x mysticalagriculture:nether_essence',
+    '2x mysticalagriculture:air_essence',
+    'minecraft:ghast_tear'
+  ]).id('sky-craft-creation:materials/ghast_seeds')
+
+  event.shapeless('mysticalagriculture:wither_skeleton_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '4x mysticalagriculture:nether_essence',
+    '2x mysticalagriculture:earth_essence',
+    'minecraft:wither_skeleton_skull'
+  ]).id('sky-craft-creation:materials/wither_skeleton_seeds')
+
+  event.shapeless('mysticalagriculture:nether_quartz_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '2x mysticalagriculture:nether_essence',
+    '2x mysticalagriculture:earth_essence',
+    'minecraft:quartz'
+  ]).id('sky-craft-creation:materials/nether_quartz_seeds')
+
+  event.shapeless('mysticalagriculture:glowstone_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '2x mysticalagriculture:nether_essence',
+    '2x mysticalagriculture:fire_essence',
+    'minecraft:glowstone_dust'
+  ]).id('sky-craft-creation:materials/glowstone_seeds')
+
+  event.shapeless('mysticalagriculture:enderman_seeds', [
+    'mysticalagriculture:prosperity_seed_base',
+    '2x mysticalagriculture:enderman_essence',
+    '2x mysticalagriculture:air_essence',
+    'minecraft:ender_pearl'
+  ]).id('sky-craft-creation:materials/enderman_seeds')
+})

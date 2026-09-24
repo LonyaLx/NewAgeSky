@@ -16,12 +16,12 @@ logFoundExploits = true
 	#Add Conversions for Brewing Recipes.
 	[mappers.Brewing-Mapper]
 		#Determines whether this EMC Mapper is enabled.
-		enabled = false
+		enabled = true
 
 	#Add Conversions for all oxidizable blocks.
 	[mappers.Oxidization-Mapper]
 		#Determines whether this EMC Mapper is enabled.
-		enabled = false
+		enabled = true
 
 	#Uses the `custom_emc.json` File to add EMC values.
 	[mappers.Custom-EMC-Mapper]
@@ -31,12 +31,12 @@ logFoundExploits = true
 	#Add Conversions for all waxable blocks
 	[mappers.Waxable-Mapper]
 		#Determines whether this EMC Mapper is enabled.
-		enabled = false
+		enabled = true
 
 	#Add Conversions for Crafting Recipes gathered from net.minecraft.world.item.crafting.RecipeManager
 	[mappers.Crafting-Mapper]
 		#Determines whether this EMC Mapper is enabled.
-		enabled = false
+		enabled = true
 
 		#Adds conversions for all the different types of suspicious stews.
 		[mappers.Crafting-Mapper.Suspicious-Stew-Mapper]
@@ -138,6 +138,21 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#Maps avaritia recipes.
+		[mappers.Crafting-Mapper.Avaritia-Extreme]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps avaritia recipes.
+		[mappers.Crafting-Mapper.Avaritia-Compressor]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps Avaritia Extreme Smithing recipes to EMC values.
+		[mappers.Crafting-Mapper.Avaritia-Extreme-Smithing]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		[mappers.Crafting-Mapper.Fallback]
 			#Determines whether this Recipe Type Mapper is enabled.
@@ -150,6 +165,11 @@ logFoundExploits = true
 
 	#Set EMC=0 for everything in the c:ores tag.
 	[mappers.Ore-Blacklist-Mapper]
+		#Determines whether this EMC Mapper is enabled.
+		enabled = true
+
+	#Registers EMC values for Avaritia mod items (neutron pile, totem, bedrock etc.)
+	[mappers.avaritia_emc_mapper]
 		#Determines whether this EMC Mapper is enabled.
 		enabled = true
 

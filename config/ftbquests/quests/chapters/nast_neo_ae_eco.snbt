@@ -11,8 +11,19 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0B95A484D54448CF"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "130490014A0342B2"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 0.5d
+		y: 0.0d
+	}]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -903,6 +914,1639 @@
 			]
 			x: -6.5d
 			y: 2.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:crafting_system_l4"
+			}
+			id: "077B1A385077E891"
+			rewards: [{
+				id: "57F574ACFFCD7835"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_system_l4"
+								}
+								{
+									"#": 20L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:output_hatch"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_interface"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:input_hatch"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_worker"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_parallel_core_l4"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_pattern_bus"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - F4 可拓展合成子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"minecraft:custom_name": "\"ECO - F4 可拓展合成子系统主机\""
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E19924CCA30B2C1"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:storage_system_l4"
+			}
+			id: "66F21EA43C1F8021"
+			rewards: [{
+				id: "7FE225CB650E6B71"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_system_l4"
+								}
+								{
+									"#": 16L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_interface"
+								}
+								{
+									"#": 36L
+									"#t": "ae2:i"
+									id: "neoecoae:eco_drive"
+								}
+								{
+									"#": 24L
+									"#t": "ae2:i"
+									id: "neoecoae:energy_cell_l4"
+								}
+								{
+									"#": 12L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - L4 可拓展存储子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "601A8C77E70AEA97"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:computation_system_l4"
+			}
+			id: "5AE2E6CF3493427A"
+			rewards: [{
+				id: "122E133B01586C95"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_system_l4"
+								}
+								{
+									"#": 21L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_interface"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_transmitter"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_drive"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_parallel_core_l4"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_threading_core_l4"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_cooling_controller_l4"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - C4 可拓展计算子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "735D913446C8B0A9"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:crafting_system_l6"
+			}
+			id: "59FA645723E0FFD8"
+			rewards: [{
+				id: "0D3327B296870348"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_system_l6"
+								}
+								{
+									"#": 20L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:output_hatch"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_interface"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:input_hatch"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_worker"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_parallel_core_l6"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_pattern_bus"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - F6 可拓展合成子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"minecraft:custom_name": "\"ECO - F6 可拓展合成子系统主机\""
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04509EB98CFAB9E2"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:storage_system_l6"
+			}
+			id: "6AFECD9DE694CB26"
+			rewards: [{
+				id: "1896597069B07642"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_system_l6"
+								}
+								{
+									"#": 16L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_interface"
+								}
+								{
+									"#": 36L
+									"#t": "ae2:i"
+									id: "neoecoae:eco_drive"
+								}
+								{
+									"#": 24L
+									"#t": "ae2:i"
+									id: "neoecoae:energy_cell_l6"
+								}
+								{
+									"#": 12L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - L6 可拓展存储子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "171AE4BCA781FE1C"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:computation_system_l6"
+			}
+			id: "36B989796CAE091A"
+			rewards: [{
+				id: "06E505613F02338A"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_system_l6"
+								}
+								{
+									"#": 21L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_interface"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_transmitter"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_drive"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_parallel_core_l6"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_threading_core_l6"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_cooling_controller_l6"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - C6 可拓展计算子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA4893690D322A2"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:crafting_system_l9"
+			}
+			id: "4938EC6FCF60F9C7"
+			rewards: [{
+				id: "59E85E5A2B7A7527"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_system_l9"
+								}
+								{
+									"#": 20L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:output_hatch"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_interface"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:input_hatch"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_worker"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_parallel_core_l9"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_pattern_bus"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:crafting_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - F9 可拓展合成子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"minecraft:custom_name": "\"ECO - F9 可拓展合成子系统主机\""
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75BB826134D2E495"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:storage_system_l9"
+			}
+			id: "4E2DAD3F2B9F7F14"
+			rewards: [{
+				id: "41B561033A0EC069"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_system_l9"
+								}
+								{
+									"#": 16L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_interface"
+								}
+								{
+									"#": 36L
+									"#t": "ae2:i"
+									id: "neoecoae:eco_drive"
+								}
+								{
+									"#": 24L
+									"#t": "ae2:i"
+									id: "neoecoae:energy_cell_l9"
+								}
+								{
+									"#": 12L
+									"#t": "ae2:i"
+									id: "neoecoae:storage_vent"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - L9 可拓展存储子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F04DA2E53095B02"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "neoecoae:computation_system_l9"
+			}
+			id: "2B50AC6AB0DAF288"
+			rewards: [{
+				id: "694E8A156AF219EB"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_system_l9"
+								}
+								{
+									"#": 21L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_casing"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_interface"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_transmitter"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_drive"
+								}
+								{
+									"#": 22L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_parallel_core_l9"
+								}
+								{
+									"#": 11L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_threading_core_l9"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "neoecoae:computation_cooling_controller_l9"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"ECO - C9 可拓展计算子系统主机\""
+									}
+									id: "minecraft:paper"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "bxscQWQ"
+						}
+						"wcwt:pattern_upload_data": "multi block info wrapper"
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5712880220A1879E"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6DB08C53DCF87F6F"
+				"63B30D5B60FE9C80"
+				"1646C0831081651C"
+			]
+			icon: {
+				id: "useless_mod:advanced_alloy_furnace_block"
+			}
+			id: "6AE73BFC782E01DA"
+			rewards: [{
+				id: "484D1A4D328414D4"
+				item: {
+					count: 1
+					id: "useless_mod:advanced_alloy_furnace_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1306C539F06D4E43"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 3.0d
 		}
 	]
 }

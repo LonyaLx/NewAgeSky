@@ -1,6 +1,5 @@
 {
 	chapter_groups: [
-		{ id: "44E6CCEC70FC7965" }
 		{ id: "744E000CF43AD26D" }
 		{ id: "33380D59A0FADF67" }
 		{ id: "771239FADC842121" }
@@ -10,5 +9,6 @@
 		{ id: "69748456B3DD74A7" }
 		{ id: "519CACE2AB78ED53" }
 		{ id: "4A2D5939B63E9A0F" }
+		{ id: "4A4AA7622FF9900F" }
 	]
 }

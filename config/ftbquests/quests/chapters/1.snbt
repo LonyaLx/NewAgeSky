@@ -202,26 +202,6 @@
 			y: 4.0d
 		}
 		{
-			id: "6B9C6138F2D2BEC5"
-			tasks: [{
-				id: "74C52CB2F3B74BB3"
-				item: { count: 1, id: "projecte:interdiction_torch" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			id: "34E97B32B201AE6F"
-			tasks: [{
-				id: "09C6F32CB30BF75D"
-				item: { count: 1, id: "projecte:repair_talisman" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
 			id: "4CFC34734932776A"
 			tasks: [{
 				id: "3FD83F0C0BD3E0CB"

@@ -16,7 +16,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT.parent / "天工创世-发布" / "01-整合包" / "天工创世-1.0.1-CurseForge.zip"
+ARCHIVE = ROOT.parent / "天工创世-发布" / "01-整合包" / "天工创世-1.1.0-CurseForge.zip"
 RESOLVED = ROOT / "_excluded" / "curseforge_resolved.json"
 LOCAL_MODS = ROOT / "mods"
 REPORT_DIR = ROOT / "_excluded"
@@ -164,8 +164,8 @@ def main() -> int:
 
     manifest, entries, bundled = load_inputs()
     expected_bundled = 53
-    if len(entries) != 164:
-        raise RuntimeError(f"expected 164 remote files, found {len(entries)}")
+    if len(entries) != 165:
+        raise RuntimeError(f"expected 165 remote files, found {len(entries)}")
     if len(bundled) != expected_bundled:
         raise RuntimeError(f"expected {expected_bundled} bundled jars, found {len(bundled)}")
 

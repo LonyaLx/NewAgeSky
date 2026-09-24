@@ -6,8 +6,6 @@ avaritia = config / "avaritia-common.toml"
 packaged = config / "packagedavaritia-server.toml"
 
 text = avaritia.read_text(encoding="utf-8")
-text = text.replace('"Singularity Time Required" = 240', '"Singularity Time Required" = 600')
-text = text.replace('enable_projecte_singularity_count_boost = true', 'enable_projecte_singularity_count_boost = false')
 avaritia.write_text(text, encoding="utf-8", newline="\n")
 
 text = packaged.read_text(encoding="utf-8")

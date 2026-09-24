@@ -9,7 +9,8 @@
     "allow_list": true,
     "elements": [
       "minecraft:end_spike",
-      "minecraft:end_gateway_return"
+      "minecraft:end_gateway_return",
+      "minecraft:end_city"
     ]
   },
   

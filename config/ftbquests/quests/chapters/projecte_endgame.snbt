@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte_endgame"
+	group: "4A4AA7622FF9900F"
+	id: "7F6A24AA40E0F996"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["9F143E011B4189C5"]
+			id: "C5C9D3160D7B1488"
+			tasks: [{
+				id: "1F841FF88B13E0A1"
+				item: { count: 1, id: "projecte:philosophers_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C5C9D3160D7B1488"]
+			id: "34745E6216AB3D48"
+			tasks: [{
+				id: "A3BE2593C1249C89"
+				item: { count: 1, id: "projecte:transmutation_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34745E6216AB3D48"]
+			id: "A423BBD9FA309434"
+			tasks: [{
+				id: "8D178A6D3436E6DB"
+				item: { count: 1, id: "projecte:transmutation_tablet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9F143E011B4189C5"]
+			id: "C42AB6A9F3CC9D92"
+			tasks: [{
+				id: "3720DC9366484325"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C42AB6A9F3CC9D92"]
+			id: "FF7EA6209A1222AB"
+			tasks: [{
+				id: "92EFB110711C691E"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["C42AB6A9F3CC9D92"]
+			id: "86096C0A1E670B6C"
+			tasks: [{
+				id: "046A5D22A09DE01D"
+				item: { count: 1, id: "projecte:collector_mk1" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FF7EA6209A1222AB", "86096C0A1E670B6C"]
+			id: "C9BD8CEBA8069A6A"
+			tasks: [{
+				id: "D483C15A98DCCEF3"
+				item: { count: 1, id: "projecte:collector_mk2" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["C9BD8CEBA8069A6A"]
+			id: "ED2254EA1CDB0EBE"
+			tasks: [{
+				id: "218B2BECF642FBCD"
+				item: { count: 1, id: "projecte:collector_mk3" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

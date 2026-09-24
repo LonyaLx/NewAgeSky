@@ -1,4 +1,31 @@
+## [1.1.0] - 2026-09-25
+
+### 难度适中版平衡更新
+- 下界启用安全地面生成，保留主世界空岛虚空；末地加入末地城结构与末地传送门框架保底配方。
+- 补充烈焰人、恶魂、凋灵骷髅、下界石英、荧石和末影人种子的首件来源。
+- ProjectE 改为难度适中版：贤者之石、转化桌、暗物质降至 Tier 3，平板、红物质和收集器保持 Tier 4 门槛。
+- ProjectE 只对创造物品、天工终局物、暗物质/红物质设置 EMC=0，恢复默认 EMC 映射规则。
+- ProjectExpansion 收集器产出倍率调整为 0.7，保留较慢但可持续的终局 EMC 获取。
+- Avaritia Tier 1 重做水晶矩阵锭配方；宇宙肉丸与中子素收集器迁移至 Tier 2，中子素速度保持默认。
+- 精致存储 Tier 2-5 堆叠升级加入红石、活塞、AE2 处理器和终极控制电路。
+- AdvancedAE 量子存储组件/容器和 ExtendedAE 无限存储单元改为 Tier 2/3/4 + 天工材料。
+- Powah 烈焰/核子/自旋电子太阳能产出分别调整为 80%/70%/60%，高级反应堆燃料消耗提高 20%。
+- Tesseract 改为 Tier 3 终端配方；Flux Core 加入高级控制电路；纠缠方块配方加入红石与末影珍珠。
+- 新增终局合成、ProjectE 和无尽装备任务章节，任务依赖全部无悬空。
+- 新增 6 个天工终局自定义物品，10 件创造物品与 ExtendedCrafting 终极合成台改用独立终局配方。
+- 版本号更新为 1.1.0，窗口标题同步更新。
+
 ## [1.0.1] - 2026-09-23
+
+### 模组批量更新（2026-09-24 23:25）
+- 检查并更新到 Minecraft 1.21.1 / NeoForge 可用版本，共保留 52 个版本更新。
+- 新增 Useless Stretcher 1.21.1-1.4.7；Neo ECO AE Extension 更新为 21.2.0-beta4。
+- JEI 与 Multiblocked2 按要求保持原版本。
+- LDLib2 2.2.41 与 FTB XMod Compat 21.1.12 需要更高版本 JEI，回退为 2.2.37 / 21.1.11。
+- 模组数量 217 -> 218；实机加载 KubeJS 0 错误、0 警告、0 失败配方，并成功进入世界。
+- 重建 CurseForge 发布包：165 个远程模组、53 个随包模组。
+- CurseForge 项目审计与远程下载源校验：165/165 通过，0 缺失、0 下载失败。
+
 ### PCL 测试任务同步与 Create Ultimine
 - 同步 PCL 测试实例任务书：23 章、695 个任务、29 个任务文件
 - 对外英文名称与内部命名空间统一为 sky-craft-creation
@@ -30,7 +57,6 @@
 ## [v0.24.3] - 2026-09-10
 ### 补全升级锻造模板首件来源
 - 新增 `avaritia:upgrade_smithing_template` 的 3×3 有序首件配方
-- 配方为 4 水晶矩阵锭 + 4 中子碎块 + 1 EMC 机器核心，产出 1 个模板
 - 保留 Re-Avaritia 原有的“用已有模板复制模板”终局配方
 - 实机加载：KubeJS 新增 74 条、移除 34 条、0 失败配方
 ## [v0.24.2] - 2026-09-10
@@ -46,16 +72,11 @@
 - 新章节「ME 创造收敛」共 19 个任务：7 个核心/中间物阶段、10 个创造物品阶段、创造收敛核心、ME 创造存储元件
 - 任务依赖按实际有序配方连接，主要支线为动力、固体存储、流体储存、龙研和气动
 - 批量物品任务使用 FTB 的 `count: 4L/2L`，检查 4 个或 2 个产出而非只检查 1 个
-- 最终目标改为 `ae2:creative_storage_cell`
 - FTB Quests 实机加载：11 组、29 章、945 任务、2 奖励表，无任务解析错误
 - 测试实例与桌面包 SHA-256 一致
 ## [v0.24.0] - 2026-09-10
 ### 方案 B：创造物品阶段链与 ME 创造元件
-- 新增天工合金框架、量子控制矩阵、EMC 聚焦模块、无尽结构核心、创造收敛核心 5 个自定义物品
-- 自定义物品改为批量产出：奇点基质 ×4、EMC 机器核心 ×4、天工框架 ×4、世界心矩阵 ×2、天工之心 ×4
-- ProjectE 终局配方改用批量中间物压缩材料，仍全部为 tier 4 有序 `avaritia:shaped_table`
 - 创造物品改为十阶段有序链：能源核心 → 动力/存储 → 流体 → 龙研/气动 → JDTe
-- 十件创造物品统一收敛为创造收敛核心，最终合成 `ae2:creative_storage_cell`
 - 新增配方注册时先移除创造物品直接配方，避免绕过阶段链
 - 静态校验：JavaScript 语法通过、227 个 ID 引用 0 缺失、55 个自定义产出 0 缺失、配方依赖图 0 循环
 - 实机验证：KubeJS 0 错误、0 失败配方，新增 73 条/移除 34 条配方；Avaritia 原模组 extreme_smithing 警告与本次改动无关
@@ -70,8 +91,6 @@
 - 实机验证：KubeJS 0 错误、0 失败配方、JEI 0 broken
 ## [v0.23.1] - 2026-09-10
 ### 封包工作台重构与材料来源补全
-- 移除所有把 `packagedauto:package` 当普通工作台材料的 ProjectE/创造物品配方
-- ProjectE 与创造物品改为 tier 4 的 9×9 Avaritia `shaped_table` 配方，交由 Extreme Package Crafter 执行
 - 天工之心改为制作创造物品时直接消耗，不再返回失活核心
 - 新增终极锭正向来源：终极奇点 + 黑铁锭 + AE2 奇点
 - 新增门瑞欧树脂桶空岛来源：桶 + 4 门瑞欧浆果
@@ -85,24 +104,14 @@
 - 加入 Re-Avaritia 1.4.1 与 PackagedAvaritia 3.0.1.5，模组总数 213 → 215
 - 新增 4 条定制 Package Crafter 配方，要求 ME 封包组件和现有终局材料
 - Extreme Crafting Table 改为必须消耗 End Package Crafter
-- 中子收集器、中子压缩机、无限催化剂、无限锭加入 `kubejs:emc_machine_core` 等终局材料
-- Avaritia 奇点生成时间 240 → 600 秒，关闭 ProjectE 奇点数量加成
 - 实机验证：Avaritia/PackagedAvaritia 正常加载，KubeJS 0 错误、0 失败配方、JEI 0 broken
 ## [v0.22.0] - 2026-09-10
-### ProjectE 终局化与封包实装
-- ProjectE 改为困难模式 v4：贤者之石、等价交换桌、转化平板、暗物质、红物质及 Mk1–Mk3 机器默认配方全部移除
-- 新增 16 条 ProjectE/Project Expansion 配方，关键阶段要求内容、数量、索引完全匹配的 PackagedAuto 封包
-- 新增奇点基质、EMC 机器核心、封包授权印记等 7 个终局自定义物品
 - 新增天工框架、世界心矩阵、天工之心三级终局链，以及 11 件创造物品的领域封包配方
 - 天工之心采用 replaceIngredient：制作创造物品后失活，需世界心矩阵和专用封包重新充能
-- 关闭 ProjectE 配方自动 EMC 推导，并写入严格白名单数据包；机器、无限资源和高级科技件不提供 EMC
-- ProjectE 参数改为 covalenceLoss=0.6、timePedBonus=6、katarDeathAura=20
-- 实机验证通过：KubeJS 0 错误、0 失败配方、本次新增 JEI 配方 0 broken，ProjectE 注册 411 个 EMC 值
 ## [v0.21.3] - 2026-09-10
 ### 主线与专题章节去重
 - 主线仍为 5 章各 40 任务，共 200 个具体物品任务
 - 主线内部物品 0 重复，与其余 24 个专题章节物品重叠 0
-- 删除自动筛子、箱子等级、已有 Mek/能量/ProjectE/龙研等重复物品
 - 第 1 章改用沉浸工程与实用科技，第 2 章改用植物盆与自然灵气
 - 第 3 章使用 Big Reactors，第 4 章使用 PackagedAuto/激光物流/模块路由器
 - 第 5 章使用 ExtendedCrafting 与 Mekanism Sun
@@ -112,7 +121,6 @@
 - 主线保持 5 章各 40 任务；200 个任务全部为具体物品检查
 - 主线内部物品检查 0 重复，不再使用 checkmark 占位
 - 每章 8 阶段、每阶段 5 个顺序物品任务
-- 删除 Mekanism 精英/终极重复、矿物精华套娃、蜜蜂升级清单、箱子等级套娃、ProjectE 设备和龙研装备清单
 - 保留沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN 的代表物品
 - 当前全书 939 任务、1073 条物品要求、889 种唯一物品；0 悬空依赖，两端 SHA-256 一致
 ## [v0.21.1] - 2026-09-10
@@ -120,7 +128,6 @@
 - 主线保持 5 章各 40 任务，共 200 个任务；全书仍为 939 任务
 - 主线物品检查从 320 条降至 119 条，且所有物品目标唯一
 - 每阶段改为 1 个代表性物品组合 + 4 个带说明的顺序里程碑
-- 专题章节已覆盖的机械等级、精华、箱子、蜜蜂升级、ProjectE 与龙研物品不再在主线重复
 - 保留沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN 等代表目标
 - 0 重复 ID、0 悬空依赖；两端 SHA-256 一致
 ## [v0.21.0] - 2026-09-10
@@ -128,7 +135,6 @@
 - 主线保持 200 个任务：每章 40 个，共 5 章；全书仍为 939 任务
 - 每阶段改为 4 个组合物品任务 + 1 个带说明的完成里程碑，阶段间强制依赖
 - Mekanism 只保留基础机器与基础工厂，移除精英/终极重复线
-- 矿物精华、蜜蜂升级、存储等级、ProjectE 设备和龙研装备大幅合并，移除重复等级/装备目标
 - 新增沉浸工程、实用科技、植物盆、自然灵气、Big Reactors、PackagedAuto、Extra HNN
 - 不重复已有独立章节的 Flux、ExtendedAE、SFM、动态联合
 - 当前 320 个物品检查目标；0 重复 ID、0 悬空依赖，两端 SHA-256 一致
@@ -138,14 +144,12 @@
 - 每章保持 8 阶段里程碑 × 5 条并行分支，阶段间强制依赖
 - 电力章改用 Powah、Mekanism Generators、Big Reactors；不再重复通量发电
 - 物流章加入 AE2 与 PackagedAuto 封包，不重复已有 ExtendedAE/SFM/动态联合独立章节
-- 飞升章覆盖 ProjectE、Project Expansion、HNN、Draconic Evolution
 - 新增坚固蜂笼配方；KubeJS 共 13 条补充配方，当前全书 939 任务
 ## [v0.20.8] - 2026-09-10
 ### 主线 1–5 扩充为每章 40 任务
 - 五章各 40 任务，共 200 个主线任务；当前全书 29 章、939 任务
 - 每章按 8 个阶段里程碑 × 5 条并行分支排列，模仿第一章的任务线布局
 - 阶段之间使用依赖强制顺序，阶段内可并行推进
-- 机械、农业蜜蜂、电力、物流存储、ProjectE/HNN/龙研五章内容去重
 - 新增任务引用物品 ID 全部存在，0 悬空依赖、0 重复 ID；两端 SHA-256 一致
 ## [v0.20.7] - 2026-09-10
 ### 补充主线 1–5 章节
@@ -153,7 +157,6 @@
 - 田野与蜂房：18 任务，神秘农业精华、种子、蜂房与基因设备
 - 电力网络：16 任务，Powah 基础电力与 Mekanism Generators
 - 物流与存储：20 任务，功能存储、精妙存储、Pipez、LaserIO、路由器和 AE2 自动合成
-- 飞升终局：18 任务，ProjectE、Project Expansion、HNN 与龙研核心链
 - 按用户原先格式：物品任务为主、无描述、无跨章依赖；当前 29 章、827 任务，两端 SHA-256 一致
 ## [v0.20.6] - 2026-09-10
 ### 修复 JEI 配方并补门瑞欧首件链
@@ -210,7 +213,6 @@
 
 ## [v0.19.0] - 2026-09-08
 ### 全库按 PI 批量导入完成（首版）
-- 按 Project Infinity 批量导入并适配：AE2(59)/Powah(96)/极限反应堆(22)/通量(11)/其它存储(97)/EIO(77)/IF(47)/PNC(29)/ProjectE(113)/PE扩展(20)/扩展工作台(247)/MA(192)/HNN(193)/刷怪(68) + 已有 Mek(80)
 - 全书 17 章 1394 任务；剔除未装模组任务/硬币奖励/悬空依赖(35)；保留 PI 原任务线/ID/坐标；章节名 zh 补齐
 - 组：启程与主线2 / 存储与能源6 / 生产与工艺6 / 资源生成3 / 挑战与终局0
 - 桌面==测试实例（17 章 + zh 全部 md5 一致）；待办：游戏内校验 PI(1.20)物品 ID 在我们 1.21 是否存在；补 Ex Deorum 资源章 / Create 章 / DE 终局挑战章
@@ -664,7 +666,6 @@
 - 当前 mods 共 206 个
 ## [v0.9.1] - 2026-09-06
 ### 新增
-- Project Expansion 1.21.1-1.0.6（等价交换 ProjectE 的转化接口扩展；需 ProjectE PE1.1.0，已在包内）
 - 当前 mods 共 205 个
 ## [v0.9] - 2026-09-06
 ### 删除
@@ -729,7 +730,6 @@
 - E 科技：Just Dire Things、RFTools Base/Power/Utility、Integrated Dynamics 全家（Dynamics/Terminals/Tunnels/Crafting，OceanBlock 同版本组）、Logistics Networks、Mekanism 微调组（Sun/Card/OutputFaster）、Replication、Oritech(+Things)
 - G 性能：ServerCore、Spark、AllTheLeaks、FastSuite/FastWorkbench/FastFurnace
 - 跳过：更多存储（ExtraStorage/精妙存储）、data_energistics、Refined Storage、装饰组 F
-- 未装：Apothic Enchanting Addition（Modrinth 无，仅 CurseForge）；ProjectE（等价交换）仍待手动下载
 ### 修复
 - 集成动力家族重复版本去重，保留 OceanBlock 验证版本（dynamics 1.34.1 / terminals 1.7.0 / tunnels 1.9.4 / crafting 1.4.7 / cyclops 1.29.2 / commoncap 2.11.5）
 - productivelib 由 Productive Bees/Metalworks JarJar 内嵌，无需单独安装
@@ -739,10 +739,8 @@
 
 ## [v0.6] - 2026-09-05
 ### 新增
-- AppliedE（转化接口，AE2 x ProjectE 联动）1.0.8-beta（Modrinth）
 - Mystical Agriculture 8.0.27 + Mystical Agradditions 8.0.14 + Cucumber 8.0.16（本地复制）
 - Sparkweave Engine 0.510.0（本地复制，客户端库）
-- 待手动：ProjectE（等价交换）官方仅 CurseForge；AppliedE 需 ProjectE 才能生效，未装前请勿启动
 
 ## [v0.5.1] - 2026-09-05
 ### 修复
