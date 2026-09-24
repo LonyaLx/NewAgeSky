@@ -6,14 +6,14 @@
 - Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 218。
 - 游戏窗口标题：《天工创世》v1.1.0 --凉寻Lonya。
 - 整合包英文名称：sky-craft-creation。内部技术命名空间同步为 `sky-craft-creation`。
-- FTB Quests：23 章、695 个任务、2 个奖励表、29 个任务文件；最终目标已有 19 个创造链任务。
+- FTB Quests：24 章、719 个任务、2 个奖励表；最终目标为创造收敛核心。
 - 不安装 data_energistics、Refined Storage、apothicenchantingaddition。
 - 渲染组合：Sodium + Iris。
-- 最终目标章节已重做为 19 个连续创造链任务，最终目标为 ME 创造存储元件。
+- 新增终局合成、ProjectE 与无尽装备章节，最终目标为创造收敛核心。
 - 已加入 Create Ultimine 1.21.1-neoforge-1.3.3。
 
 ## 当前任务线
-- 当前任务书已从 PCL 测试实例同步：23 章、695 个任务、29 个任务文件。
+- 当前任务书已同步：24 章、719 个任务。
 - 主线与专题章节结构已调整，新增气动工业章节。
 - 最终目标仍为 19 个连续创造链任务。
 
@@ -56,7 +56,7 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.1.0-CurseForge.zip`，82.25 MB；165 个模组由启动器下载，53 个随包提供。
+- 唯一安装包：`01-整合包/天工创世-1.1.0-CurseForge.zip`，78.44 MB；165 个模组由启动器下载，53 个随包提供。
 - 安装包 SHA-256：以 `天工创世-发布\03-校验\SHA256.txt` 为准。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。
