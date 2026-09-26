@@ -2,28 +2,33 @@
 	chapter.07C0D97945954309.title: "神秘农业"
 	chapter.0B95A484D54448CF.title: "neo ae eco"
 	chapter.0DA1AA54AE25A49B.title: "动态联合"
-	chapter.120E0FCEAD94EEB4.title: "机械动力"
+	chapter.118749FEE2C9DA8D.title: "终局物品"
 	chapter.179CE6FC403957F0.title: "JDTE"
 	chapter.1B49D773554629D5.title: "power"
 	chapter.2548CCB203713203.title: "精妙存储"
 	chapter.283D90CFC6E9BD27.title: "应用能源2"
 	chapter.28AE6783A6D5612A.title: "AE2水晶科技"
-	chapter.29868F98890488E4.title: "神话"
 	chapter.3E4CA67781770E8C.title: "欢迎与提示"
 	chapter.41E1286E35D457F9.title: "工业先锋"
 	chapter.43E700357602E946.title: "AE2闪电科技"
-	chapter.4E36C4222197BC50.title: "1"
+	chapter.44F2CFE2C95F488E.title: "无用之物"
+	chapter.4E36C4222197BC50.title: "好用的工具"
 	chapter.52F834F2C98B0A30.title: "末影接口"
+	chapter.54B058BC9BBAA195.title: "无尽贪婪"
 	chapter.5511D5F88622CC6C.title: "资源获取"
 	chapter.56EFBD1B68EF52B0.title: "Just Dire Things"
 	chapter.5A58A1F01DCD4900.title: "资源蜜蜂"
+	chapter.61D4F61242860108.title: "ProjectE 终局化"
 	chapter.6515151A9A6CA518.title: "气动工业"
 	chapter.6B80494DAAC805F4.title: "龙之研究"
 	chapter.7573710CF964ACF2.title: "深度怪物学习"
+	chapter.7F6A24AA40E0F996.title: "ProjectE"
+	chapter.CA4960855119ECCC.title: "无尽装备跨模组化"
 	chapter_group.074301895FF60497.title: "好用的工具"
 	chapter_group.33380D59A0FADF67.title: "主线"
 	chapter_group.42C3E39FB9FC4B77.title: "1"
 	chapter_group.4A2D5939B63E9A0F.title: "科技时代"
+	chapter_group.4A4AA7622FF9900F.title: "终局合成"
 	chapter_group.519CACE2AB78ED53.title: "应用能源附属"
 	chapter_group.5DB41788A814AA8C.title: "资源"
 	chapter_group.69748456B3DD74A7.title: "储存"
@@ -31,6 +36,7 @@
 	chapter_group.771239FADC842121.title: "好用的机器"
 	quest.002C7774AFDDE8E1.quest_desc: ["通过雷击无暇赛特斯石英母岩获得，可用普通闪电"]
 	quest.003E78A42990C883.quest_desc: ["比me超大接口更厉害！"]
+	quest.003E99BAB0892A37.title: "五阶无用线圈"
 	quest.00671C390F7269D5.quest_desc: ["注意看卡上的提示"]
 	quest.00C4C46D778E55A8.quest_desc: [
 		"样板供应器和分子装配室二合一，放置样板后可在其中直接合成，不需要额外的分子装配室"
@@ -42,10 +48,15 @@
 	]
 	quest.03B0C765300D2810.title: "防爆"
 	quest.03EBE7B8ADD48035.quest_desc: ["熵变机械臂机器版"]
+	quest.054210FD461D6B3D.quest_desc: [""]
+	quest.054210FD461D6B3D.title: "万象合金炉"
+	quest.058AFB26728BE24B.title: "七阶无用锭"
 	quest.05EBD218EA89A27A.quest_desc: [
 		"可以自定义发配位置的高级样板"
 		"Tip:wcwt终端可拆分材料堆叠的样板，更加适用此样板"
 	]
+	quest.062478ECBBD526EA.quest_desc: ["Tier 2 创造物品，机械动力与功能存储路线。"]
+	quest.062478ECBBD526EA.title: "Create 创造板条箱"
 	quest.06C36084BC1255D5.quest_desc: [
 		"闪电科技的终末级催化剂，有无数神奇的功能 ..."
 		"貌似可以被过载TNT转化"
@@ -59,11 +70,13 @@
 	quest.0A9229468136BABC.title: "锁定白天"
 	quest.0B9CA61AF90328E6.quest_desc: ["ECO的重要合成机器"]
 	quest.0CC2EA9F5CF3CD48.title: "量子计算机"
+	quest.0ED43CB4A5E36DD1.title: "ME 样板总成"
 	quest.0F5F3E17F15A6348.quest_desc: [
 		"人工控制天气!"
 		"(也许龙研的更好做？"
 	]
 	quest.0F8F9C2333BEAF06.title: "装配矩阵"
+	quest.107BC109279D5119.title: "有用的锭"
 	quest.10965BACBC5D596B.quest_desc: ["快来合成轮椅的闪电科技机器吧"]
 	quest.122FC6282BD82C83.quest_desc: ["&9&l这是我的第一个包 目前独立完成 时间较少 还有很多没有优化的地方 如果有想法可以加我一起开发呀 寻求志同道合的朋友"]
 	quest.122FC6282BD82C83.title: "整合包介绍"
@@ -71,12 +84,16 @@
 		"深度学习简化版"
 		"刷怪蛋可用高级灌注机"
 	]
+	quest.16B052ABC1EC4257.title: "八阶无用锭"
+	quest.177BB2FD17DCD6BB.quest_desc: ["需要天工之心的随身转化终端。"]
+	quest.177BB2FD17DCD6BB.title: "转化桌平板"
 	quest.19C282CEBAB0E7FA.quest_desc: [
 		"仅可拾起未掉落物品，如拆箱子时从箱子掉落的物品"
 		"但已掉落在地上的物品无法收集，可用于转移精妙箱子的大量物品"
 	]
 	quest.19D005D243B8A26A.quest_desc: ["放入闪电收集器中，随自然闪电劈下会增加进度并随电鸣水晶阶段提高闪电产量"]
 	quest.1AAA25926715E722.title: "好用的工具"
+	quest.1BBDBF999CD7A213.title: "五阶无用锭"
 	quest.1C102289742098BB.quest_desc: ["这机器也可以为做处理器提供更高效的配方"]
 	quest.1C44527469E7E364.title: "切换晴天"
 	quest.1CFE1EE2EF216AD5.quest_desc: [
@@ -84,6 +101,9 @@
 		"注意标记黑白名单"
 	]
 	quest.1D2D984BE02D9423.quest_desc: ["向目标容器中发送流体"]
+	quest.1E7FFAC1FB5EC3CA.title: "感谢名单"
+	quest.1F88B83ADE1A2ADB.quest_desc: ["由天工框架、永恒燃料与跨模组材料合成。"]
+	quest.1F88B83ADE1A2ADB.title: "暗物质"
 	quest.20E398569ADC4E60.quest_desc: [
 		"类似mob的怪物捣碎器，可加抢夺升级，锋利升级"
 		"放置在刷怪笼上方时，若机器可正常运行，会代替生物生成，直接产出凋落物"
@@ -101,6 +121,9 @@
 		"甚至可以突破龙研上限的传输速度，打开过载模式时要在内部放置一个FE存储元件进行缓冲"
 		"(使用它的前提是你的网络里有FE能源"
 	]
+	quest.2458B7581D70C66F.quest_desc: ["Tier 4 能源主题创造物品。"]
+	quest.2458B7581D70C66F.title: "创造能源立方"
+	quest.2604483B3172FA35.title: "二阶无用锭"
 	quest.274619D6181A7A02.title: "防火"
 	quest.2A390E3F6E850E40.quest_desc: ["支持无线传频道，创造频道后闪电科技的机器选择后可以直接无线连接，其他AE机器请搭配无线接收器和过载频率卡使用"]
 	quest.2AF1150D8C3CD81E.quest_desc: [
@@ -111,19 +134,36 @@
 	quest.2B69E8F2EDE93E48.quest_desc: ["频道管理是什么，我真不熟"]
 	quest.2B8E8FE977C4EAFF.quest_desc: ["无线收发器高级版"]
 	quest.2C35A9A6AAEB19A7.quest_desc: ["收集闪电的必须品(omni的存储元件话也可以存储闪电"]
+	quest.2FFD80B37EFBD96C.quest_desc: ["ProjectE 终局能源传输设备一阶。"]
+	quest.2FFD80B37EFBD96C.title: "能量继电器 MK1"
+	quest.304C08AB42914052.title: "多方块万象合金炉核心"
 	quest.31338F11A170142B.quest_desc: ["可收集范围内掉落物的me接口"]
+	quest.3145F145C176FCB3.title: "万象模具集散中心"
 	quest.3167479A9287A0BB.title: "死亡不掉落"
 	quest.3207372E15801709.quest_desc: ["脱离手动，自动化生产闪电的机器，可放入闪电坍塌矩阵解锁极高压模式，用高压闪电合成极高压闪电"]
+	quest.3217A1710563AB58.quest_desc: ["ProjectE 终局物质凝聚设备一阶。"]
+	quest.3217A1710563AB58.title: "能量凝聚器 MK1"
 	quest.324E3695A590F3B1.quest_desc: ["和传统封包合成说再见吧，轮椅的闪电科技封包合成来了"]
+	quest.33909E5C76FF4E0D.quest_desc: ["齿轮用于线圈结构和后续机器组件。"]
+	quest.33909E5C76FF4E0D.title: "一阶无用齿轮"
 	quest.33AAB55393CC3EAD.quest_desc: ["合成闪电坍缩矩阵的重要材料"]
+	quest.3413045C14D69911.title: "四阶无用线圈"
+	quest.34745E6216AB3D48.quest_desc: ["Tier 3：固定式 EMC 转化设备。"]
+	quest.34745E6216AB3D48.title: "转化桌"
 	quest.360D4763FF33E67A.quest_desc: [
 		"可放入闪电坍塌矩阵提供并行，一个矩阵8个并行，最多支持32个矩阵，即256并行"
 		"(什么?做处理器可以不用切了? 它支持反应仓配方和电路蚀刻器的配方"
 	]
+	quest.387A36F5F10ED597.title: "九阶无用线圈"
 	quest.39105204139FAC82.quest_desc: ["闪电科技版的无线收发器"]
+	quest.3A54408DB600DE32.quest_desc: ["最终目标：汇聚十件创造物品与天工核心材料。"]
+	quest.3A54408DB600DE32.title: "创造收敛核心"
 	quest.3A8E6859E1FD05FA.quest_desc: ["要准备做至少17个种子，一个水晶做晶能聚合器，另外用晶能聚合器16个做种子，有两倍产出"]
 	quest.3B9473EB19EA6AC5.quest_desc: ["向目标容器中发送物品"]
+	quest.3DCA70F46AE9D4B0.quest_subtitle: "恭喜通关"
 	quest.3E0032BEA7D9A688.quest_desc: ["载也不用切电路板了!，后期可被闪电科技的过载处理工厂替代"]
+	quest.3E82E1FE24A8B861.quest_desc: ["需要红物质与 MK1 递进。"]
+	quest.3E82E1FE24A8B861.title: "能量继电器 MK2"
 	quest.3FCB5F67A335D2B5.quest_desc: [
 		"&d作者：凉寻Lonya"
 		"&3QQ：2287645520"
@@ -131,65 +171,162 @@
 	]
 	quest.3FCB5F67A335D2B5.title: "欢迎游玩《天工创世》"
 	quest.4063237448145893.quest_desc: ["从目标容器中抽入流体"]
+	quest.40D277EA2B131517.quest_desc: ["Tier 2 通用终局中间物。"]
+	quest.40D277EA2B131517.title: "天工合金框架"
+	quest.42C0FDA46D2B0379.quest_desc: ["Tier 4 化学主题创造物品。"]
+	quest.42C0FDA46D2B0379.title: "Mekanism 创造化学储罐"
 	quest.450D41D2B616E3A7.quest_desc: ["有多少频道就可以传多少频道的高级线缆"]
+	quest.452847F05EAAB9FE.quest_desc: ["通过 Draconic 龙研融合获得。"]
+	quest.452847F05EAAB9FE.title: "JDTe 创造升级"
 	quest.461009ECF5369197.quest_desc: ["在机器范围内的AE设备可直接被无线连接，也可使用连接工具配置"]
 	quest.4A52E709528C8038.quest_desc: [
 		"流体稳定器会扫描配置范围内白并按催化剂槽内物物品匹配JDT的FluidDrop配方"
 		"如机器前方有水，而机器内部有多态催化剂，会消耗催化器转换水为多态流体"
 	]
+	quest.4B17526457B64A93.title: "六阶无用线圈"
 	quest.4BE5D3373D11BDC2.quest_desc: ["有了无暇水晶就不用担心母岩衰减了"]
+	quest.4D0C4A960AC72595.quest_desc: ["玻璃用于线圈绝缘和高阶组件。"]
+	quest.4D0C4A960AC72595.title: "一阶无用玻璃"
+	quest.4E40D1BB762C7BB2.quest_desc: ["需要红物质与 MK1 递进。"]
+	quest.4E40D1BB762C7BB2.title: "能量收集器 MK2"
 	quest.50DA85E724FD4392.quest_desc: [
 		"杀动物掉粉红粘液多"
 		"杀怪物掉肉汤多"
 	]
 	quest.515C37917FBD8C00.quest_desc: ["过载机器的核心"]
+	quest.51BE413D8A4EB9A5.quest_desc: ["Tier 3 压力主题创造物品。"]
+	quest.51BE413D8A4EB9A5.title: "气动创造压缩铁块"
 	quest.51CC9483A8AABB6B.quest_desc: ["方便地制作刷怪蛋"]
+	quest.52E464D2074D8118.quest_desc: ["Tier 4 结构核心，汇聚超级电路、终极锭与无尽材料。"]
+	quest.52E464D2074D8118.title: "无尽结构核心"
 	quest.532E19DD97F3DB3A.quest_desc: [
 		"禁止实体:抑制实体生成"
 		"抑制实体生成:抑制实体活动"
 		"禁用方块实体渲染:适用于减少mek线缆卡顿"
 	]
+	quest.532E4D58CE283E4F.title: "三阶无用线圈"
 	quest.5337B9B20BC5CF23.title: "切换白天"
+	quest.548317F5CC16C58F.title: "二阶无用线圈"
 	quest.59053EF8B8CB754A.title: "第一桶岩浆"
+	quest.5922A55AE484556C.quest_desc: ["一阶线圈用于搭建和升级万象合金炉。"]
+	quest.5922A55AE484556C.title: "一阶无用线圈"
+	quest.59D01E6B37EB443E.quest_desc: ["Tier 4 流体主题创造物品。"]
+	quest.59D01E6B37EB443E.title: "Mekanism 创造流体储罐"
 	quest.5A7DC1C1E52C2FC4.title: "禁止天气更替"
 	quest.5AAC19AF2D3F3058.quest_desc: ["什么水晶增产，我真不熟，最高能放256给个水晶块，放入闪电坍塌矩阵解锁4倍输出"]
 	quest.5C2C29F35FDA8552.title: "末影接口的起点"
+	quest.5D2DDC99E4FDEDB1.title: "可能有用的锭"
+	quest.5DF682BE270807A7.title: "六阶无用锭"
 	quest.5E896F725B64C92D.quest_desc: [
 		"可设置忽略样板中输入物品或输出物品的nbt"
 		"做龙研记得用"
 	]
 	quest.5F472D2B6FEAF917.quest_desc: ["没有频道限制的控制器"]
+	quest.6220933C17FEC642.title: "七阶无用线圈"
+	quest.670FCC6C47646902.title: "被动合成仓"
+	quest.68CD0C82872E148B.quest_desc: ["ProjectE 终局能量收集设备一阶。"]
+	quest.68CD0C82872E148B.title: "能量收集器 MK1"
+	quest.6A5EB5BED154283C.quest_desc: ["使用 IE、Mekanism、Ender IO 与 AdvancedAE 材料启动无用合金链。"]
+	quest.6A5EB5BED154283C.title: "一阶无用锭"
+	quest.6AE73BFC782E01DA.quest_desc: ["完成 Neo Eco 阶段后，开始准备万象合金炉所需的跨模组材料。"]
+	quest.6AE73BFC782E01DA.title: "万象合金炉解锁"
+	quest.6C42131B93152276.quest_desc: ["觉醒龙块 + 终极锭"]
+	quest.6C42131B93152276.title: "无尽胸甲"
+	quest.6C8C1B375FB80588.title: "九阶无用锭"
 	quest.6D09A01BC4F71BAF.quest_desc: ["自动激活范围内的凝胶"]
+	quest.6DE2F6D5B2FFDB4D.title: "八阶无用线圈"
 	quest.7027EC6FD0CBD74A.quest_desc: [
 		"在元件工作台中可配置物品"
 		"放入过载接口中可实现只抽取过滤元件标志的物品"
 	]
 	quest.702C3A08BFAC1CA8.quest_desc: ["没有掉落物，自动处死范围内生物获取生命流体"]
+	quest.711E826A9C98E4D4.title: "四阶无用锭"
+	quest.715624A0C5CEDBD5.quest_desc: ["Tier 4 存储主题创造物品，需要 16M 存储组件。"]
+	quest.715624A0C5CEDBD5.title: "Mekanism 创造储物箱"
 	quest.722DF2A7827247FC.quest_desc: [
 		"把me接口和样板供应器二合一"
 		"(老版的me接口？"
 	]
+	quest.75E6E46B51F5FDD9.title: "万象炉装饰外壳"
 	quest.7BCDAAB8F74489E2.title: "无限水？"
 	quest.7EC0725E95355530.title: "常用指令"
+	quest.7EC97A18F44B5B1B.title: "三阶无用锭"
+	quest.7F9E70840ACB52C9.quest_desc: ["量子控制矩阵驱动的终局物质。"]
+	quest.7F9E70840ACB52C9.title: "红物质"
 	quest.7FBCE385E38E6246.title: "你要这么多圆石干嘛？？？"
+	quest.834B4201122130CA.quest_desc: ["使用混沌之心、无尽结构核心与无尽锭完成最终组装。"]
+	quest.834B4201122130CA.title: "天工之心"
+	quest.86096C0A1E670B6C.quest_desc: ["Tier 3：保持默认产出。"]
+	quest.86096C0A1E670B6C.title: "能量收集器 MK1"
 	quest.862523A568CCF5E2.title: "阶段 5：农业工业"
 	quest.8DE8CD57F98A2B66.title: "阶段 5：激光卡片"
 	quest.9193DF8097D0AB5F.title: "阶段 4：基础反应堆"
+	quest.9937C0418CBAD401.quest_desc: ["天工之心 + 中子素块"]
+	quest.9937C0418CBAD401.title: "星球吞噬者"
 	quest.9A6FD150535629A8.title: "阶段 3：灵气采集"
 	quest.9B16BEE0B832DC24.title: "阶段 2：封包合成"
+	quest.9D83D32A8B4DFB60.quest_desc: ["以贤者之石与天工合金框架重筑的最高级转化桌。"]
+	quest.9D83D32A8B4DFB60.title: "转化桌"
+	quest.9F143E011B4189C5.quest_desc: ["需要天工合金框架、AE2 量子核心与终极控制电路。"]
+	quest.9F143E011B4189C5.title: "量子控制矩阵"
+	quest.A13D2433FDCAE013.quest_desc: ["终极控制电路 + 精密机械部件"]
+	quest.A13D2433FDCAE013.title: "无尽之镐"
 	quest.A17A06159682473B.title: "阶段 7：自动化设备"
+	quest.A423BBD9FA309434.quest_desc: ["Tier 4：随身 EMC 终端。"]
+	quest.A423BBD9FA309434.title: "转化桌平板"
 	quest.AF2C00F3901FB656.title: "阶段 7：路由器模块"
 	quest.B0A22706DA8FF751.title: "阶段 3：高级材料"
+	quest.B23E71ED759BAFC9.quest_desc: ["需要无尽结构核心与混沌能量核心。"]
+	quest.B23E71ED759BAFC9.title: "能量继电器 MK3"
+	quest.B4E999B118BE658E.quest_desc: ["混沌碎片 + 时间水晶块"]
+	quest.B4E999B118BE658E.title: "无尽之剑"
+	quest.B6AB9EE563133BA0.quest_desc: ["Mekanism 终局机器框架 + 活力合金块"]
+	quest.B6AB9EE563133BA0.title: "无尽护腿"
 	quest.B6E87B77ABE6FBE0.title: "阶段 1：核燃料"
+	quest.B898B438ED27F16A.quest_desc: ["Project Expansion 终局凝聚核心。"]
+	quest.B898B438ED27F16A.title: "Project Expansion 能量凝聚器 MK3"
+	quest.BA85EADB2DDB58A1.quest_desc: ["ProjectE 终局钥匙，在 Extreme 合成台完成。"]
+	quest.BA85EADB2DDB58A1.title: "贤者之石"
+	quest.C42AB6A9F3CC9D92.quest_desc: ["Tier 3：由天工框架与永恒燃料重制。"]
+	quest.C42AB6A9F3CC9D92.title: "暗物质"
 	quest.C4B75832892A672B.title: "阶段 8：高级制造"
+	quest.C5C9D3160D7B1488.quest_desc: ["Tier 3：ProjectE 后期入口。"]
+	quest.C5C9D3160D7B1488.title: "贤者之石"
+	quest.C803D9C8BE6D41B9.quest_desc: ["Chaotic 融合终极物品。"]
+	quest.C803D9C8BE6D41B9.title: "龙研创造电容"
+	quest.C8D08660C1F81D1F.quest_desc: ["文档中的可选第 11 件创造级物品。"]
+	quest.C8D08660C1F81D1F.title: "ExtendedCrafting 终极合成台"
+	quest.C99B391F15849709.quest_desc: ["Tier 2 创造流体存储。"]
+	quest.C99B391F15849709.title: "Create 创造流体罐"
+	quest.C9BD8CEBA8069A6A.quest_desc: ["Tier 4：保持默认产出。"]
+	quest.C9BD8CEBA8069A6A.title: "能量收集器 MK2"
+	quest.CEA429C4C7B1E65D.quest_desc: ["压缩铁块 + 终极压力管"]
+	quest.CEA429C4C7B1E65D.title: "无尽靴子"
+	quest.D425268D5BF2208B.quest_desc: ["AE2 量子核心 + 龙研觉醒核心"]
+	quest.D425268D5BF2208B.title: "无尽头盔"
+	quest.E4F2C20EC4A6583B.quest_desc: ["Tier 3 动力主题创造物品。"]
+	quest.E4F2C20EC4A6583B.title: "Create 创造马达"
+	quest.E95D476F8211FE5F.quest_desc: ["需要红物质与 MK1 递进。"]
+	quest.E95D476F8211FE5F.title: "能量凝聚器 MK2"
 	quest.ECCEB90C83C1A01D.title: "阶段 2：加工设备"
+	quest.ED2254EA1CDB0EBE.quest_desc: ["Tier 4：终局能量收集设备。"]
+	quest.ED2254EA1CDB0EBE.title: "能量收集器 MK3"
 	quest.EEA0A215AF964DAC.title: "阶段 2：高阶植物盆"
 	quest.EF36155C7D1BAE99.title: "阶段 8：自动物流"
 	quest.F671A702AA452E97.title: "阶段 1：基础植物盆"
+	quest.F7F8635D79C2012D.quest_desc: ["通过 Chaotic 龙研融合获得。"]
+	quest.F7F8635D79C2012D.title: "混沌之心"
 	quest.F9712EA3B3B95E63.title: "阶段 4：灵气生成"
 	quest.FA80A31BE4EEDCB7.title: "阶段 2：燃料加工"
+	quest.FCCF357907D63B3B.quest_desc: ["需要无尽结构核心与混沌能量核心。"]
+	quest.FCCF357907D63B3B.title: "能量收集器 MK3"
+	quest.FF7EA6209A1222AB.quest_desc: ["Tier 4：量子控制矩阵驱动的进阶物质。"]
+	quest.FF7EA6209A1222AB.title: "红物质"
+	task.04509EB98CFAB9E2.title: "ECO - F6 可拓展合成子系统主机"
+	task.0F04DA2E53095B02.title: "ECO - L9 可拓展存储子系统主机"
 	task.12A2B4799988D063.title: "死亡不掉落"
 	task.15B510F0F8FA66EE.title: "Any #minecraft:leaves"
+	task.171AE4BCA781FE1C.title: "ECO - L6 可拓展存储子系统主机"
 	task.1D87FA0FC7AA81D1.title: "切换晴天"
 	task.1F13023A4F77C1B0.title: "Any #cobblegengalore:block_generators"
 	task.2B0C5FE8876366A3.title: "切换白天"
@@ -197,117 +334,16 @@
 	task.2DDD6C2052D2493C.title: "禁止天气更替"
 	task.2FBC4575EDE66FE6.title: "防爆"
 	task.35B00F830519A706.title: "意外情况"
+	task.3AA4893690D322A2.title: "ECO - C6 可拓展计算子系统主机"
 	task.433D038FD2675CD5.title: "防火"
 	task.49217AA488E41BF1.title: "整合包介绍"
+	task.5712880220A1879E.title: "ECO - C9 可拓展计算子系统主机"
 	task.5E7F6496B1D3A52A.title: "Any #exdeorum:ore_chunks"
+	task.601A8C77E70AEA97.title: "ECO - L4 可拓展存储子系统主机"
 	task.61F9800E73DF195C.title: "常用指令"
 	task.711FAF125722500A.title: "整合包介绍"
 	task.72F686B61CD6A956.title: "锁定白天"
-	quest.6AE73BFC782E01DA.title: "毕业eco送万象合金炉"
-	task.04509EB98CFAB9E2.title: "ECO - F6 可拓展合成子系统主机"
-	task.0F04DA2E53095B02.title: "ECO - L9 可拓展存储子系统主机"
-	task.171AE4BCA781FE1C.title: "ECO - L6 可拓展存储子系统主机"
-	task.3AA4893690D322A2.title: "ECO - C6 可拓展计算子系统主机"
-	task.5712880220A1879E.title: "ECO - C9 可拓展计算子系统主机"
-	task.601A8C77E70AEA97.title: "ECO - L4 可拓展存储子系统主机"
 	task.735D913446C8B0A9.title: "ECO - C4 可拓展计算子系统主机"
 	task.75BB826134D2E495.title: "ECO - F9 可拓展合成子系统主机"
 	task.7E19924CCA30B2C1.title: "ECO - F4 可拓展合成子系统主机"
-	chapter_group.4A4AA7622FF9900F.title: "终局合成"
-	chapter.118749FEE2C9DA8D.title: "终局物品合成重设计"
-	quest.40D277EA2B131517.title: "天工合金框架"
-	quest.40D277EA2B131517.quest_desc: ["Tier 2 通用终局中间物。"]
-	quest.9F143E011B4189C5.title: "量子控制矩阵"
-	quest.9F143E011B4189C5.quest_desc: ["需要天工合金框架、AE2 量子核心与终极控制电路。"]
-	quest.52E464D2074D8118.title: "无尽结构核心"
-	quest.52E464D2074D8118.quest_desc: ["Tier 4 结构核心，汇聚超级电路、终极锭与无尽材料。"]
-	quest.F7F8635D79C2012D.title: "混沌之心"
-	quest.F7F8635D79C2012D.quest_desc: ["通过 Chaotic 龙研融合获得。"]
-	quest.834B4201122130CA.title: "天工之心"
-	quest.834B4201122130CA.quest_desc: ["使用混沌之心、无尽结构核心与无尽锭完成最终组装。"]
-	quest.062478ECBBD526EA.title: "Create 创造板条箱"
-	quest.062478ECBBD526EA.quest_desc: ["Tier 2 创造物品，机械动力与功能存储路线。"]
-	quest.C99B391F15849709.title: "Create 创造流体罐"
-	quest.C99B391F15849709.quest_desc: ["Tier 2 创造流体存储。"]
-	quest.E4F2C20EC4A6583B.title: "Create 创造马达"
-	quest.E4F2C20EC4A6583B.quest_desc: ["Tier 3 动力主题创造物品。"]
-	quest.51BE413D8A4EB9A5.title: "气动创造压缩铁块"
-	quest.51BE413D8A4EB9A5.quest_desc: ["Tier 3 压力主题创造物品。"]
-	quest.2458B7581D70C66F.title: "创造能源立方"
-	quest.2458B7581D70C66F.quest_desc: ["Tier 4 能源主题创造物品。"]
-	quest.715624A0C5CEDBD5.title: "Mekanism 创造储物箱"
-	quest.715624A0C5CEDBD5.quest_desc: ["Tier 4 存储主题创造物品，需要 16M 存储组件。"]
-	quest.59D01E6B37EB443E.title: "Mekanism 创造流体储罐"
-	quest.59D01E6B37EB443E.quest_desc: ["Tier 4 流体主题创造物品。"]
-	quest.42C0FDA46D2B0379.title: "Mekanism 创造化学储罐"
-	quest.42C0FDA46D2B0379.quest_desc: ["Tier 4 化学主题创造物品。"]
-	quest.C8D08660C1F81D1F.title: "ExtendedCrafting 终极合成台"
-	quest.C8D08660C1F81D1F.quest_desc: ["文档中的可选第 11 件创造级物品。"]
-	quest.452847F05EAAB9FE.title: "JDTe 创造升级"
-	quest.452847F05EAAB9FE.quest_desc: ["通过 Draconic 龙研融合获得。"]
-	quest.C803D9C8BE6D41B9.title: "龙研创造电容"
-	quest.C803D9C8BE6D41B9.quest_desc: ["Chaotic 融合终极物品。"]
-	quest.3A54408DB600DE32.title: "创造收敛核心"
-	quest.3A54408DB600DE32.quest_desc: ["最终目标：汇聚十件创造物品与天工核心材料。"]
-	chapter.61D4F61242860108.title: "ProjectE 终局化"
-	quest.BA85EADB2DDB58A1.title: "贤者之石"
-	quest.BA85EADB2DDB58A1.quest_desc: ["ProjectE 终局钥匙，在 Extreme 合成台完成。"]
-	quest.9D83D32A8B4DFB60.title: "转化桌"
-	quest.9D83D32A8B4DFB60.quest_desc: ["以贤者之石与天工合金框架重筑的最高级转化桌。"]
-	quest.177BB2FD17DCD6BB.title: "转化桌平板"
-	quest.177BB2FD17DCD6BB.quest_desc: ["需要天工之心的随身转化终端。"]
-	quest.1F88B83ADE1A2ADB.title: "暗物质"
-	quest.1F88B83ADE1A2ADB.quest_desc: ["由天工框架、永恒燃料与跨模组材料合成。"]
-	quest.7F9E70840ACB52C9.title: "红物质"
-	quest.7F9E70840ACB52C9.quest_desc: ["量子控制矩阵驱动的终局物质。"]
-	quest.68CD0C82872E148B.title: "能量收集器 MK1"
-	quest.68CD0C82872E148B.quest_desc: ["ProjectE 终局能量收集设备一阶。"]
-	quest.4E40D1BB762C7BB2.title: "能量收集器 MK2"
-	quest.4E40D1BB762C7BB2.quest_desc: ["需要红物质与 MK1 递进。"]
-	quest.FCCF357907D63B3B.title: "能量收集器 MK3"
-	quest.FCCF357907D63B3B.quest_desc: ["需要无尽结构核心与混沌能量核心。"]
-	quest.2FFD80B37EFBD96C.title: "能量继电器 MK1"
-	quest.2FFD80B37EFBD96C.quest_desc: ["ProjectE 终局能源传输设备一阶。"]
-	quest.3E82E1FE24A8B861.title: "能量继电器 MK2"
-	quest.3E82E1FE24A8B861.quest_desc: ["需要红物质与 MK1 递进。"]
-	quest.B23E71ED759BAFC9.title: "能量继电器 MK3"
-	quest.B23E71ED759BAFC9.quest_desc: ["需要无尽结构核心与混沌能量核心。"]
-	quest.3217A1710563AB58.title: "能量凝聚器 MK1"
-	quest.3217A1710563AB58.quest_desc: ["ProjectE 终局物质凝聚设备一阶。"]
-	quest.E95D476F8211FE5F.title: "能量凝聚器 MK2"
-	quest.E95D476F8211FE5F.quest_desc: ["需要红物质与 MK1 递进。"]
-	quest.B898B438ED27F16A.title: "Project Expansion 能量凝聚器 MK3"
-	quest.B898B438ED27F16A.quest_desc: ["Project Expansion 终局凝聚核心。"]
-	chapter.CA4960855119ECCC.title: "无尽装备跨模组化"
-	quest.D425268D5BF2208B.title: "无尽头盔"
-	quest.D425268D5BF2208B.quest_desc: ["AE2 量子核心 + 龙研觉醒核心"]
-	quest.6C42131B93152276.title: "无尽胸甲"
-	quest.6C42131B93152276.quest_desc: ["觉醒龙块 + 终极锭"]
-	quest.B6AB9EE563133BA0.title: "无尽护腿"
-	quest.B6AB9EE563133BA0.quest_desc: ["Mekanism 终局机器框架 + 活力合金块"]
-	quest.CEA429C4C7B1E65D.title: "无尽靴子"
-	quest.CEA429C4C7B1E65D.quest_desc: ["压缩铁块 + 终极压力管"]
-	quest.B4E999B118BE658E.title: "无尽之剑"
-	quest.B4E999B118BE658E.quest_desc: ["混沌碎片 + 时间水晶块"]
-	quest.A13D2433FDCAE013.title: "无尽之镐"
-	quest.A13D2433FDCAE013.quest_desc: ["终极控制电路 + 精密机械部件"]
-	quest.9937C0418CBAD401.title: "星球吞噬者"
-	quest.9937C0418CBAD401.quest_desc: ["天工之心 + 中子素块"]
-	chapter.7F6A24AA40E0F996.title: "ProjectE 难度适中终局化"
-	quest.C5C9D3160D7B1488.title: "贤者之石"
-	quest.C5C9D3160D7B1488.quest_desc: ["Tier 3：ProjectE 后期入口。"]
-	quest.34745E6216AB3D48.title: "转化桌"
-	quest.34745E6216AB3D48.quest_desc: ["Tier 3：固定式 EMC 转化设备。"]
-	quest.A423BBD9FA309434.title: "转化桌平板"
-	quest.A423BBD9FA309434.quest_desc: ["Tier 4：随身 EMC 终端。"]
-	quest.C42AB6A9F3CC9D92.title: "暗物质"
-	quest.C42AB6A9F3CC9D92.quest_desc: ["Tier 3：由天工框架与永恒燃料重制。"]
-	quest.FF7EA6209A1222AB.title: "红物质"
-	quest.FF7EA6209A1222AB.quest_desc: ["Tier 4：量子控制矩阵驱动的进阶物质。"]
-	quest.86096C0A1E670B6C.title: "能量收集器 MK1"
-	quest.86096C0A1E670B6C.quest_desc: ["Tier 3：保持默认产出。"]
-	quest.C9BD8CEBA8069A6A.title: "能量收集器 MK2"
-	quest.C9BD8CEBA8069A6A.quest_desc: ["Tier 4：保持默认产出。"]
-	quest.ED2254EA1CDB0EBE.title: "能量收集器 MK3"
-	quest.ED2254EA1CDB0EBE.quest_desc: ["Tier 4：终局能量收集设备。"]
 }

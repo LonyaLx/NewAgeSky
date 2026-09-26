@@ -4,7 +4,16 @@
 	filename: "6b80494daac805f4"
 	group: "771239FADC842121"
 	id: "6B80494DAAC805F4"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "63BB999EAE50630D"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: -2.0d
+		y: 5.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

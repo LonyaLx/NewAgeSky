@@ -2,10 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1"
-	group: "074301895FF60497"
+	group: "33380D59A0FADF67"
 	id: "4E36C4222197BC50"
-	images: [ ]
-	order_index: 0
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "7FC3210A07DBE691"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: -2.5d
+		y: 2.5d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

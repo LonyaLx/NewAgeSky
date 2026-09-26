@@ -1,0 +1,582 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useless_mod_endgame"
+	group: "4A4AA7622FF9900F"
+	id: "44F2CFE2C95F488E"
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "29477572F742B48F"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 6.5d
+		y: -2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AE73BFC782E01DA"]
+			id: "054210FD461D6B3D"
+			tasks: [{
+				id: "7D1DCD6E8E2B4A8D"
+				item: { count: 1, id: "useless_mod:advanced_alloy_furnace_block" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "6A5EB5BED154283C"
+			tasks: [{
+				id: "5D7368B9F3713C1E"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_1" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "33909E5C76FF4E0D"
+			tasks: [{
+				id: "1170A49564632DAB"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_1" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "4D0C4A960AC72595"
+			tasks: [{
+				id: "570497973EB0478F"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_1" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "5922A55AE484556C"
+			tasks: [{
+				id: "69AE4019A8A9E8A3"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_1" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "548317F5CC16C58F"
+			tasks: [{
+				id: "0E7664050F23D53E"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_2" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "2604483B3172FA35"
+			tasks: [{
+				id: "689FC4F0A7E791A7"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_2" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "532E4D58CE283E4F"
+			tasks: [{
+				id: "2FFD3A285EB0450C"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_3" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "7EC97A18F44B5B1B"
+			tasks: [{
+				id: "7C495B445B13095F"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_3" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "75E6E46B51F5FDD9"
+			tasks: [{
+				id: "432C0FA62B248FB5"
+				item: { count: 1, id: "useless_mod:omniversal_furnace_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "304C08AB42914052"
+			tasks: [{
+				id: "13D01DED150150FF"
+				item: { count: 1, id: "useless_mod:multiblock_alloy_furnace_core" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "3413045C14D69911"
+			tasks: [{
+				id: "3CB4F7BF7EE3687B"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_4" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "711E826A9C98E4D4"
+			tasks: [{
+				id: "4AEAFDC86C97216C"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_4" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "003E99BAB0892A37"
+			tasks: [{
+				id: "670180021BBE2C0C"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_5" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "1BBDBF999CD7A213"
+			tasks: [{
+				id: "7A9DFE36DADCADC1"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_5" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "4B17526457B64A93"
+			tasks: [{
+				id: "43286CC31F2AA08F"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_6" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "5DF682BE270807A7"
+			tasks: [{
+				id: "6A70819DFDD735CE"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_6" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "3145F145C176FCB3"
+			tasks: [{
+				id: "6613B26721ECCFE4"
+				item: { count: 1, id: "useless_mod:omniversal_mold_hub" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "6220933C17FEC642"
+			tasks: [{
+				id: "0F8F5A17FAED976C"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_7" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "058AFB26728BE24B"
+			tasks: [{
+				id: "3EB7DE207C7C0CC1"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_7" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "0ED43CB4A5E36DD1"
+			tasks: [{
+				id: "796A4F003FFC6936"
+				item: { count: 1, id: "useless_mod:me_pattern_assembly" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "6DE2F6D5B2FFDB4D"
+			tasks: [{
+				id: "343C0D3502FE8B79"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_8" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "16B052ABC1EC4257"
+			tasks: [{
+				id: "23AC72A71E4F4AA5"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_8" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "670FCC6C47646902"
+			tasks: [{
+				id: "2133E40281813241"
+				item: { count: 1, id: "useless_mod:passive_crafting_hatch" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			id: "387A36F5F10ED597"
+			tasks: [{
+				id: "4C8EA998AFBAD01A"
+				item: { count: 1, id: "useless_mod:useless_coil_tier_9" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			id: "6C8C1B375FB80588"
+			tasks: [{
+				id: "0C6317DD777A3CF9"
+				item: { count: 1, id: "useless_mod:useless_ingot_tier_9" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "5D2DDC99E4FDEDB1"
+			tasks: [{
+				id: "6774F523C27E8B3D"
+				item: { count: 1, id: "useless_mod:possible_useful_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "107BC109279D5119"
+			tasks: [{
+				id: "44F493BCFE9BAB7C"
+				item: { count: 1, id: "useless_mod:useful_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "6A615907652A9D9F"
+			tasks: [{
+				id: "069B0006A076CFFB"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_2" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			id: "44DD85033651EA7F"
+			tasks: [{
+				id: "0701A4A06D31C7E6"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_3" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "282374E8FD088182"
+			tasks: [{
+				id: "18E51D19C3ACA024"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_4" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			id: "5C6BE569AF1391BB"
+			tasks: [{
+				id: "21F88018FE0DB0C9"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_5" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			id: "05D1A492204A6B0E"
+			tasks: [{
+				id: "462456A945360B25"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_6" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			id: "77534F65B9F872F3"
+			tasks: [{
+				id: "3C20660B3BFE5558"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_7" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			id: "57D170ED9DFA73FF"
+			tasks: [{
+				id: "046860594885896F"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_8" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			id: "74E5E813ADF1F0C4"
+			tasks: [{
+				id: "1B99E74DF18D2AD9"
+				item: { count: 1, id: "useless_mod:useless_glass_tier_9" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			id: "560F1C2F728D8E21"
+			tasks: [{
+				id: "56E415E64887B8BF"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_2" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "248DAE7334C82972"
+			tasks: [{
+				id: "00760BA192149ECD"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_3" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "4FFCB0109E70F73F"
+			tasks: [{
+				id: "61333553E37A6872"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_4" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "0C4D5990A346C142"
+			tasks: [{
+				id: "023D10121F9B12CE"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_5" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "76EF16130DF32641"
+			tasks: [{
+				id: "0FFFC3160BC46ACD"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_6" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "296EBACCDC1B0417"
+			tasks: [{
+				id: "0A53F3E67BDFB877"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_7" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "0A5F02679E7D8673"
+			tasks: [{
+				id: "36A738B470A04B85"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_8" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "241FC17871D913BE"
+			tasks: [{
+				id: "5C4ECD065435BD36"
+				item: { count: 1, id: "useless_mod:useless_gear_tier_9" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "2ACB1BC98102FC65"
+			tasks: [{
+				id: "3F3E6C9904FFFB63"
+				item: { count: 1, id: "useless_mod:metal_mold_plate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "21CD8ED8F533CABF"
+			tasks: [{
+				id: "3C9778818F1070D1"
+				item: { count: 1, id: "useless_mod:metal_mold_rod" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "0FD091E2EA1D68F0"
+			tasks: [{
+				id: "12DD356899DB213A"
+				item: { count: 1, id: "useless_mod:metal_mold_gear" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "699B36B01F2EA98C"
+			tasks: [{
+				id: "09F624F478824422"
+				item: { count: 1, id: "useless_mod:metal_mold_wire" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "5908444EE9BD571A"
+			tasks: [{
+				id: "4E4A1C601EBB2C1E"
+				item: { count: 1, id: "useless_mod:metal_mold_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "1BD75341B52D0DFD"
+			tasks: [{
+				id: "71A7B1796808E649"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 10, "minecraft:silk_touch": 1 } } }, count: 1, id: "useless_mod:endless_beaf_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "5106D5980AEEE5CC"
+			tasks: [{
+				id: "216D1DF18A6D658E"
+				item: { count: 1, id: "useless_stretcher:wondrous_staff" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "73B642018BBBAC23"
+			tasks: [{
+				id: "15C5F143EBBFADD2"
+				item: { count: 1, id: "useless_stretcher:useless_stretcher" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "2518302A1A4F9D99"
+			tasks: [{
+				id: "46973A9A804E5FDB"
+				item: { count: 1, id: "useless_stretcher:omniversal_myriad" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "7D4F6E64CEFB4B40"
+			tasks: [{
+				id: "2C55B90B2953AC8C"
+				item: { count: 1, id: "useless_mod:useless_compact_c9" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "133D50B91A42724C"
+			tasks: [{
+				id: "5DD52EF02E6DF0A0"
+				item: { count: 1, id: "useless_mod:useless_compact_f9" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "7A176BFFC36227EF"
+			tasks: [{
+				id: "0DB89DBB84146AB7"
+				item: { count: 1, id: "useless_mod:useless_compact_l9" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+}

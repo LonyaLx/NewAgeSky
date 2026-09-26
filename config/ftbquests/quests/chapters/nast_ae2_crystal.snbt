@@ -7,7 +7,16 @@
 		id: "ae2cs:purified_ender_quartz"
 	}
 	id: "28AE6783A6D5612A"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "765EC8A6B2467C5C"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 3.0d
+		y: 2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -26,22 +35,6 @@
 			}]
 			x: -5.0d
 			y: -2.0d
-		}
-		{
-			id: "573D4307461836BC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D5DDAA9192A6B87"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "02FACDF467AC3E7E"
-				item: { count: 1, id: "ae2cs:quartz_grindstone" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
 		}
 		{
 			id: "6AD4C7D3E92C54C0"
@@ -83,7 +76,7 @@
 			]
 			id: "3A8E6859E1FD05FA"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "5D1A5BCDAA262955"
 				item: {
 					count: 1
@@ -167,24 +160,7 @@
 				item: { count: 1, id: "ae2cs:circuit_etcher" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7DAC80446E0F5BFB"]
-			id: "04A438826D323744"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "437299088F890942"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4FC50369DAE86BAE"
-				item: { count: 1, id: "ae2cs:crystal_pulverizer" }
-				type: "item"
-			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -256,7 +232,7 @@
 				item: { count: 1, id: "ae2cs:ender_broadcaster" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -271,23 +247,6 @@
 			tasks: [{
 				id: "3D956FC8225651B3"
 				item: { count: 1, id: "ae2cs:ender_emitter" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7DAC80446E0F5BFB"]
-			id: "29C07D667FDD032A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "04730615D187854C"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0518A4E4F1585539"
-				item: { count: 1, id: "ae2cs:crystal_vibration_chamber" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -455,73 +414,6 @@
 			}]
 			x: 12.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["6D66269B655B22EB"]
-			id: "261FC70CED86AA12"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "103A84B80E103C96"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6B028FACC05C4D17"
-				item: { count: 1, id: "ae2cs:simple_pattern_provider" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			id: "6D66269B655B22EB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "572EA46965288F56"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "289F2B97405CA27E"
-				item: { count: 1, id: "ae2cs:simple_processor" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["261FC70CED86AA12"]
-			id: "06EE51E906F3A4C6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "70464BCCC39D3F95"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5F316B81504E0764"
-				item: { count: 1, id: "ae2cs:mirror_pattern_provider" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["06EE51E906F3A4C6"]
-			id: "5C2208641B2A2438"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "36ACFF9A40023F21"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5BACD23FEAF8CA15"
-				item: { count: 1, id: "ae2cs:mirror_linker" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["1C102289742098BB"]

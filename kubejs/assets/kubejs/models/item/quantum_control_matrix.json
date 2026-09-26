@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "kubejs:item/quantum_control_matrix"
+                 },
+    "parent":  "minecraft:item/generated"
+}

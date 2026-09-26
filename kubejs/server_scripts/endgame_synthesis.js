@@ -4,26 +4,82 @@ ServerEvents.recipes(event => {
   const tableSize = { 2: 5, 3: 7, 4: 9 }
 
   function tableRecipe(output, resultCount, ingredients, tier, recipeId) {
-    const size = tableSize[tier]
-    const total = ingredients.reduce((sum, entry) => sum + entry[1], 0)
+    var size = tableSize[tier]
+    var total = ingredients.reduce(function (sum, entry) {
+      return sum + entry[1]
+    }, 0)
     if (total > size * size) {
       throw new Error(`Endgame table recipe ${recipeId} uses ${total} items, max is ${size * size}`)
     }
 
-    const grid = new Array(size * size).fill(' ')
-    const key = {}
-    let slot = 0
-    ingredients.forEach((entry, index) => {
-      const symbol = String.fromCharCode(65 + index)
+    // 优先左右镜像：奇数材料放中轴，其余材料成对镜像。
+    var key = {}
+    var remaining = ingredients.map(function (entry, index) {
+      var symbol = String.fromCharCode(65 + index)
       key[symbol] = { item: entry[0] }
-      for (let count = 0; count < entry[1]; count++) {
-        grid[slot++] = symbol
+      return { symbol: symbol, count: entry[1] }
+    })
+
+    var centerSymbols = []
+    remaining.forEach(function (entry) {
+      if (entry.count % 2 === 1 && centerSymbols.length < size) {
+        centerSymbols.push(entry.symbol)
+        entry.count--
       }
     })
 
-    const pattern = []
-    for (let row = 0; row < size; row++) {
-      pattern.push(grid.slice(row * size, row * size + size).join(''))
+    var pairAssignments = []
+    var singleSymbols = []
+    remaining.forEach(function (entry) {
+      for (var pair = 0; pair < Math.floor(entry.count / 2); pair++) {
+        pairAssignments.push([entry.symbol, entry.symbol])
+      }
+      if (entry.count % 2 === 1) singleSymbols.push(entry.symbol)
+    })
+
+    if (singleSymbols.length % 2 !== 0) {
+      throw new Error(`Endgame table recipe ${recipeId} cannot pair all singleton materials`)
+    }
+    for (var single = 0; single < singleSymbols.length; single += 2) {
+      pairAssignments.push([singleSymbols[single], singleSymbols[single + 1]])
+    }
+
+    var pairSlotCapacity = size * Math.floor(size / 2)
+    while (pairAssignments.length > pairSlotCapacity) {
+      centerSymbols.push.apply(centerSymbols, pairAssignments.shift())
+    }
+    if (centerSymbols.length > size) {
+      throw new Error(`Endgame table recipe ${recipeId} cannot fit all symmetric center items`)
+    }
+
+    var center = Math.floor(size / 2)
+    var slotPairs = []
+    for (var radius = 1; radius <= center; radius++) {
+      for (var row = 0; row < size; row++) {
+        for (var column = 0; column < center; column++) {
+          if (Math.max(Math.abs(row - center), Math.abs(column - center)) !== radius) continue
+          slotPairs.push([row * size + column, row * size + size - 1 - column])
+        }
+      }
+    }
+
+    var grid = new Array(size * size).fill(' ')
+    var centerRows = [center]
+    for (var offset = 1; offset <= center; offset++) {
+      centerRows.push(center - offset, center + offset)
+    }
+    centerSymbols.forEach(function (symbol, index) {
+      if (index < centerRows.length) grid[centerRows[index] * size + center] = symbol
+    })
+    pairAssignments.forEach(function (pair, index) {
+      var slots = slotPairs[index]
+      grid[slots[0]] = pair[0]
+      grid[slots[1]] = pair[1]
+    })
+
+    var pattern = []
+    for (var patternRow = 0; patternRow < size; patternRow++) {
+      pattern.push(grid.slice(patternRow * size, patternRow * size + size).join(''))
     }
 
     event.custom({
@@ -32,6 +88,20 @@ ServerEvents.recipes(event => {
       key: key,
       result: { id: output, count: resultCount },
       tier: tier
+    }).id(recipeId)
+  }
+
+  function fusionRecipe(result, catalyst, ingredients, tier, energy, recipeId) {
+    var wrappedIngredients = ingredients.map(function (id) {
+      return { consume: true, ingredient: { item: id } }
+    })
+    event.custom({
+      type: 'draconicevolution:fusion_crafting',
+      catalyst: { item: catalyst },
+      ingredients: wrappedIngredients,
+      result: { id: result, count: 1 },
+      techLevel: tier,
+      totalEnergy: energy
     }).id(recipeId)
   }
 
@@ -79,7 +149,7 @@ ServerEvents.recipes(event => {
     ['advanced_ae:quantum_core', 2],
     ['mekanism:ultimate_control_circuit', 2],
     ['draconicevolution:wyvern_core', 1],
-    ['mekanism:pellet_polonium', 8],
+    ['naturesaura:infused_iron', 4],
     ['ae2:singularity', 1],
     ['minecraft:end_crystal', 4],
     ['minecraft:dragon_egg', 1]
@@ -90,7 +160,7 @@ ServerEvents.recipes(event => {
     ['kubejs:quantum_control_matrix', 2],
     ['extendedcrafting:the_ultimate_ingot', 2],
     ['avaritia:crystal_matrix_ingot', 8],
-    ['avaritia:neutron_pile', 16],
+    ['avaritia:neutron_pile', 17],
     ['draconicevolution:awakened_core', 1],
     ['mekanismsun:supernova_control_circuit', 1],
     ['avaritia:infinity_catalyst', 1],
@@ -98,23 +168,24 @@ ServerEvents.recipes(event => {
   ], 4, 'sky-craft-creation:endgame/endless_structure_core')
 
   // ④ 天工之心前置：混沌之心，Chaotic 融合。
-  event.recipes.draconicevolution.fusion_crafting(
+  fusionRecipe(
+    'kubejs:chaotic_heart',
     'draconicevolution:chaotic_core',
     [
       'kubejs:endless_structure_core',
+      'draconicevolution:awakened_draconium_block',
+      'avaritia:neutron',
+      'draconicevolution:awakened_draconium_block',
+      'avaritia:neutron',
       'kubejs:endless_structure_core',
-      'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block',
+      'avaritia:neutron',
       'draconicevolution:awakened_draconium_block',
       'avaritia:neutron',
-      'avaritia:neutron',
-      'avaritia:neutron',
-      'avaritia:neutron'
+      'draconicevolution:awakened_draconium_block'
     ],
-    'kubejs:chaotic_heart',
     'chaotic',
-    5000000000
+    5000000000,
+    'sky-craft-creation:endgame/chaotic_heart'
   )
 
   // ⑤ 天工之心：Tier 4。
@@ -123,8 +194,8 @@ ServerEvents.recipes(event => {
     ['kubejs:endless_structure_core', 2],
     ['kubejs:tiangong_alloy_frame', 4],
     ['kubejs:quantum_control_matrix', 2],
-    ['avaritia:infinity_ingot', 1],
-    ['mekanismsun:artificial_sun_casing', 1]
+    ['avaritia:infinity_ingot', 2],
+    ['mekanismsun:artificial_sun_casing', 2]
   ], 4, 'sky-craft-creation:endgame/tiangong_heart')
 
   // 第一组 · Tier 2 创造物品。
@@ -198,43 +269,45 @@ ServerEvents.recipes(event => {
 
   // 第四组 · 龙研融合。
   // 文档外围为 16 件；融合台最多 10 个外围位，保留全部材料类别并压缩重复数量。
-  event.recipes.draconicevolution.fusion_crafting(
+  fusionRecipe(
+    'jdte:creative_upgrade',
     'jdte:extended_time_accelerator',
     [
       'kubejs:endless_structure_core',
-      'kubejs:endless_structure_core',
       'mekanismsun:supernova_control_circuit',
-      'mekanismsun:supernova_control_circuit',
-      'justdirethings:time_crystal_block',
-      'justdirethings:time_crystal_block',
-      'justdirethings:time_crystal_block',
       'justdirethings:time_crystal_block',
       'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block'
+      'justdirethings:time_crystal_block',
+      'kubejs:endless_structure_core',
+      'mekanismsun:supernova_control_circuit',
+      'justdirethings:time_crystal_block',
+      'draconicevolution:awakened_draconium_block',
+      'justdirethings:time_crystal_block'
     ],
-    'jdte:creative_upgrade',
     'draconic',
-    2000000000
+    2000000000,
+    'sky-craft-creation:endgame/jdte_creative_upgrade'
   )
 
   // 文档外围为 26 件；融合台最多 10 个外围位，保留全部材料类别并压缩重复数量。
-  event.recipes.draconicevolution.fusion_crafting(
+  fusionRecipe(
+    'draconicevolution:creative_capacitor',
     'draconicevolution:chaotic_energy_core',
     [
       'kubejs:tiangong_heart',
+      'draconicevolution:chaos_shard',
+      'draconicevolution:awakened_draconium_block',
+      'draconicevolution:chaos_shard',
+      'draconicevolution:awakened_draconium_block',
       'mekanism:creative_energy_cube',
-      'draconicevolution:chaos_shard',
-      'draconicevolution:chaos_shard',
-      'draconicevolution:chaos_shard',
+      'draconicevolution:awakened_draconium_block',
       'draconicevolution:chaos_shard',
       'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block',
-      'draconicevolution:awakened_draconium_block'
+      'draconicevolution:chaos_shard'
     ],
-    'draconicevolution:creative_capacitor',
     'chaotic',
-    10000000000
+    10000000000,
+    'sky-craft-creation:endgame/creative_capacitor'
   )
 
   // 创造收敛核心：最终目标。
@@ -253,7 +326,7 @@ ServerEvents.recipes(event => {
     ['kubejs:endless_structure_core', 2],
     ['kubejs:quantum_control_matrix', 4],
     ['kubejs:tiangong_alloy_frame', 8],
-    ['avaritia:infinity_ingot', 2],
+    ['avaritia:infinity_ingot', 1],
     ['draconicevolution:chaos_shard', 16],
     ['minecraft:nether_star', 4],
     ['minecraft:ender_eye', 8]

@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "kubejs:item/chaotic_heart"
+                 },
+    "parent":  "minecraft:item/generated"
+}

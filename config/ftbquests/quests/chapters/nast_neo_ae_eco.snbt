@@ -22,8 +22,6 @@
 		y: 0.0d
 	}]
 	order_index: 2
-	quest_enhance_decorative_lines: [ ]
-	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -2533,14 +2531,6 @@
 				id: "useless_mod:advanced_alloy_furnace_block"
 			}
 			id: "6AE73BFC782E01DA"
-			rewards: [{
-				id: "484D1A4D328414D4"
-				item: {
-					count: 1
-					id: "useless_mod:advanced_alloy_furnace_block"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "1306C539F06D4E43"
 				type: "checkmark"

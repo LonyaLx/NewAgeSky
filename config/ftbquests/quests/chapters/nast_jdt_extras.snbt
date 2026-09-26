@@ -7,7 +7,16 @@
 		id: "jdte:time_fluid_catalyst"
 	}
 	id: "179CE6FC403957F0"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "3DAF850CE6DA583D"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 0.5d
+		y: 0.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

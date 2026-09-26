@@ -117,4 +117,19 @@ ServerEvents.recipes(event => {
     '2x mysticalagriculture:air_essence',
     'minecraft:ender_pearl'
   ]).id('sky-craft-creation:materials/enderman_seeds')
+  // 灵魂沙首件来源：8沙 + 1末影珍珠 → 4灵魂沙
+  event.shaped('4x minecraft:soul_sand', [
+    'SSS',
+    'SES',
+    'SSS'
+  ], {
+    S: 'minecraft:sand',
+    E: 'minecraft:ender_pearl'
+  }).id('sky-craft-creation:materials/soul_sand')
+
+  // 灵魂土首件来源：灵魂沙 + 地狱岩
+  event.shapeless('minecraft:soul_soil', [
+    'minecraft:soul_sand',
+    'minecraft:netherrack'
+  ]).id('sky-craft-creation:materials/soul_soil')
 })

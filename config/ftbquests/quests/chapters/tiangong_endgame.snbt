@@ -4,7 +4,16 @@
 	filename: "tiangong_endgame"
 	group: "4A4AA7622FF9900F"
 	id: "118749FEE2C9DA8D"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "56989DF94F97654F"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: -3.5d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -20,9 +29,9 @@
 		}
 		{
 			dependencies: ["40D277EA2B131517"]
-			id: "9F143E011B4189C5"
+			id: "47FA409FA57EEDD8"
 			tasks: [{
-				id: "C3223140725E6AA4"
+				id: "5B8CA10AF0F53EAC"
 				item: { count: 1, id: "kubejs:quantum_control_matrix" }
 				type: "item"
 			}]
@@ -30,7 +39,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["9F143E011B4189C5"]
 			id: "52E464D2074D8118"
 			tasks: [{
 				id: "432E07288588C095"
@@ -42,7 +50,7 @@
 		}
 		{
 			dependencies: ["52E464D2074D8118"]
-			id: "F7F8635D79C2012D"
+			id: "088B401B12EDAC39"
 			tasks: [{
 				id: "3F0A4CE01885A302"
 				item: { count: 1, id: "kubejs:chaotic_heart" }
@@ -52,8 +60,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["F7F8635D79C2012D"]
-			id: "834B4201122130CA"
+			id: "5E006D0B732650F4"
 			tasks: [{
 				id: "60401F86A47DA535"
 				item: { count: 1, id: "kubejs:tiangong_heart" }
@@ -75,7 +82,7 @@
 		}
 		{
 			dependencies: ["40D277EA2B131517"]
-			id: "C99B391F15849709"
+			id: "5D68B8C14ED87E19"
 			tasks: [{
 				id: "320541AD213E7798"
 				item: { count: 1, id: "create:creative_fluid_tank" }
@@ -85,10 +92,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["9F143E011B4189C5", "52E464D2074D8118"]
-			id: "E4F2C20EC4A6583B"
+			dependencies: ["52E464D2074D8118"]
+			id: "66E8EF01CC6AEDCA"
 			tasks: [{
-				id: "DACF6119120FF7B9"
+				id: "1BE04F1A3F6C175C"
 				item: { count: 1, id: "create:creative_motor" }
 				type: "item"
 			}]
@@ -96,10 +103,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["9F143E011B4189C5"]
 			id: "51BE413D8A4EB9A5"
 			tasks: [{
-				id: "AD6906796071FF21"
+				id: "52A362DE527CA77D"
 				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
 				type: "item"
 			}]
@@ -129,10 +135,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["52E464D2074D8118", "C99B391F15849709"]
+			dependencies: ["52E464D2074D8118"]
 			id: "59D01E6B37EB443E"
 			tasks: [{
-				id: "DE4F1DDB16CBB22B"
+				id: "3D04ECF386FAE2AD"
 				item: { count: 1, id: "mekanism:creative_fluid_tank" }
 				type: "item"
 			}]
@@ -143,7 +149,7 @@
 			dependencies: ["52E464D2074D8118"]
 			id: "42C0FDA46D2B0379"
 			tasks: [{
-				id: "D5A7637DC2B9BC98"
+				id: "01527CBFC0FA2187"
 				item: { count: 1, id: "mekanism:creative_chemical_tank" }
 				type: "item"
 			}]
@@ -152,9 +158,9 @@
 		}
 		{
 			dependencies: ["52E464D2074D8118"]
-			id: "C8D08660C1F81D1F"
+			id: "1397000AB6A1255B"
 			tasks: [{
-				id: "9688239202E5F723"
+				id: "298FC33D08755ADA"
 				item: { count: 1, id: "extendedcrafting:ultimate_table" }
 				type: "item"
 			}]
@@ -173,8 +179,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["834B4201122130CA", "2458B7581D70C66F"]
-			id: "C803D9C8BE6D41B9"
+			dependencies: ["2458B7581D70C66F"]
+			id: "397EE28A6B01C5FA"
 			tasks: [{
 				id: "065B9AC5C0D1DA03"
 				item: { count: 1, id: "draconicevolution:creative_capacitor" }
@@ -184,15 +190,51 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["40D277EA2B131517", "9F143E011B4189C5", "52E464D2074D8118", "F7F8635D79C2012D", "834B4201122130CA", "062478ECBBD526EA", "C99B391F15849709", "E4F2C20EC4A6583B", "51BE413D8A4EB9A5", "2458B7581D70C66F", "715624A0C5CEDBD5", "59D01E6B37EB443E", "42C0FDA46D2B0379", "452847F05EAAB9FE", "C803D9C8BE6D41B9"]
+			dependencies: [
+				"40D277EA2B131517"
+				"52E464D2074D8118"
+				"062478ECBBD526EA"
+				"51BE413D8A4EB9A5"
+				"2458B7581D70C66F"
+				"715624A0C5CEDBD5"
+				"59D01E6B37EB443E"
+				"42C0FDA46D2B0379"
+				"452847F05EAAB9FE"
+			]
 			id: "3A54408DB600DE32"
 			tasks: [{
-				id: "8102971C30457B98"
+				id: "426C56642E091711"
 				item: { count: 1, id: "kubejs:creation_convergence_core" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 8.0d
+		}
+		{
+			id: "3DCA70F46AE9D4B0"
+			invisible: true
+			rewards: [
+				{
+					id: "35803BB02CA7BE2F"
+					item: {
+						count: 1
+						id: "create:handheld_worldshaper"
+					}
+					type: "item"
+				}
+				{
+					command: "/gamemode creative @s"
+					id: "1735D4D8651C4464"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "31906373CC62A120"
+				item: { count: 1, id: "kubejs:creation_convergence_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 }

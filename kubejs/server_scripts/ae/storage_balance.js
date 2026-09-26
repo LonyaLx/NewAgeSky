@@ -79,6 +79,7 @@ ServerEvents.recipes(event => {
     })
 
     components.forEach(component => {
+        if (!Item.exists(component.output)) return
         const gate = gates[component.tier]
         event.remove({ output: component.output })
         event.shaped(component.output, [

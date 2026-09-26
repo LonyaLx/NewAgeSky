@@ -1,8 +1,12 @@
 minecraft:overworld
-useless_mod:uselessdim
 minecraft:the_nether
-useless_mod:uselessdim2
+useless_stretcher:nine_chunk
+useless_mod:uselessdim
+useless_stretcher:quad_chunk_odd
+useless_stretcher:nine_chunk_odd
 useless_mod:uselessdim3
-compactmachines:compact_world
+useless_stretcher:quad_chunk
+useless_mod:uselessdim2
 minecraft:the_end
+compactmachines:compact_world
 ae2:spatial_storage

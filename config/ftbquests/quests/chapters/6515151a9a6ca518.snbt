@@ -4,7 +4,16 @@
 	filename: "6515151a9a6ca518"
 	group: "771239FADC842121"
 	id: "6515151A9A6CA518"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "5046FF185ABBC7D9"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 1.0d
+		y: 5.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -25,8 +34,8 @@
 				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			id: "585DE2319438D95D"

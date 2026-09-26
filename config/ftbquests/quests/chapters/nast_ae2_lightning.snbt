@@ -7,7 +7,16 @@
 		id: "ae2lt:atmospheric_ionizer"
 	}
 	id: "43E700357602E946"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "508320DF9946F179"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 1.5d
+		y: 5.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -17,10 +26,10 @@
 			}
 			id: "52582A81178E1B7F"
 			rewards: [{
-				id: "73E675EFF2966AF3"
+				id: "0B02B5160767894B"
 				item: {
 					count: 1
-					id: "ae2lt:cracked_budding_overload_crystal"
+					id: "ae2lt:damaged_budding_overload_crystal"
 				}
 				type: "item"
 			}]
@@ -38,60 +47,18 @@
 					type: "item"
 				}
 				{
-					id: "2078449017169DAD"
-					item: { count: 1, id: "ae2:flawed_budding_quartz" }
+					id: "7FB3D7F1D18122EC"
+					item: { count: 1, id: "minecraft:lightning_rod" }
 					type: "item"
 				}
 				{
-					id: "7A21E7C59BD8EEC4"
-					item: { count: 1, id: "minecraft:lightning_rod" }
+					id: "5477FB83A408C4BA"
+					item: { count: 1, id: "ae2:flawless_budding_quartz" }
 					type: "item"
 				}
 			]
 			x: -6.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1FD237E55F895F4A"]
-			hide_lock_icon: true
-			icon: {
-				id: "ae2lt:flawless_budding_overload_crystal"
-			}
-			id: "4BE5D3373D11BDC2"
-			rewards: [{
-				id: "1843E34D167F7514"
-				item: {
-					count: 1
-					id: "ae2lt:flawless_budding_overload_crystal"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "39F7E221B79970A7"
-					item: { count: 1, id: "ae2lt:overload_crystal_block" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "208AAB55B7ACA28E"
-					item: { count: 1, id: "ae2:fluix_block" }
-					type: "item"
-				}
-				{
-					id: "2915DA9AE77E8AFB"
-					item: { count: 1, id: "ae2:flawless_budding_quartz" }
-					type: "item"
-				}
-				{
-					id: "642D7D650133E1F2"
-					item: { count: 1, id: "minecraft:lightning_rod" }
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["52582A81178E1B7F"]
@@ -232,6 +199,7 @@
 		}
 		{
 			dependencies: ["5FEE9565CB0B2BC7"]
+			dependency_requirement: "one_completed"
 			id: "2C35A9A6AAEB19A7"
 			rewards: [{
 				id: "1DC2C46B0B26373E"
@@ -241,92 +209,39 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "5160D385FF679011"
-				item: { count: 1, id: "ae2lt:lightning_cell_component_i" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5160D385FF679011"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_i" }
+					type: "item"
+				}
+				{
+					id: "2D042E8C329AF021"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_ii" }
+					type: "item"
+				}
+				{
+					id: "5E1AE65E79119141"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_iii" }
+					type: "item"
+				}
+				{
+					id: "72D58CDB46EAD5D3"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_iv" }
+					type: "item"
+				}
+				{
+					id: "33E55622B7199B49"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_v" }
+					type: "item"
+				}
+				{
+					id: "6A83B6284C5D1627"
+					item: { count: 1, id: "ae2lt:bulk_lightning_cell_component" }
+					type: "item"
+				}
+			]
 			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2C35A9A6AAEB19A7"]
-			id: "4980E5C8A423D886"
-			rewards: [{
-				count: 4
-				id: "5411B6FCB512D5D6"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1160555E61B63168"
-				item: { count: 1, id: "ae2lt:lightning_cell_component_ii" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4980E5C8A423D886"]
-			id: "0C44D702E01CA515"
-			rewards: [{
-				count: 8
-				id: "67C4B5250C42A4C7"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "104AD509F2AEFBA1"
-				item: { count: 1, id: "ae2lt:lightning_cell_component_iii" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0C44D702E01CA515"]
-			id: "23E4563018712BDE"
-			rewards: [{
-				count: 16
-				id: "3F034591F246F025"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "05BD84A9D090E861"
-				item: { count: 1, id: "ae2lt:lightning_cell_component_iv" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["23E4563018712BDE"]
-			id: "65271C217831B37F"
-			rewards: [{
-				count: 32
-				id: "6787B925A9F9886C"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "31A9C4FDC65EE366"
-				item: { count: 1, id: "ae2lt:lightning_cell_component_v" }
-				type: "item"
-			}]
-			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -562,6 +477,9 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				id: "ae2lt:lightning_collector"
+			}
 			id: "2AF1150D8C3CD81E"
 			rewards: [{
 				id: "191FED458AD16480"
@@ -571,11 +489,18 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "6EF8AE1FEDCA9033"
-				item: { count: 1, id: "ae2lt:lightning_collector" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EF8AE1FEDCA9033"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
+					type: "item"
+				}
+				{
+					id: "166CA1CB8D18BC02"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -600,7 +525,6 @@
 		}
 		{
 			dependencies: ["10965BACBC5D596B"]
-			hide_dependency_lines: true
 			id: "733501A05083AC1C"
 			rewards: [{
 				id: "4154E84E19CD2357"
@@ -620,7 +544,6 @@
 		}
 		{
 			dependencies: ["10965BACBC5D596B"]
-			hide_dependency_lines: true
 			id: "2448D2C1B1D2B062"
 			rewards: [{
 				id: "0491A719550DA194"
@@ -635,7 +558,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_power_supply" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -661,7 +584,6 @@
 		}
 		{
 			dependencies: ["10965BACBC5D596B"]
-			hide_dependency_lines: true
 			id: "070C7427453C11CA"
 			rewards: [{
 				count: 4
@@ -682,7 +604,6 @@
 		}
 		{
 			dependencies: ["10965BACBC5D596B"]
-			hide_dependency_lines: true
 			id: "003E78A42990C883"
 			rewards: [{
 				count: 4
@@ -698,7 +619,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_interface" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -764,27 +685,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["10965BACBC5D596B"]
-			hide_dependency_lines: true
-			id: "7027EC6FD0CBD74A"
-			rewards: [{
-				count: 32
-				id: "39BA9272BFBCB389"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A92455E81D6E01D"
-				item: { count: 1, id: "ae2lt:overloaded_filter_component" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["070C7427453C11CA"]
 			id: "324E3695A590F3B1"
 			rewards: [{
@@ -843,248 +743,6 @@
 			}]
 			x: 11.0d
 			y: 4.0d
-		}
-		{
-			id: "331DDCFB7CE36EBF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C46B0B7EB292420"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "04C7E3E839C1F055"
-				item: { count: 1, id: "ae2lt:basic_topological_lattice" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["331DDCFB7CE36EBF"]
-			id: "16BC10FD5A596612"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D756CDF6D4135A2"
-				table_id: 4208742033484532490L
-				type: "random"
-			}]
-			tasks: [{
-				id: "10F1A175CBBE9B11"
-				item: { count: 1, id: "ae2lt:dense_topological_lattice" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["16BC10FD5A596612"]
-			id: "34703D4B6DAB6FF9"
-			rewards: [{
-				count: 16
-				id: "3303AE62F007730C"
-				item: {
-					count: 1
-					id: "ae2lt:dense_topological_lattice"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "72D3797746B12A11"
-				item: { count: 1, id: "ae2lt:entangled_topological_lattice" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["34703D4B6DAB6FF9"]
-			id: "3EB0FAE0EEF84E2D"
-			rewards: [
-				{
-					count: 16
-					id: "3B69FFDDB0A65679"
-					item: {
-						count: 1
-						id: "ae2lt:dense_topological_lattice"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "6BDC0011530FF804"
-					item: {
-						count: 1
-						id: "ae2lt:entangled_topological_lattice"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "64723E757D07FD63"
-				item: { count: 1, id: "ae2lt:hyperdimensional_topological_lattice" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.5d
-		}
-		{
-			id: "08861E89C9739746"
-			rewards: [{
-				count: 4
-				id: "145A463C4CBA1CB6"
-				item: {
-					count: 1
-					id: "ae2lt:overload_crystal_block"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3619F9A3D214C7E7"
-				item: { count: 1, id: "ae2lt:tianshu_blank_unit" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["08861E89C9739746"]
-			id: "32254AC73B89E1BE"
-			rewards: [{
-				count: 4
-				id: "60343877ED73D13F"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "00349A15BDC68DFC"
-				item: { count: 1, id: "ae2lt:tianshu_baseline_main_core" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["32254AC73B89E1BE"]
-			id: "709D4676468AC12B"
-			rewards: [{
-				count: 4
-				id: "7A4D1D7860E37E15"
-				item: {
-					count: 1
-					id: "ae2lt:overload_alloy_plate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1769D192E4FEFA34"
-				item: { count: 1, id: "ae2lt:tianshu_quantum_main_core" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["709D4676468AC12B"]
-			id: "51F3A7B536666665"
-			rewards: [{
-				count: 4
-				id: "29CFFBAA761FB8C1"
-				item: {
-					count: 1
-					id: "ae2lt:lightning_collapse_matrix"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0E7B61D6139B952B"
-				item: { count: 1, id: "ae2lt:tianshu_overload_main_core" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			id: "64F583A95D6EAC9D"
-			rewards: [{
-				count: 4
-				id: "3646EE90DCA9B2A5"
-				item: {
-					count: 1
-					id: "ae2lt:overload_crystal_block"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "751B5B2084799DBB"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_casing" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["64F583A95D6EAC9D"]
-			id: "446B585B0BD462CC"
-			rewards: [{
-				count: 4
-				id: "5A138F74AC34B690"
-				item: {
-					count: 1
-					id: "ae2lt:overload_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "483F857E2BE4016B"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_stable_main_core" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["446B585B0BD462CC"]
-			id: "1A9A0A462F7C664B"
-			rewards: [{
-				count: 4
-				id: "40D6AA58951BD189"
-				item: {
-					count: 1
-					id: "ae2lt:overload_alloy_plate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2F9A2F449C3EEB98"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_quantum_main_core" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1A9A0A462F7C664B"]
-			id: "60E32EF235C3EBF7"
-			rewards: [{
-				count: 4
-				id: "2CE69AEFDF6E80F3"
-				item: {
-					count: 1
-					id: "ae2lt:lightning_collapse_matrix"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6338714213EEBE13"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_overload_main_core" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.0d
 		}
 		{
 			icon: {
@@ -1323,23 +981,394 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["65271C217831B37F"]
-			id: "170D324436CDCF85"
+			id: "41FC3A9BBDC59FB6"
 			rewards: [{
-				id: "705F4BEEA1B633CD"
+				id: "363FC8B6FA82FBD4"
 				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_data": {
+											"ae2lt:controller_machine_id": [I;
+												1826533188
+												1662536500
+												-1868650488
+												1008089725
+											]
+										}
+									}
+									id: "ae2lt:tianshu_supercomputer_controller"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_supercomputer_port"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_overload_main_core"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:closed_loop_pattern_storage"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:closed_loop_seed_storage"
+								}
+								{
+									"#": 4L
+									"#t": "ae2:i"
+									id: "ae2lt:parallel_supercomputing_unit"
+								}
+								{
+									"#": 7L
+									"#t": "ae2:i"
+									id: "ae2lt:storage_supercomputing_unit"
+								}
+								{
+									"#": 15L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_amplifier_unit"
+								}
+								{
+									"#": 15L
+									"#t": "ae2:i"
+									id: "ae2lt:phase_change_cooling_unit"
+								}
+								{
+									"#": 99L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_supercomputer_casing"
+								}
+								{
+									"#": 98L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_supercomputer_glass"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"天枢超算\""
+									}
+									id: "minecraft:writable_book"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "LonyaLx"
+						}
+					}
 					count: 1
-					id: "ae2lt:lightning_cell_component_v"
+					id: "ae2:processing_pattern"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "03A420DC1453DAE2"
-				item: { count: 1, id: "ae2lt:bulk_lightning_cell_component" }
+				id: "6B0AAD2F39ECA268"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "2189D46641368DB7"
+			rewards: [{
+				id: "718261FF1B7BDF1C"
+				item: {
+					components: {
+						"ae2:encoded_processing_pattern": {
+							sparseInputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_data": {
+											"ae2lt:controller_machine_id": [I;
+												-2085943525
+												129058804
+												-1987879642
+												-1463073444
+											]
+										}
+									}
+									id: "ae2lt:matter_warping_matrix_controller"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_port"
+								}
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_overload_main_core"
+								}
+								{
+									"#": 5L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_thread_unit_t2"
+								}
+								{
+									"#": 15L
+									"#t": "ae2:i"
+									id: "ae2lt:tianshu_amplifier_unit"
+								}
+								{
+									"#": 50L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_pattern_storage_t2"
+								}
+								{
+									"#": 60L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_thermal_control_unit_t2"
+								}
+								{
+									"#": 174L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_casing"
+								}
+								{
+									"#": 132L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_constraint_frame"
+								}
+								{
+									"#": 44L
+									"#t": "ae2:i"
+									id: "ae2lt:matter_warping_matrix_glass"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							sparseOutputs: [
+								{
+									"#": 1L
+									"#t": "ae2:i"
+									components: {
+										"minecraft:custom_name": "\"天枢矩阵\""
+									}
+									id: "minecraft:writable_book"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+						"minecraft:custom_data": {
+							encodePlayer: "LonyaLx"
+						}
+					}
+					count: 1
+					id: "ae2:processing_pattern"
+				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			tasks: [{
+				id: "31AAFE10BAEECD8C"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 10.0d
 		}
 	]
 }

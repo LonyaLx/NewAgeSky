@@ -10,7 +10,16 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "52F834F2C98B0A30"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "4F5AF9A85087788B"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 3.5d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

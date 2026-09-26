@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5a58a1f01dcd4900"
-	group: "5DB41788A814AA8C"
+	group: "771239FADC842121"
 	icon: {
 		components: {
 			"ftbquests:icon": "productivebees:item/honey_treat"
@@ -10,8 +10,17 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "5A58A1F01DCD4900"
-	images: [ ]
-	order_index: 2
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "1A4CD321FBB6364D"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 0.5d
+		y: 7.0d
+	}]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

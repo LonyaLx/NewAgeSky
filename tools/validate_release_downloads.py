@@ -16,7 +16,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT.parent / "天工创世-发布" / "01-整合包" / "天工创世-1.0.1-CurseForge.zip"
+ARCHIVE = ROOT.parent / "天工创世-发布" / "01-整合包" / "天工创世-1.1.0-CurseForge.zip"
 RESOLVED = ROOT / "_excluded" / "curseforge_resolved.json"
 LOCAL_MODS = ROOT / "mods"
 REPORT_DIR = ROOT / "_excluded"

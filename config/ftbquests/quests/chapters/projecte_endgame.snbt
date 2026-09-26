@@ -4,68 +4,72 @@
 	filename: "projecte_endgame"
 	group: "4A4AA7622FF9900F"
 	id: "7F6A24AA40E0F996"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "35ACA1712D42B364"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 1.0d
+		y: 0.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["9F143E011B4189C5"]
-			id: "C5C9D3160D7B1488"
+			id: "312DA175141CB13E"
 			tasks: [{
 				id: "1F841FF88B13E0A1"
 				item: { count: 1, id: "projecte:philosophers_stone" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["C5C9D3160D7B1488"]
-			id: "34745E6216AB3D48"
-			tasks: [{
-				id: "A3BE2593C1249C89"
-				item: { count: 1, id: "projecte:transmutation_table" }
-				type: "item"
-			}]
-			x: 0.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["34745E6216AB3D48"]
-			id: "A423BBD9FA309434"
+			id: "34745E6216AB3D48"
 			tasks: [{
-				id: "8D178A6D3436E6DB"
+				id: "12A6346D06D1DF84"
+				item: { count: 1, id: "projecte:transmutation_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34745E6216AB3D48"]
+			id: "5B55326F8BA7B98C"
+			tasks: [{
+				id: "38153181F4AE69B7"
 				item: { count: 1, id: "projecte:transmutation_tablet" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["9F143E011B4189C5"]
-			id: "C42AB6A9F3CC9D92"
+			id: "24D9A788555CEB0F"
 			tasks: [{
 				id: "3720DC9366484325"
 				item: { count: 1, id: "projecte:dark_matter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["C42AB6A9F3CC9D92"]
-			id: "FF7EA6209A1222AB"
-			tasks: [{
-				id: "92EFB110711C691E"
-				item: { count: 1, id: "projecte:red_matter" }
-				type: "item"
-			}]
-			x: 3.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["C42AB6A9F3CC9D92"]
-			id: "86096C0A1E670B6C"
+			id: "2F389AE735A5DF6B"
+			tasks: [{
+				id: "25D13301DF220EA7"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "19152485CE81813A"
 			tasks: [{
 				id: "046A5D22A09DE01D"
 				item: { count: 1, id: "projecte:collector_mk1" }
@@ -75,26 +79,124 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["FF7EA6209A1222AB", "86096C0A1E670B6C"]
-			id: "C9BD8CEBA8069A6A"
+			id: "4076912B4FC9F715"
 			tasks: [{
-				id: "D483C15A98DCCEF3"
+				id: "3D8C7535A1830CB3"
 				item: { count: 1, id: "projecte:collector_mk2" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["C9BD8CEBA8069A6A"]
-			id: "ED2254EA1CDB0EBE"
+			id: "22DB02C249131302"
 			tasks: [{
 				id: "218B2BECF642FBCD"
 				item: { count: 1, id: "projecte:collector_mk3" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
+		}
+		{
+			id: "749E444688546378"
+			tasks: [{
+				id: "2438CEC6146B74B1"
+				item: { count: 1, id: "projecte:alchemical_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "732A0D3C2B04EA40"
+			tasks: [{
+				id: "0A132CB451686A73"
+				item: { count: 1, id: "projecte:condenser_mk1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "7B4756100F070A14"
+			tasks: [{
+				id: "2B8AB9C546E01ADC"
+				item: { count: 1, id: "projecte:condenser_mk2" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "6128658C32169DF2"
+			tasks: [{
+				id: "106E1B4F8EAEC8CD"
+				item: { count: 1, id: "projectexpansion:arcane_transmutation_tablet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "68640842C797A468"
+			tasks: [{
+				id: "77917D74F7A29D7B"
+				item: { count: 1, id: "projecte:swiftwolf_rending_gale" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "4746CE5535C25D1D"
+			tasks: [{
+				id: "08524A753B2D1AAA"
+				item: { count: 1, id: "projecte:watch_of_flowing_time" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "787379DB290DBB44"
+			tasks: [{
+				id: "67B47A245E0930E6"
+				item: { count: 1, id: "projecte:dm_pedestal" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "2DAFEC4CC1029382"
+			tasks: [{
+				id: "4FD5E123781D8F94"
+				item: { count: 1, id: "projectexpansion:condenser_mk3" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "431A1FAB899A979B"
+			tasks: [{
+				id: "672B69C5DE417634"
+				item: { count: 1, id: "projectexpansion:transmutation_interface" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "04447038B53FAA28"
+			tasks: [{
+				id: "2930D72D3C43C1A8"
+				item: { count: 1, id: "projectexpansion:compact_sun" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
 		}
 	]
 }

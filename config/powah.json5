@@ -127,10 +127,10 @@
 				"starter": 20,
 				"basic": 60,
 				"hardened": 100,
-				"blazing": 160,
-				"niotic": 280,
-				"spirited": 480,
-				"nitro": 2000
+				"blazing": 130,
+				"niotic": 200,
+				"spirited": 290,
+				"nitro": 1000
 			}
 		},
 		"thermo_generators": {

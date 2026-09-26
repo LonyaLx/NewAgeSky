@@ -3,22 +3,76 @@
 	default_quest_shape: ""
 	filename: "3e4ca67781770e8c"
 	group: "744E000CF43AD26D"
+	icon: {
+		components: {
+			"minecraft:profile": {
+				id: [I;
+					1801979079
+					383403043
+					-1406882125
+					36704996
+				]
+				name: "LonyaLx"
+				properties: [{
+					name: "textures"
+					signature: "aV49ZExsCEj47jBV227wc5Pa8qmAwd4R2QZ11cPOC/hqqFfuZRGWAq3JpGXU6nEQKLq/m5MoSxpqNSMLjTs6ffffC8HPFcqQs9sjGVSc9H9ux05jzARWBwSQzsqiVHVPHr2CULU3RR3FG0c0MHebWCi9E6ii5z00Cjv/YBHtX7SxULzwRTlhK1ZkomhLau20e852fxrAJ7RrJxZEi0k0qMcT4y0oh5usA0mBfxhO+sJn29kwXZ3CbMYktfbbuopSDseQ3lZmOO2JrBmUl3eK47Wu3sL8tYGQ2viiVcbLrRSK2mz0WwfbZUoUniXxRjWGrWFXS0gpFgq/rsF7EnQf4Z4qWaAvFnivG78e9o3S+7eKlBqM4Tq8jiLKXM/D3W9byjtS14U7g6njj93OzYCZOSpU+UxucOyV29t4+Xcxc91677Qm6XgYnby+EeI1iOZppSC5CoTD9PYnSOGPr2OHTNKwKsflpHp4vnC5D59nWApU7sFJY2zRRmF+6bQ/4ivQKdeazQdO2IIERzgu8lHn23LP53GOi+m0LrrYwsR/MzeSISsS7WGmBoY4twH3a9SvegPr0zHGWcBl/ojYmxtYl72xza1xGP9I8c3xbmD45wqociM8tbhJLFjbSm0Ii+0d9IbaNlvjE85sT78CrPUxHkd5SRqjSYjJhUxMl6LPlYk="
+					value: "ewogICJ0aW1lc3RhbXAiIDogMTc5MDIyNjExNzE4MCwKICAicHJvZmlsZUlkIiA6ICI2YjY4MDRjNzE2ZGE0NDIzYWMyNGFlYjMwMjMwMTJlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb255YUx4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNzhiMTIwNGJjOTBmODgzNDY0MDc2ODE4OGQ5MzRlNzVkMjUzZTBiNTFiZTcwMzBkYWQ5MWI2NzE3ODUxNGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRlNGE4MTY4OGFkMThiNDllNzM1YTI3M2UwODZjMThmMWUzOTY2OTU2MTIzY2NiNTc0MDM0YzA2ZjVkMzM2IgogICAgfQogIH0KfQ=="
+				}]
+			}
+		}
+		id: "minecraft:player_head"
+	}
 	id: "3E4CA67781770E8C"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 100.0d
+		id: "3A5B356651ED53A0"
+		image: "ftbquests:textures/picture/beij.png"
+		rotation: 0.0d
+		width: 100.0d
+		x: 0.5d
+		y: 2.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "3FCB5F67A335D2B5"
-			rewards: [{
-				count: 64
-				id: "199B68679EBE703B"
-				item: {
-					count: 1
-					id: "minecraft:bread"
+			rewards: [
+				{
+					count: 64
+					id: "199B68679EBE703B"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "03FE338D46C1E1FD"
+					item: {
+						components: {
+							"minecraft:profile": {
+								id: [I;
+									1801979079
+									383403043
+									-1406882125
+									36704996
+								]
+								name: "LonyaLx"
+								properties: [{
+									name: "textures"
+									signature: "aV49ZExsCEj47jBV227wc5Pa8qmAwd4R2QZ11cPOC/hqqFfuZRGWAq3JpGXU6nEQKLq/m5MoSxpqNSMLjTs6ffffC8HPFcqQs9sjGVSc9H9ux05jzARWBwSQzsqiVHVPHr2CULU3RR3FG0c0MHebWCi9E6ii5z00Cjv/YBHtX7SxULzwRTlhK1ZkomhLau20e852fxrAJ7RrJxZEi0k0qMcT4y0oh5usA0mBfxhO+sJn29kwXZ3CbMYktfbbuopSDseQ3lZmOO2JrBmUl3eK47Wu3sL8tYGQ2viiVcbLrRSK2mz0WwfbZUoUniXxRjWGrWFXS0gpFgq/rsF7EnQf4Z4qWaAvFnivG78e9o3S+7eKlBqM4Tq8jiLKXM/D3W9byjtS14U7g6njj93OzYCZOSpU+UxucOyV29t4+Xcxc91677Qm6XgYnby+EeI1iOZppSC5CoTD9PYnSOGPr2OHTNKwKsflpHp4vnC5D59nWApU7sFJY2zRRmF+6bQ/4ivQKdeazQdO2IIERzgu8lHn23LP53GOi+m0LrrYwsR/MzeSISsS7WGmBoY4twH3a9SvegPr0zHGWcBl/ojYmxtYl72xza1xGP9I8c3xbmD45wqociM8tbhJLFjbSm0Ii+0d9IbaNlvjE85sT78CrPUxHkd5SRqjSYjJhUxMl6LPlYk="
+									value: "ewogICJ0aW1lc3RhbXAiIDogMTc5MDIyNjExNzE4MCwKICAicHJvZmlsZUlkIiA6ICI2YjY4MDRjNzE2ZGE0NDIzYWMyNGFlYjMwMjMwMTJlNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb255YUx4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNzhiMTIwNGJjOTBmODgzNDY0MDc2ODE4OGQ5MzRlNzVkMjUzZTBiNTFiZTcwMzBkYWQ5MWI2NzE3ODUxNGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRlNGE4MTY4OGFkMThiNDllNzM1YTI3M2UwODZjMThmMWUzOTY2OTU2MTIzY2NiNTc0MDM0YzA2ZjVkMzM2IgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "49217AA488E41BF1"
 				type: "checkmark"
@@ -161,6 +215,15 @@
 			}]
 			x: -3.0d
 			y: 4.0d
+		}
+		{
+			id: "1E7FFAC1FB5EC3CA"
+			tasks: [{
+				id: "176CC624D9104D77"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 }
