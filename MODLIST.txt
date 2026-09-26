@@ -110,7 +110,7 @@ mods\FunctionalChemical-1.21.1-1.1.jar
 mods\functionalstorage-1.21.1-1.5.8.jar
 mods\geckolib-neoforge-1.21.1-4.9.3.jar
 mods\Glodium-1.21-2.2-neoforge.jar
-mods\growthacceleratortiers-2.0.0+1.21.1.jar
+mods\growthacceleratortiers-1.0.4_neoforge_1.21.1.jar
 mods\guideme-21.1.19.jar
 mods\HostileNeuralNetworks-1.21.1-6.5.1.jar
 mods\I18nUpdateMod-3.7.0-all.jar

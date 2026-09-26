@@ -163,9 +163,9 @@ def main() -> int:
     args = parser.parse_args()
 
     manifest, entries, bundled = load_inputs()
-    expected_bundled = 53
-    if len(entries) != 165:
-        raise RuntimeError(f"expected 165 remote files, found {len(entries)}")
+    expected_bundled = 54
+    if len(entries) != 164:
+        raise RuntimeError(f"expected 164 remote files, found {len(entries)}")
     if len(bundled) != expected_bundled:
         raise RuntimeError(f"expected {expected_bundled} bundled jars, found {len(bundled)}")
 
